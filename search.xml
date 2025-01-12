@@ -57,7 +57,7 @@
     <title>智能对话系统与知识融合技术探析</title>
     <url>/posts/172b526.html</url>
     <content><![CDATA[<h1 id="智能对话系统与知识融合技术探析"><a href="#智能对话系统与知识融合技术探析" class="headerlink" title="智能对话系统与知识融合技术探析"></a>智能对话系统与知识融合技术探析</h1><p>在人工智能快速发展的今天，智能对话系统和知识融合技术正在改变着我们与数据交互的方式。本文将深入探讨几种主流的对话系统方案，以及如何通过知识图谱实现多模态数据的智能融合。</p>
-<h2 id="一、智能对话系统方案对比"><a href="#一、智能对话系统方案对比" class="headerlink" title="一、智能对话系统方案对比"></a>一、智能对话系统方案对比</h2><p><img src="img/830bafa743a98e0beefbe98a512a4676.png" alt="img"><br><!-- ![830bafa743a98e0beefbe98a512a4676.png](https://img.picui.cn/free/2024/11/11/6731c2e8d6237.png) --></p>
+<h2 id="一、智能对话系统方案对比"><a href="#一、智能对话系统方案对比" class="headerlink" title="一、智能对话系统方案对比"></a>一、智能对话系统方案对比</h2><p><img src="./img/830bafa743a98e0beefbe98a512a4676.png" alt="img"><br><!-- ![830bafa743a98e0beefbe98a512a4676.png](https://img.picui.cn/free/2024/11/11/6731c2e8d6237.png) --></p>
 <h3 id="1-NL2SQL：简单高效的查询助手"><a href="#1-NL2SQL：简单高效的查询助手" class="headerlink" title="1. NL2SQL：简单高效的查询助手"></a>1. NL2SQL：简单高效的查询助手</h3><p>NL2SQL就像一位敏捷的数据服务员，能够快速将自然语言转换为数据库查询语句。</p>
 <p><strong>优势：</strong></p>
 <ul>
