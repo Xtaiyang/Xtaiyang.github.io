@@ -4,7 +4,8 @@
     <title>智能对话系统与知识融合技术探析</title>
     <url>/posts/172b526.html</url>
     <content><![CDATA[<h1 id="智能对话系统与知识融合技术探析"><a href="#智能对话系统与知识融合技术探析" class="headerlink" title="智能对话系统与知识融合技术探析"></a>智能对话系统与知识融合技术探析</h1><p>在人工智能快速发展的今天，智能对话系统和知识融合技术正在改变着我们与数据交互的方式。本文将深入探讨几种主流的对话系统方案，以及如何通过知识图谱实现多模态数据的智能融合。</p>
-<h2 id="一、智能对话系统方案对比"><a href="#一、智能对话系统方案对比" class="headerlink" title="一、智能对话系统方案对比"></a>一、智能对话系统方案对比</h2><p><img src="830bafa743a98e0beefbe98a512a4676.png" alt="img"><br><!-- ![830bafa743a98e0beefbe98a512a4676.png](https://img.picui.cn/free/2024/11/11/6731c2e8d6237.png) --></p>
+<h2 id="一、智能对话系统方案对比"><a href="#一、智能对话系统方案对比" class="headerlink" title="一、智能对话系统方案对比"></a>一、智能对话系统方案对比</h2><img src="/posts/172b526/830bafa743a98e0beefbe98a512a4676.png" class="" title="图片描述">
+<!-- ![830bafa743a98e0beefbe98a512a4676.png](https://img.picui.cn/free/2024/11/11/6731c2e8d6237.png) -->
 <h3 id="1-NL2SQL：简单高效的查询助手"><a href="#1-NL2SQL：简单高效的查询助手" class="headerlink" title="1. NL2SQL：简单高效的查询助手"></a>1. NL2SQL：简单高效的查询助手</h3><p>NL2SQL就像一位敏捷的数据服务员，能够快速将自然语言转换为数据库查询语句。</p>
 <p><strong>优势：</strong></p>
 <ul>
@@ -187,9 +188,8 @@
 <li>更完善的知识图谱生态，支持更广泛的应用场景</li>
 </ol>
 <p>智能对话系统和知识融合技术的发展将继续推动人工智能向着更加智能和实用的方向发展，为用户提供更优质的智能服务体验。</p>
-<h2 id="参考架构图"><a href="#参考架构图" class="headerlink" title="参考架构图"></a>参考架构图</h2><!-- ![fd035eb018fc64702f4482c74f4bb10b520c0d5d](img/fd035eb018fc64702f4482c74f4bb10b520c0d5d.png) -->
-<p><img src="https://img.picui.cn/free/2024/11/11/6731c33bea558.png" alt="fd035eb018fc64702f4482c74f4bb10b520c0d5d.png"><br><!-- ![62873a531e111a5146a937b1d3383d0181c26bf3](img/62873a531e111a5146a937b1d3383d0181c26bf3.png) --><br><img src="https://img.picui.cn/free/2024/11/11/6731c35f3b732.png" alt="62873a531e111a5146a937b1d3383d0181c26bf3.png"></p>
-]]></content>
+<h2 id="参考架构图"><a href="#参考架构图" class="headerlink" title="参考架构图"></a>参考架构图</h2><img src="/posts/172b526/fd035eb018fc64702f4482c74f4bb10b520c0d5d.png" class="" title="图片描述">
+<img src="/posts/172b526/62873a531e111a5146a937b1d3383d0181c26bf3.png" class="" title="图片描述">]]></content>
       <tags>
         <tag>AI</tag>
         <tag>NLP</tag>
