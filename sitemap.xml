@@ -2,27 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xtaiyang.github.io/tags/index.html</loc>
-    
-    <lastmod>2025-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xtaiyang.github.io/manifest.json</loc>
-    
-    <lastmod>2025-01-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xtaiyang.github.io/link/index.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +13,7 @@
   <url>
     <loc>https://xtaiyang.github.io/movies/index.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +22,7 @@
   <url>
     <loc>https://xtaiyang.github.io/music/index.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,16 +31,25 @@
   <url>
     <loc>https://xtaiyang.github.io/photos/index.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xtaiyang.github.io/about/index.html</loc>
+    <loc>https://xtaiyang.github.io/tags/index.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtaiyang.github.io/manifest.json</loc>
+    
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,16 +58,16 @@
   <url>
     <loc>https://xtaiyang.github.io/categories/index.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xtaiyang.github.io/posts/aaf337f2.html</loc>
+    <loc>https://xtaiyang.github.io/about/index.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +76,7 @@
   <url>
     <loc>https://xtaiyang.github.io/posts/b5babe99.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +85,16 @@
   <url>
     <loc>https://xtaiyang.github.io/posts/80a3a73c.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xtaiyang.github.io/posts/aaf337f2.html</loc>
+    
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +103,7 @@
   <url>
     <loc>https://xtaiyang.github.io/posts/b5bab9.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +112,7 @@
   <url>
     <loc>https://xtaiyang.github.io/posts/172b526.html</loc>
     
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +121,7 @@
 
   <url>
     <loc>https://xtaiyang.github.io/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,28 +129,28 @@
   
   <url>
     <loc>https://xtaiyang.github.io/tags/%E6%89%BE%E5%B7%A5%E4%BD%9C/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtaiyang.github.io/tags/AI/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtaiyang.github.io/tags/NLP/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xtaiyang.github.io/tags/%E6%84%9F%E6%82%9F/</loc>
-    <lastmod>2025-01-20</lastmod>
+    <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
