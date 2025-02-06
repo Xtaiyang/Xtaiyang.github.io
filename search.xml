@@ -249,106 +249,6 @@
       </tags>
   </entry>
   <entry>
-    <title>注重实效的哲学程序员修炼之道第一章阅读心得</title>
-    <url>/posts/aaf337f2.html</url>
-    <content><![CDATA[<h1 id="注重实效的哲学——程序员修炼之道第一章阅读心得"><a href="#注重实效的哲学——程序员修炼之道第一章阅读心得" class="headerlink" title="注重实效的哲学——程序员修炼之道第一章阅读心得"></a>注重实效的哲学——程序员修炼之道第一章阅读心得</h1><blockquote>
-<p>强烈推荐这本书《程序员修炼之道——从小工到专家》 <a href="https://book.douban.com/subject/5387402/">https://book.douban.com/subject/5387402/</a></p>
-</blockquote>
-<h2 id="注重实效的程序员的特征"><a href="#注重实效的程序员的特征" class="headerlink" title="注重实效的程序员的特征"></a>注重实效的程序员的特征</h2><p>他们处理问题、寻求解决方案时的态度、风格、哲学。</p>
-<ol>
-<li><strong>能越出直接问题去思考更深层次的东西</strong>。总是设法把问题放到更大的语境中，设法注意更大的图景，以最小代价达到最佳效果。</li>
-<li><strong>项目代码的维护，对自己的代码负责，将项目代码保持整洁优雅</strong>。</li>
-<li><strong>善于发现变化、接受变化、自我改变</strong>。能克服惰性，在改变中，提高效率，自我提升。</li>
-<li><strong>注重积累自己的知识资产</strong>。定期读好书、学新知识、温故总结。</li>
-<li><strong>更好的和他人交流</strong>。工作生活中我们会有快一半的时间用于交流，我们应该在交流中学习，提高交流的效率，在交流中收获良师益友。</li>
-</ol>
-<p>以上我从书中总结的五点非常重要，下面会结合实际情况详细分析、并找到如何做的方案。</p>
-<p>以及个人认为时间的规划也很重要，长期安排和短期安排都很重要，附 Geek 工作效率图</p>
-<h2 id="项目代码的维护"><a href="#项目代码的维护" class="headerlink" title="项目代码的维护"></a>项目代码的维护</h2><blockquote>
-<p>在所有弱点中。最大的弱点就是害怕暴露弱点。</p>
-</blockquote>
-<h3 id="软件的熵"><a href="#软件的熵" class="headerlink" title="软件的熵"></a>软件的熵</h3><p>当软件在无序增长时，也就是熵增加，软件趋向于腐烂。</p>
-<p>但是显而易见的，有两种项目：一种随着开发，软件的熵越来越高，有着指数般的成长趋势，项目逐渐腐烂；而另一种，随着开发，软件的熵得到了很好的控制，线性般的成长趋势，甚至就好像有一个上限值一样，成长趋势越来越慢，几乎停下来。</p>
-<p>那么是什么造成了这样的差异呢？</p>
-<h3 id="破窗理论"><a href="#破窗理论" class="headerlink" title="破窗理论"></a>破窗理论</h3><blockquote>
-<p>在市区，有些建筑漂亮整洁，而另一些却是破败不堪堆满垃圾。根据研究者调查发现了一种触发机制，一种很快能将整洁、完整的建筑变为破败的废弃物的机制。</p>
-<p>破窗户</p>
-<p>一扇破窗户，只要有那么一段时间不修理，就会给建筑的居民带来<strong>废弃感</strong>。很快有一扇窗户破了，人们开始乱扔垃圾、乱涂乱画，严重的结构损坏开始了，这个时候废弃感成为了现实，每个人都感受得到。</p>
-<p>破窗理论启发了纽约和各大城市的警察部门，他们对一些轻微的按键严加处理，以防止大案的发生，这非常奏效。</p>
-</blockquote>
-<p>所以我们不要留着破窗户（低劣的设计、错误的决策、糟糕的代码）不修，发现一个就应该修一个。</p>
-<blockquote>
-<p>我们看到过整洁、运行良好的系统，一旦窗户开始破裂，就相当迅速的恶化。</p>
-<p>如果你发现自己在有好些破窗户的项目里工作，会很容易产生这样的想法：“这些代码的其余部分也是垃圾，我只要照着做就行了。”项目在这之前是否一致很好，并没有任何关系。比如一辆飞起的轿车放了一星期，无人理睬，而一旦有一扇窗户被打破，数小时车上的设备就会被抢夺一空。</p>
-<p>同样的道理，如果你发现你所在的团队和项目的代码十分漂亮——编写整洁、涉及良好并且很优雅——你就很可能会格外注意不去把它弄脏，因为你不会想成为第一个弄脏东西的人。</p>
-</blockquote>
-<p>所以修复破窗非常非常重要，见到一个就立马修复它。</p>
-<h2 id="足够好的软件"><a href="#足够好的软件" class="headerlink" title="足够好的软件"></a>足够好的软件</h2><ol>
-<li>让用户参与权衡</li>
-<li>知道何时止步（编程就像画画，不要过度修饰和过于求精）</li>
-</ol>
-<h2 id="变化"><a href="#变化" class="headerlink" title="变化"></a>变化</h2><p>温水煮青蛙的事常常发生在我们生活中，随着时间的推移，任何事都会有变化，假如我们不去发现变化、并做出改变来应对，我们其实就和青蛙没有什么区别。</p>
-<ol>
-<li>我们要克服惰性，做变化的催化剂，用一些改变的成果(demo)给团队惊喜，和团队宣传变化后的大图景（new future），团结团队迎接变化。</li>
-<li>变化更是挑战，正面迎战挑战，可以获得提高效率、提升自我的成果。</li>
-</ol>
-<h2 id="注重积累自己的知识资产"><a href="#注重积累自己的知识资产" class="headerlink" title="注重积累自己的知识资产"></a>注重积累自己的知识资产</h2><h3 id="经营管理知识资产"><a href="#经营管理知识资产" class="headerlink" title="经营管理知识资产"></a>经营管理知识资产</h3><blockquote>
-<p>知识是有时效性的资产</p>
-</blockquote>
-<p>就好比一百多年前最厉害的武器 火枪大炮，在如今早已被AK、导弹所替代，更何况在当今这个每过十年都会有翻天覆地变化的时代，旧知识的价值的降低速度非常之快。</p>
-<p>所以我们应该善于经营管理自己的知识资产，我认为更重要的是</p>
-<ol>
-<li>新知识和旧知识并不矛盾，应该携手共进，知识是相通的。</li>
-<li>培养核心学习能力。学习知识的核心，而不是只学习知识的 形。</li>
-<li>培养学习习惯、终身学习。</li>
-</ol>
-<p>书中的观点：</p>
-<ol>
-<li>定期投资</li>
-<li>多元化</li>
-<li>管理风险；低买高卖。</li>
-</ol>
-<p>最重要的是，<strong>定期为你的知识资产投资</strong></p>
-<h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>制定目标并执行是一个非常好的定期投资方式。</p>
-<p>书中举例的目标：</p>
-<ol>
-<li>每年至少学一种新的语言</li>
-<li>每季度阅读一本技术书籍，也要阅读非技术书籍</li>
-<li>学习新的思想</li>
-<li>跟上技术潮流，</li>
-<li>试用不同的环境、工具。</li>
-</ol>
-<p>我的目标：</p>
-<ol>
-<li>跟进社区技术发展，关注社区文章、动态</li>
-<li>写一篇技术文章</li>
-<li>看一本技术书籍</li>
-<li>做一次技术分享</li>
-<li>在技术上，给自己以新的领域的挑战</li>
-</ol>
-<h2 id="高效的获取知识"><a href="#高效的获取知识" class="headerlink" title="高效的获取知识"></a>高效的获取知识</h2><h3 id="学习机会"><a href="#学习机会" class="headerlink" title="学习机会"></a>学习机会</h3><ol>
-<li>解决问题</li>
-<li>和厉害的人一起交流自己解决不了的问题</li>
-<li>让自己无聊的时候（排队、坐车）有东西可以学，强烈推荐 pocket</li>
-</ol>
-<h3 id="谷歌、问问题"><a href="#谷歌、问问题" class="headerlink" title="谷歌、问问题"></a>谷歌、问问题</h3><ol>
-<li>首先要明确自己的问题是什么</li>
-<li>精确地的描述问题</li>
-<li>锲而不舍、不断思考</li>
-</ol>
-<h2 id="高效的交流"><a href="#高效的交流" class="headerlink" title="高效的交流"></a>高效的交流</h2><ol>
-<li>知道你真正想要什么</li>
-<li>了解你的听众，知道他想听什么，能听懂什么</li>
-<li>选择好时机</li>
-<li>选择风格：简短？正式？随意？详细？</li>
-<li>让听众参与、做倾听者</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>感悟</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>让事情去发生</title>
     <url>/posts/b5babe99.html</url>
     <content><![CDATA[<h1 id="有关10000小时定律"><a href="#有关10000小时定律" class="headerlink" title="有关10000小时定律"></a>有关10000小时定律</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>知乎上看到了一篇有关10000小时定律的文章写得非常好，纠正了我们以前的客观认识，并且写的很深入，记记笔记。<br><a href="https://www.zhihu.com/question/21655527/answer/44515153">https://www.zhihu.com/question/21655527/answer/44515153</a></p>
@@ -462,6 +362,106 @@
       </tags>
   </entry>
   <entry>
+    <title>注重实效的哲学程序员修炼之道第一章阅读心得</title>
+    <url>/posts/aaf337f2.html</url>
+    <content><![CDATA[<h1 id="注重实效的哲学——程序员修炼之道第一章阅读心得"><a href="#注重实效的哲学——程序员修炼之道第一章阅读心得" class="headerlink" title="注重实效的哲学——程序员修炼之道第一章阅读心得"></a>注重实效的哲学——程序员修炼之道第一章阅读心得</h1><blockquote>
+<p>强烈推荐这本书《程序员修炼之道——从小工到专家》 <a href="https://book.douban.com/subject/5387402/">https://book.douban.com/subject/5387402/</a></p>
+</blockquote>
+<h2 id="注重实效的程序员的特征"><a href="#注重实效的程序员的特征" class="headerlink" title="注重实效的程序员的特征"></a>注重实效的程序员的特征</h2><p>他们处理问题、寻求解决方案时的态度、风格、哲学。</p>
+<ol>
+<li><strong>能越出直接问题去思考更深层次的东西</strong>。总是设法把问题放到更大的语境中，设法注意更大的图景，以最小代价达到最佳效果。</li>
+<li><strong>项目代码的维护，对自己的代码负责，将项目代码保持整洁优雅</strong>。</li>
+<li><strong>善于发现变化、接受变化、自我改变</strong>。能克服惰性，在改变中，提高效率，自我提升。</li>
+<li><strong>注重积累自己的知识资产</strong>。定期读好书、学新知识、温故总结。</li>
+<li><strong>更好的和他人交流</strong>。工作生活中我们会有快一半的时间用于交流，我们应该在交流中学习，提高交流的效率，在交流中收获良师益友。</li>
+</ol>
+<p>以上我从书中总结的五点非常重要，下面会结合实际情况详细分析、并找到如何做的方案。</p>
+<p>以及个人认为时间的规划也很重要，长期安排和短期安排都很重要，附 Geek 工作效率图</p>
+<h2 id="项目代码的维护"><a href="#项目代码的维护" class="headerlink" title="项目代码的维护"></a>项目代码的维护</h2><blockquote>
+<p>在所有弱点中。最大的弱点就是害怕暴露弱点。</p>
+</blockquote>
+<h3 id="软件的熵"><a href="#软件的熵" class="headerlink" title="软件的熵"></a>软件的熵</h3><p>当软件在无序增长时，也就是熵增加，软件趋向于腐烂。</p>
+<p>但是显而易见的，有两种项目：一种随着开发，软件的熵越来越高，有着指数般的成长趋势，项目逐渐腐烂；而另一种，随着开发，软件的熵得到了很好的控制，线性般的成长趋势，甚至就好像有一个上限值一样，成长趋势越来越慢，几乎停下来。</p>
+<p>那么是什么造成了这样的差异呢？</p>
+<h3 id="破窗理论"><a href="#破窗理论" class="headerlink" title="破窗理论"></a>破窗理论</h3><blockquote>
+<p>在市区，有些建筑漂亮整洁，而另一些却是破败不堪堆满垃圾。根据研究者调查发现了一种触发机制，一种很快能将整洁、完整的建筑变为破败的废弃物的机制。</p>
+<p>破窗户</p>
+<p>一扇破窗户，只要有那么一段时间不修理，就会给建筑的居民带来<strong>废弃感</strong>。很快有一扇窗户破了，人们开始乱扔垃圾、乱涂乱画，严重的结构损坏开始了，这个时候废弃感成为了现实，每个人都感受得到。</p>
+<p>破窗理论启发了纽约和各大城市的警察部门，他们对一些轻微的按键严加处理，以防止大案的发生，这非常奏效。</p>
+</blockquote>
+<p>所以我们不要留着破窗户（低劣的设计、错误的决策、糟糕的代码）不修，发现一个就应该修一个。</p>
+<blockquote>
+<p>我们看到过整洁、运行良好的系统，一旦窗户开始破裂，就相当迅速的恶化。</p>
+<p>如果你发现自己在有好些破窗户的项目里工作，会很容易产生这样的想法：“这些代码的其余部分也是垃圾，我只要照着做就行了。”项目在这之前是否一致很好，并没有任何关系。比如一辆飞起的轿车放了一星期，无人理睬，而一旦有一扇窗户被打破，数小时车上的设备就会被抢夺一空。</p>
+<p>同样的道理，如果你发现你所在的团队和项目的代码十分漂亮——编写整洁、涉及良好并且很优雅——你就很可能会格外注意不去把它弄脏，因为你不会想成为第一个弄脏东西的人。</p>
+</blockquote>
+<p>所以修复破窗非常非常重要，见到一个就立马修复它。</p>
+<h2 id="足够好的软件"><a href="#足够好的软件" class="headerlink" title="足够好的软件"></a>足够好的软件</h2><ol>
+<li>让用户参与权衡</li>
+<li>知道何时止步（编程就像画画，不要过度修饰和过于求精）</li>
+</ol>
+<h2 id="变化"><a href="#变化" class="headerlink" title="变化"></a>变化</h2><p>温水煮青蛙的事常常发生在我们生活中，随着时间的推移，任何事都会有变化，假如我们不去发现变化、并做出改变来应对，我们其实就和青蛙没有什么区别。</p>
+<ol>
+<li>我们要克服惰性，做变化的催化剂，用一些改变的成果(demo)给团队惊喜，和团队宣传变化后的大图景（new future），团结团队迎接变化。</li>
+<li>变化更是挑战，正面迎战挑战，可以获得提高效率、提升自我的成果。</li>
+</ol>
+<h2 id="注重积累自己的知识资产"><a href="#注重积累自己的知识资产" class="headerlink" title="注重积累自己的知识资产"></a>注重积累自己的知识资产</h2><h3 id="经营管理知识资产"><a href="#经营管理知识资产" class="headerlink" title="经营管理知识资产"></a>经营管理知识资产</h3><blockquote>
+<p>知识是有时效性的资产</p>
+</blockquote>
+<p>就好比一百多年前最厉害的武器 火枪大炮，在如今早已被AK、导弹所替代，更何况在当今这个每过十年都会有翻天覆地变化的时代，旧知识的价值的降低速度非常之快。</p>
+<p>所以我们应该善于经营管理自己的知识资产，我认为更重要的是</p>
+<ol>
+<li>新知识和旧知识并不矛盾，应该携手共进，知识是相通的。</li>
+<li>培养核心学习能力。学习知识的核心，而不是只学习知识的 形。</li>
+<li>培养学习习惯、终身学习。</li>
+</ol>
+<p>书中的观点：</p>
+<ol>
+<li>定期投资</li>
+<li>多元化</li>
+<li>管理风险；低买高卖。</li>
+</ol>
+<p>最重要的是，<strong>定期为你的知识资产投资</strong></p>
+<h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>制定目标并执行是一个非常好的定期投资方式。</p>
+<p>书中举例的目标：</p>
+<ol>
+<li>每年至少学一种新的语言</li>
+<li>每季度阅读一本技术书籍，也要阅读非技术书籍</li>
+<li>学习新的思想</li>
+<li>跟上技术潮流，</li>
+<li>试用不同的环境、工具。</li>
+</ol>
+<p>我的目标：</p>
+<ol>
+<li>跟进社区技术发展，关注社区文章、动态</li>
+<li>写一篇技术文章</li>
+<li>看一本技术书籍</li>
+<li>做一次技术分享</li>
+<li>在技术上，给自己以新的领域的挑战</li>
+</ol>
+<h2 id="高效的获取知识"><a href="#高效的获取知识" class="headerlink" title="高效的获取知识"></a>高效的获取知识</h2><h3 id="学习机会"><a href="#学习机会" class="headerlink" title="学习机会"></a>学习机会</h3><ol>
+<li>解决问题</li>
+<li>和厉害的人一起交流自己解决不了的问题</li>
+<li>让自己无聊的时候（排队、坐车）有东西可以学，强烈推荐 pocket</li>
+</ol>
+<h3 id="谷歌、问问题"><a href="#谷歌、问问题" class="headerlink" title="谷歌、问问题"></a>谷歌、问问题</h3><ol>
+<li>首先要明确自己的问题是什么</li>
+<li>精确地的描述问题</li>
+<li>锲而不舍、不断思考</li>
+</ol>
+<h2 id="高效的交流"><a href="#高效的交流" class="headerlink" title="高效的交流"></a>高效的交流</h2><ol>
+<li>知道你真正想要什么</li>
+<li>了解你的听众，知道他想听什么，能听懂什么</li>
+<li>选择好时机</li>
+<li>选择风格：简短？正式？随意？详细？</li>
+<li>让听众参与、做倾听者</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>感悟</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>最新OnlyFans订阅指南：OnlyFans怎样玩？中国人怎么用OnlyFans？</title>
     <url>/posts/80a3a73c.html</url>
     <content><![CDATA[<h2 id="什么是OnlyFans？OnlyFans官网是哪个？"><a href="#什么是OnlyFans？OnlyFans官网是哪个？" class="headerlink" title="什么是OnlyFans？OnlyFans官网是哪个？"></a>什么是OnlyFans？OnlyFans官网是哪个？</h2><p>OnlyFans是一个基于订阅制的内容分享平台，成立于2016年，总部位于英国伦敦。平台的初衷是为内容创作者提供一个直接从粉丝获取收入的渠道，通过订阅费用或小费支持他们的创作。这种模式打破了传统社交媒体依赖广告收入的局限，为创作者提供了更高的收入自主性。</p>
@@ -517,6 +517,415 @@
 <p>如果你使用的是国内邮箱（如QQ邮箱或163邮箱），可能因为邮件服务商的限制导致无法接收验证码。在这种情况下，建议尝试使用Gmail或Outlook等国际邮箱重新注册。</p>
 <p>如果以上方法仍然无法解决问题，可以联系OnlyFans的客服团队，寻求进一步的帮助和支持。</p>
 <h3 id="Onlyfans需要验证年龄怎么办？"><a href="#Onlyfans需要验证年龄怎么办？" class="headerlink" title="Onlyfans需要验证年龄怎么办？"></a>Onlyfans需要验证年龄怎么办？</h3><p>OnlyFans要求用户验证年龄是为了符合法律规定，确保未成年人无法接触平台上的内容。这一机制既保障用户的自由，又履行了社会责任。由于平台内容多样，OnlyFans规定只有达到法定年龄的用户才能访问，以符合未成年人保护的相关法律。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Dify创建Flux_AI免费绘图应用</title>
+    <url>/posts/5da1f935.html</url>
+    <content><![CDATA[<h1 id="Dify-创建-Flux-AI-免费绘图应用"><a href="#Dify-创建-Flux-AI-免费绘图应用" class="headerlink" title="Dify 创建 Flux AI 免费绘图应用"></a>Dify 创建 Flux AI 免费绘图应用</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/10/Kung_Fu_Panda_holds_a__Dify_with_Flux__banner-_Pix.png" alt="Dify 创建 Flux AI 免费绘图应用"></p>
+<p>本文介绍了如何利用 Dify 创建 Flux AI 免费绘图应用。只需要在 Dify 中输入提示词和图片分辨率，Dify 会直接返回图片。文中还介绍了如何获取硅基流动的免费 API，以及如何自定义 Dify 的绘图插件。</p>
+<h2 id="一、Flux-AI-简介"><a href="#一、Flux-AI-简介" class="headerlink" title="一、Flux AI 简介"></a>一、Flux AI 简介</h2><p>AI 绘画，开源中知名度最高的肯定是 Stable Diffusion。在 2024年8月1日，来自 Stable Diffusion 团队的成员成立了黑森林实验室公司（Black Forest Labs），致力于开发最先进的开源生成模型，用于图像和视频。目前公司有 4 款 AI 绘图模型：[1]</p>
+<ul>
+<li><strong>FLUX1.1 [pro]</strong> ：2024年10月1日发布的最先进且高效的版本，代号“蓝莓”，是目前市面最强的 AI 画图模型（是的，强于Midjourney）。比FLUX.1 [pro]快六倍，同时提升图像质量、提示遵循能力和多样性。</li>
+<li><strong>FLUX.1 [pro]</strong> ：顶级性能图像生成模型，闭源模型，具有最先进的提示遵循能力、视觉质量、细节表现和输出多样性。适用于商业和企业级应用。</li>
+<li><strong>FLUX.1 [dev]</strong> ：是 FLUX.1 [pro] 的蒸馏版本，开源但不可商用，适合非商业应用，至少需要24G显存运行。</li>
+<li><strong>FLUX.1 [schnell]</strong> ：最快速的本地开发和个人使用模型，有120亿参数，完全开源（Apache2.0许可）。和FLUX.1 [dev]一样，权重可在 Hugging Face上获取，并支持 ComfyUI 的集成。</li>
+</ul>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241008202232904.png" alt="img"></p>
+<h2 id="二、获取-Flux-免费-API"><a href="#二、获取-Flux-免费-API" class="headerlink" title="二、获取 Flux 免费 API"></a>二、获取 Flux 免费 API</h2><p>目前市面上有很多厂商都提供 Flux 的 API 接口，针对 <code>FLUX.1 [schnell]</code> 模型，因为模型小，有一些厂商提供了免费的 API 额度。下面两个厂商都只需要简单注册即可使用，不需要绑定任何信用卡信息，所以作为推荐。</p>
+<ul>
+<li>硅基流动提供了每分钟调用 2 次，每天 400 次的免费额度（IPM=2 IPD=400）。[2]</li>
+<li>Together.ai 提供了每分钟调用 10 次的免费额度（10 img/min）。[3]</li>
+</ul>
+<p>后面我会利用硅基流动进行演示，其他厂商的对接步骤大同小异。</p>
+<h3 id="Siliconflow"><a href="#Siliconflow" class="headerlink" title="Siliconflow"></a>Siliconflow</h3><p>硅基流动（Siliconflow）是一家北京公司，SiliconCloud 平台提供模型云服务。平台上提供了多种开源大语言模型和图像生成模型，包括 Qwen2.5、DeepSeek-V2.5、Llama-3.1等。用户可以免费使用部分参数较小的模型，例如 Qwen2.5（7B）、Llama3.1（8B）、FLUX.1-schnell 等多个模型的 API 可以免费使用（有限速）。</p>
+<p>这里不演示账号注册过程，注册之后，可以通过官网提供的界面直接体验各个模型。例如，下面使用 <code>FLUX.1 [schnell]</code> 模型进行绘图。[4]</p>
+<p>模型 <code>FLUX.1 [schnell]</code> ，提示词“Kung Fu Panda holds a “Dify with Flux” banner, Pixar style.”，图片比例16:9。<img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241008213310901.png" alt="img"></p>
+<p>点击页面左侧“API秘钥”，创建一个秘钥，后续 Dify 自定义工具需要调用这个秘钥信息。<img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241008215429313.png" alt="img"></p>
+<h3 id="Together-ai"><a href="#Together-ai" class="headerlink" title="Together.ai"></a>Together.ai</h3><p>Together.ai 是一家成立于2022年6月，总部位于美国硅谷的开源生成式人工智能平台。目前的内容主要是开发去中心化的AI技术，提供开源的AI模型。为各种大模型提供了统一的API接入，包括文本生成和代码生成模型。其中<code>FLUX.1 [schnell]</code> 模型可以免费使用。</p>
+<p>这里不演示账号的注册过程，注册之后，厂商会赠送5美元的额度，可以体验一些付费模型，例如这里使用<code>FLUX.1.1 [pro]</code>模型绘图测试，这个模型的价格是每张图 0.04 美元。[5]</p>
+<p>模型 <code>FLUX.1.1 [pro]</code> ，提示词“Kung Fu Panda holds a “Dify with Flux” banner, Pixar style.”，像素“1024x576”。<img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241008211323926.png" alt="img"></p>
+<h2 id="三、Dify-自定义工具"><a href="#三、Dify-自定义工具" class="headerlink" title="三、Dify 自定义工具"></a>三、Dify 自定义工具</h2><p>Dify 没有 FLUX 绘图的插件，这里演示一下如何自定义 FLUX 的绘图插件。</p>
+<p>查看模型 <code>FLUX.1 [schnell]</code>的API文档，拷贝这个请求格式，复制给ChatGPT，让写一个对应的 OpenAPI Schema。[6]<img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009091154057.png" alt="img"></p>
+<p>写给 ChatGPT 的 Prompt。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">curl --request POST \</span><br><span class="line">     --url https://api.siliconflow.cn/v1/black-forest-labs/FLUX.1-schnell/text-to-image \</span><br><span class="line">     --header &#x27;accept: application/json&#x27; \</span><br><span class="line">     --header &#x27;content-type: application/json&#x27; \</span><br><span class="line">     --data &#x27;</span><br><span class="line">&#123;</span><br><span class="line">  &quot;prompt&quot;: &quot;an island near sea, with seagulls, moon shining over the sea, light house, boats int he background, fish flying over the sea&quot;,</span><br><span class="line">  &quot;image_size&quot;: &quot;768x1024&quot;,</span><br><span class="line">  &quot;num_inference_steps&quot;: 20</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">基于上面的内容，写一个OpenAPI Schema</span><br></pre></td></tr></table></figure>
+<p>ChatGPT 的回复，后续复制到 Dify 的自定义工具中去。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">openapi: 3.0.3</span><br><span class="line">info:</span><br><span class="line">  title: FLUX.1 Schnell Text-to-Image API</span><br><span class="line">  description: This API generates images based on a text prompt.</span><br><span class="line">  version: 1.0.0</span><br><span class="line">servers:</span><br><span class="line">  - url: https://api.siliconflow.cn/v1/black-forest-labs</span><br><span class="line">    description: Production Server</span><br><span class="line">paths:</span><br><span class="line">  /FLUX.1-schnell/text-to-image:</span><br><span class="line">    post:</span><br><span class="line">      summary: Generate an image from a text prompt</span><br><span class="line">      operationId: generateImage</span><br><span class="line">      requestBody:</span><br><span class="line">        required: true</span><br><span class="line">        content:</span><br><span class="line">          application/json:</span><br><span class="line">            schema:</span><br><span class="line">              type: object</span><br><span class="line">              properties:</span><br><span class="line">                prompt:</span><br><span class="line">                  type: string</span><br><span class="line">                  description: The text prompt to generate the image.</span><br><span class="line">                  example: an island near sea, with seagulls, moon shining over the sea, light house, boats in the background, fish flying over the sea</span><br><span class="line">                image_size:</span><br><span class="line">                  type: string</span><br><span class="line">                  description: The desired size of the generated image.</span><br><span class="line">                  example: 768x1024</span><br><span class="line">                num_inference_steps:</span><br><span class="line">                  type: integer</span><br><span class="line">                  description: The number of inference steps for generating the image.</span><br><span class="line">                  example: 20</span><br><span class="line">      responses:</span><br><span class="line">        &#x27;200&#x27;:</span><br><span class="line">          description: Image generated successfully</span><br><span class="line">          content:</span><br><span class="line">            application/json:</span><br><span class="line">              schema:</span><br><span class="line">                type: object</span><br><span class="line">                properties:</span><br><span class="line">                  image_url:</span><br><span class="line">                    type: string</span><br><span class="line">                    description: URL of the generated image</span><br><span class="line">                    example: https://api.siliconflow.cn/v1/black-forest-labs/images/generated-image-12345.png</span><br><span class="line">        &#x27;400&#x27;:</span><br><span class="line">          description: Bad request</span><br><span class="line">          content:</span><br><span class="line">            application/json:</span><br><span class="line">              schema:</span><br><span class="line">                type: object</span><br><span class="line">                properties:</span><br><span class="line">                  error:</span><br><span class="line">                    type: string</span><br><span class="line">                    description: Error message</span><br><span class="line">                    example: Invalid prompt or parameters</span><br><span class="line">      headers:</span><br><span class="line">        accept:</span><br><span class="line">          description: Accepted response format</span><br><span class="line">          required: true</span><br><span class="line">          schema:</span><br><span class="line">            type: string</span><br><span class="line">            example: application/json</span><br><span class="line">        content-type:</span><br><span class="line">          description: Content type of the request</span><br><span class="line">          required: true</span><br><span class="line">          schema:</span><br><span class="line">            type: string</span><br><span class="line">            example: application/json</span><br></pre></td></tr></table></figure>
+<p>在 Dify 平台上，点击“创建自定义工具”，设置工具的名称，复制 ChatGPT 回复的 OpenAPI Schema，点击“测试”。<img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009091620726.png" alt="img"></p>
+<p>设置<code>API Key</code>方式授权，前缀设置为<code>Bearer</code>，输入硅基流动创建的API Key值，点击“保存”（此 API 我已经删除）。<img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009090457294.png" alt="img"></p>
+<p>输入提示词，分辨率和推理步数进行测试，查看返回的测试结果。测试成功，返回了图片的URL。<img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009090502874.png" alt="img"></p>
+<p>拷贝这个测试结果，后续会写一个Python代码，解析这个结果中的 URL 链接，转换成 Markdown 格式，方便 Dify 直接显示图片。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&quot;images&quot;: [&#123;&quot;url&quot;: &quot;https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/outputs/8c4ecc9a-ccc6-4c01-9f72-874ed33e7125_0.png&quot;&#125;], &quot;timings&quot;: &#123;&quot;inference&quot;: 1.851&#125;, &quot;seed&quot;: 966716722, &quot;shared_id&quot;: &quot;0&quot;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="四、Dify-创建-AI-绘图工作流"><a href="#四、Dify-创建-AI-绘图工作流" class="headerlink" title="四、Dify 创建 AI 绘图工作流"></a>四、Dify 创建 AI 绘图工作流</h2><p>下面在 Dify 中创建一个工作流，我希望输入提示词和图片分辨率后，就直接接返回图片结果。</p>
+<p>这里一下这个工作流的设计思路。设计有两个变量是必须要提供的，分别是Prompt（提示词）和image_size（图片分辨率）。</p>
+<p>另外还添加了一个可选参数optimize_prompt（提示词优化），这个参数有两个选项On或者Off，如果选择了On，会对提示词进行优化，会丰富提示词的细节。</p>
+<p>如果不选择这个参数，或者选择为Off，会利用GPT4o-mini模型翻译提示词，提示词是英文保持原文，提示词是中文会直接翻译成英文。<strong>Flux 的提示词对中文支持不友好，所以需要翻译为英文</strong>，这里是用GPT4o-mini模型进行翻译，也可以使用其他模型进行翻译。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009100507748.png" alt="img"></p>
+<p>下面是LLM1的提示词，用于优化输入的提示词。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009155857826.png" alt="img"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">You are tasked with expanding prompts for image generation. Your goal is to enhance the input prompt by adding more details, refining context, or specifying elements to make it more vivid and specific. Here are the detailed requirements:</span><br><span class="line"></span><br><span class="line">1. Identify core elements: Determine the key components of the original prompt. These typically include subjects, actions, scene settings, and emotional tones.</span><br><span class="line">2. Enrich with specific details: Add descriptive details to each element, considering the five senses (sight, sound, smell, touch, taste), as well as color, texture, and emotions.</span><br><span class="line">3. Build scenes and imagery: Create scenes by describing the environment, time, or background elements. This helps create a more immersive experience.</span><br><span class="line">4. Use modifiers for enhanced effect: Employ adjectives to vividly describe nouns, and adverbs to precisely modify verbs. This makes the prompt more engaging.</span><br><span class="line">5. Incorporate action and interaction: Where appropriate, describe events taking place in the scene, how characters interact, or the emotional atmosphere permeating the environment.</span><br><span class="line">6. Maintain overall coherence: Ensure the expanded prompt flows naturally and consistently revolves around the original concept.</span><br><span class="line">7. Output the prompt in English: If the content within the &#123;&#123;#1724416537387.Prompt#&#125;&#125; tag is in Chinese, translate it into an English prompt.</span><br><span class="line">Here&#x27;s an example of prompt expansion:</span><br><span class="line">Original prompt: &quot;Forest at sunrise.&quot;</span><br><span class="line">Expanded prompt: &quot;In the heart of an ancient forest, the first light of dawn filters through the dense canopy, casting a golden glow on the dewy moss-covered ground. Tall, towering trees, their bark rough and weathered, stand like silent sentinels as a soft mist curls around their roots. The air is crisp and filled with the earthy scent of pine needles, and the distant call of a waking bird echoes through the tranquil morning.&quot;</span><br><span class="line"></span><br><span class="line">The prompt to be expanded is:</span><br><span class="line">&#123;&#123;#1724416537387.Prompt#&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>下面是 LLM2 的提示词，用于翻译用户提供的中文提示词。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009155910726.png" alt="img"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;xml&gt;</span><br><span class="line">    &#123;&#123;#1724416537387.Prompt#&#125;&#125;</span><br><span class="line">&lt;/xml&gt;</span><br><span class="line"></span><br><span class="line">If the content within the XML tags is in Chinese, translate it to English. If it is already in English, retain the original text.</span><br></pre></td></tr></table></figure>
+<p>然后进入自定义工具，节点输入的prompt变量来自 LLM 翻译后的提示词，image_size来自最开始选择的图片尺寸，inference_steps 这里设置为固定的值，不用用户填写。这个工具会输出3个变量”text”、“files”和“json”，其中”text”输出的值就是硅基流动返回的响应内容。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009155932447.png" alt="img"></p>
+<p>下面是自定义工具输出的完整字段。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;text&quot;: &quot;&#123;\&quot;images\&quot;: [&#123;\&quot;url\&quot;: \&quot;https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/outputs/a0616193-e0c4-4fa5-9505-5c8d5f155d2a_0.png\&quot;&#125;], \&quot;timings\&quot;: &#123;\&quot;inference\&quot;: 1.778&#125;, \&quot;seed\&quot;: 868267842, \&quot;shared_id\&quot;: \&quot;0\&quot;&#125;&quot;,</span><br><span class="line">  &quot;files&quot;: [],</span><br><span class="line">  &quot;json&quot;: []</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>我希望这个应用直接返回图片，而不是返回图片的 URL 然后再点击链接。Dify支持 Markdown 格式的图片格式，所以需要用一个脚本对输出的字符串进行转换，解析出对应的图片 URL，转换为 Markdown 格式。这里代码添加一个输出变量是键为”arg1”，值为自定义工具输出的”text”字符串。下面是代码执行节点的输入字符串：</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009160125121.png" alt="img"></p>
+<p>对于代码执行节点而言，下面是输入的信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;arg1&quot;: &quot;&#123;\&quot;images\&quot;: [&#123;\&quot;url\&quot;: \&quot;https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/outputs/a0616193-e0c4-4fa5-9505-5c8d5f155d2a_0.png\&quot;&#125;], \&quot;timings\&quot;: &#123;\&quot;inference\&quot;: 1.778&#125;, \&quot;seed\&quot;: 868267842, \&quot;shared_id\&quot;: \&quot;0\&quot;&#125;&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这里python代码，用与从上面的信息中解析出图片的 URL，并返回 Markdown 格式的图片地址。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">arg1</span>):</span><br><span class="line">    <span class="comment"># 解析输入的 JSON 字符串</span></span><br><span class="line">    data = json.loads(arg1)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 从解析后的数据中提取图片 URL</span></span><br><span class="line">    image_url = data[<span class="string">&#x27;images&#x27;</span>][<span class="number">0</span>][<span class="string">&#x27;url&#x27;</span>]</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 构建 Markdown 格式的图片链接</span></span><br><span class="line">    markdown_image = <span class="string">f&quot;![Image](<span class="subst">&#123;image_url&#125;</span>)&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        <span class="string">&quot;result&quot;</span>: markdown_image</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>按照上面的思路，可以构建其他的 AI 绘图工作流，基本步骤一致。只需要查看其他厂商的请求 API，利用 ChatGPT 转换为 OpenAPI Schema，然后将输出信息解析为 Markdown 格式图片链接即可。</p>
+<h2 id="五、Flux-AI-绘图应用测试"><a href="#五、Flux-AI-绘图应用测试" class="headerlink" title="五、Flux AI 绘图应用测试"></a>五、Flux AI 绘图应用测试</h2><p>下面测试一下这个 AI 绘图应用，输入提示词“Kung Fu Panda holds a “Dify with Flux” banner, Pixar style.”，图片分辨率“1024x576”，关闭提示词优化或者保持为空，点击运行，Dify 可以直接显示生成的图片。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009160356255.png" alt="img"></p>
+<p>点击详情可以查看输出的 Markdown 格式的图片链接信息。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-flux-drawing-app/image-20241009160406006.png" alt="img"></p>
+<h2 id="六、文档链接"><a href="#六、文档链接" class="headerlink" title="六、文档链接"></a>六、文档链接</h2><ul>
+<li><strong>[1] Announcing Black Forest Labs:</strong> <a href="https://blackforestlabs.ai/announcing-black-forest-labs/?ref=liuqianglong.com">https://blackforestlabs.ai/announcing-black-forest-labs/</a></li>
+<li><strong>[2] 硅基流动速率限制:</strong> <a href="https://docs.siliconflow.cn/rate-limits/rate-limit-and-upgradation?ref=liuqianglong.com#2-1">https://docs.siliconflow.cn/rate-limits/rate-limit-and-upgradation#2-1</a></li>
+<li><strong>[3] Together.ai 速率限制:</strong> <a href="https://docs.together.ai/docs/rate-limits?ref=liuqianglong.com">https://docs.together.ai/docs/rate-limits</a></li>
+<li><strong>[4] 硅基流动文生图体验:</strong> <a href="https://cloud.siliconflow.cn/playground/text-to-image?ref=liuqianglong.com">https://cloud.siliconflow.cn/playground/text-to-image</a></li>
+<li><strong>[5] Together.ai 文生图体验:</strong> <a href="https://api.together.ai/playground/image/black-forest-labs/FLUX.1.1-pro?ref=liuqianglong.com">https://api.together.ai/playground/image/black-forest-labs/FLUX.1.1-pro</a></li>
+<li><strong>[6] 硅基流动 FLUX.1-schnell 模型 API:</strong> <a href="https://docs.siliconflow.cn/reference/imagegeneration?ref=liuqianglong.com">https://docs.siliconflow.cn/reference/imagegeneration</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>HuggingFace模型下载及使用</title>
+    <url>/posts/9c7ceea5.html</url>
+    <content><![CDATA[<h1 id="Hugging-Face-模型下载及使用"><a href="#Hugging-Face-模型下载及使用" class="headerlink" title="Hugging Face 模型下载及使用"></a>Hugging Face 模型下载及使用</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/08/ai-hugging-face-models.png" alt="Hugging Face 模型下载及使用"></p>
+<p>这篇文章介绍了Hugging Face平台和它的核心产品。演示了如何在AWS EC2实例上，从Hugging Face Hub下载并运行Qwen2-0.5B-Instruct模型。最后，还展示了如何用Gradio图形化界面与Qwen LLM进行聊天对话。</p>
+<h2 id="一、Hugging-Face-简介"><a href="#一、Hugging-Face-简介" class="headerlink" title="一、Hugging Face 简介"></a>一、Hugging Face 简介</h2><p>Hugging Face是一家美国公司，成立于2016年，起初是为青少年开发聊天机器人应用程序。后来，Hugging Face转型为专注于机器学习的平台公司，推出了多款促进NLP（自然语言处理）技术发展的产品。主要产品有：</p>
+<ol>
+<li><strong>预训练模型</strong>：Hugging Face提供了一系列优秀的预训练NLP模型，如BERT、GPT、RoBERTa等，这些模型在多项任务中表现出色。</li>
+<li><strong>Transformers库</strong>：Hugging Face开发了名为<code>transformers</code>的Python库，支持PyTorch和TensorFlow等深度学习框架，提供了加载、微调和使用预训练模型的便捷工具。</li>
+<li><strong>NLP工具</strong>：他们提供了多种NLP相关工具，如文本生成、文本分类和命名实体识别，帮助开发者快速构建NLP应用。</li>
+<li><strong>Hugging Face Hub</strong>：这是一个集中式的Web平台，类似于GitHub，托管基于Git的代码仓库、模型和数据集，并支持项目讨论和拉取请求。</li>
+<li><strong>Hugging Face Spaces</strong>：Hugging Face Spaces是一个允许用户轻松部署和分享AI应用的平台。。它提供了一个易于使用的GUI，使用户能够快速创建和部署Web托管的ML应用。2021年底，Hugging Face宣布收购了Gradio。Gradio是一个开源Python包，允许用户快速为机器学习模型、API或任何Python函数构建交互式演示或Web应用程序，无需编写HTML、CSS或JavaScript代码。</li>
+</ol>
+<h2 id="二、大模型竞技场与排名"><a href="#二、大模型竞技场与排名" class="headerlink" title="二、大模型竞技场与排名"></a>二、大模型竞技场与排名</h2><p>另外在Hugging Face可以查看各个大模型的排行榜，例如下面的开源大模型排行榜 [1]。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240827104909122.png" alt="img"></p>
+<p>由LMSYS维护的大模型聊天竞技场，收集人类对大模型聊天回复的反馈，进行排名 [2]。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240827104935909.png" alt="img"></p>
+<p>发送的问题会同时给两个模型进行回复，根据回复内容进行投票，一共4个选项，A胜、B胜、平手或者都不行。投票后会显示回复的大模型版本。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705153257611.png" alt="img"></p>
+<h2 id="三、Hugging-Face-Spaces-使用"><a href="#三、Hugging-Face-Spaces-使用" class="headerlink" title="三、Hugging Face Spaces 使用"></a>三、Hugging Face Spaces 使用</h2><p>Hugging Face Spaces是一个允许用户轻松部署和分享AI应用的平台，很多大模型都会在Spaces上发布不同版本的模型，为大家提供测试。例如下面是Qwen的Spaces空间<a href="https://huggingface.co/Qwen?ref=liuqianglong.com">https://huggingface.co/Qwen</a> [3]。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705113112506.png" alt="img"></p>
+<p>点击进入<code>Qwen2-72B-Instruct Chat</code>，可以进行聊天测试。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705135420942.png" alt="img"></p>
+<h2 id="四、EC2-本地运行-Qwen2-0-5B-Instruct-模型"><a href="#四、EC2-本地运行-Qwen2-0-5B-Instruct-模型" class="headerlink" title="四、EC2 本地运行 Qwen2-0.5B-Instruct 模型"></a>四、EC2 本地运行 Qwen2-0.5B-Instruct 模型</h2><p>这部分演示一下，通过EC2下载和启动<code>Qwen2-0.5B-Instruct</code>模型。我选择Deep Learning类型的AMI，这个类型的AMI已经预先安装了英伟达的驱动。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705135658365.png" alt="img"></p>
+<p>选择Ubuntu或者Amazon Linux2023都可以，这里我选择Ubuntu22.04版本的镜像。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705135706563.png" alt="img"></p>
+<p>选择<code>g4dn.xlarge</code>，带有1个NVIDA T4显卡，共有16GB GPU，这是带有英伟达显卡最便宜的实例。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705135737159.png" alt="img"></p>
+<p>实例已经预装了英伟达驱动，启动之后通过<code>nvidia-smi</code>命令查看一下GPU信息。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# nvidia-smi</span><br><span class="line">Fri Jul  5 03:34:19 2024</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |</span><br><span class="line">|-----------------------------------------+----------------------+----------------------+</span><br><span class="line">| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |</span><br><span class="line">| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |</span><br><span class="line">|                                         |                      |               MIG M. |</span><br><span class="line">|=========================================+======================+======================|</span><br><span class="line">|   0  Tesla T4                       On  | 00000000:00:1E.0 Off |                    0 |</span><br><span class="line">| N/A   33C    P8               9W /  70W |      2MiB / 15360MiB |      0%      Default |</span><br><span class="line">|                                         |                      |                  N/A |</span><br><span class="line">+-----------------------------------------+----------------------+----------------------+</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| Processes:                                                                            |</span><br><span class="line">|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |</span><br><span class="line">|        ID   ID                                                             Usage      |</span><br><span class="line">|=======================================================================================|</span><br><span class="line">|  No running processes found                                                           |</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br></pre></td></tr></table></figure>
+<p>进入Qwen2-0.5B-Instruct页面<a href="https://huggingface.co/Qwen/Qwen2-0.5B-Instruct?ref=liuqianglong.com">https://huggingface.co/Qwen/Qwen2-0.5B-Instruct</a> ，拷贝模型链接 [5]。<img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705144629858.png" alt="img"></p>
+<p>要下载模型文件，需要先安装<code>git-lfs</code>，否则不会下载项目中的大型文件。</p>
+<blockquote>
+<p>Git LFS（Large File Storage）是一个Git扩展工具，用于高效管理大文件。它通过将大文件存储在单独的LFS存储库中，避免了Git仓库体积过大，提升了项目管理效率。Git LFS特别适用于需要处理大型文件的项目，如音乐、图片、视频等。该工具易于安装和配置，并且在多个平台上有良好的支持。</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# apt update -y</span><br><span class="line">root@ip-172-31-83-158:~# apt install git-lfs -y</span><br></pre></td></tr></table></figure>
+<p>下载模型文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# git clone https://huggingface.co/Qwen/Qwen2-0.5B-Instruct</span><br></pre></td></tr></table></figure>
+<p>查看模型文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# cd Qwen2-0.5B-Instruct/</span><br><span class="line"></span><br><span class="line">root@ip-172-31-83-158:~/Qwen2-0.5B-Instruct# ll -h</span><br><span class="line">total 954M</span><br><span class="line">drwxr-xr-x 3 root root 4.0K Jul  5 03:36 ./</span><br><span class="line">drwx------ 8 root root 4.0K Jul  5 03:36 ../</span><br><span class="line">drwxr-xr-x 9 root root 4.0K Jul  5 03:36 .git/</span><br><span class="line">-rw-r--r-- 1 root root 1.5K Jul  5 03:36 .gitattributes</span><br><span class="line">-rw-r--r-- 1 root root  12K Jul  5 03:36 LICENSE</span><br><span class="line">-rw-r--r-- 1 root root 3.5K Jul  5 03:36 README.md</span><br><span class="line">-rw-r--r-- 1 root root  659 Jul  5 03:36 config.json</span><br><span class="line">-rw-r--r-- 1 root root  242 Jul  5 03:36 generation_config.json</span><br><span class="line">-rw-r--r-- 1 root root 1.6M Jul  5 03:36 merges.txt</span><br><span class="line">-rw-r--r-- 1 root root 943M Jul  5 03:36 model.safetensors</span><br><span class="line">-rw-r--r-- 1 root root 6.8M Jul  5 03:36 tokenizer.json</span><br><span class="line">-rw-r--r-- 1 root root 1.3K Jul  5 03:36 tokenizer_config.json</span><br><span class="line">-rw-r--r-- 1 root root 2.7M Jul  5 03:36 vocab.json</span><br></pre></td></tr></table></figure>
+<p>安装python包依赖，这三个python包都比较大，下载时间较长。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# pip install transformers torch accelerate</span><br></pre></td></tr></table></figure>
+<p>国内可以指定pip安装源。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip install transformers torch -i https://pypi.tuna.tsinghua.edu.cn/simple</span><br></pre></td></tr></table></figure>
+<p>拷贝官方提供的快速启动脚本，这里我修改模型的路径为绝对路径<code>&quot;/root/Qwen2-0.5B-Instruct&quot;</code>，Prompt修改为<code>&quot;你是谁？&quot;</code>，增加了打印响应结果。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">vim /root/qwen0<span class="number">.5</span>b-demo.py</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> transformers <span class="keyword">import</span> AutoModelForCausalLM, AutoTokenizer</span><br><span class="line">device = <span class="string">&quot;cuda&quot;</span> <span class="comment"># the device to load the model onto</span></span><br><span class="line"></span><br><span class="line">model = AutoModelForCausalLM.from_pretrained(</span><br><span class="line">    <span class="string">&quot;/root/Qwen2-0.5B-Instruct&quot;</span>,</span><br><span class="line">    torch_dtype=<span class="string">&quot;auto&quot;</span>,</span><br><span class="line">    device_map=<span class="string">&quot;auto&quot;</span></span><br><span class="line">)</span><br><span class="line">tokenizer = AutoTokenizer.from_pretrained(<span class="string">&quot;Qwen/Qwen2-0.5B-Instruct&quot;</span>)</span><br><span class="line"></span><br><span class="line">prompt = <span class="string">&quot;你是谁？&quot;</span></span><br><span class="line">messages = [</span><br><span class="line">    &#123;<span class="string">&quot;role&quot;</span>: <span class="string">&quot;system&quot;</span>, <span class="string">&quot;content&quot;</span>: <span class="string">&quot;You are a helpful assistant.&quot;</span>&#125;,</span><br><span class="line">    &#123;<span class="string">&quot;role&quot;</span>: <span class="string">&quot;user&quot;</span>, <span class="string">&quot;content&quot;</span>: prompt&#125;</span><br><span class="line">]</span><br><span class="line">text = tokenizer.apply_chat_template(</span><br><span class="line">    messages,</span><br><span class="line">    tokenize=<span class="literal">False</span>,</span><br><span class="line">    add_generation_prompt=<span class="literal">True</span></span><br><span class="line">)</span><br><span class="line">model_inputs = tokenizer([text], return_tensors=<span class="string">&quot;pt&quot;</span>).to(device)</span><br><span class="line"></span><br><span class="line">generated_ids = model.generate(</span><br><span class="line">    model_inputs.input_ids,</span><br><span class="line">    max_new_tokens=<span class="number">512</span></span><br><span class="line">)</span><br><span class="line">generated_ids = [</span><br><span class="line">    output_ids[<span class="built_in">len</span>(input_ids):] <span class="keyword">for</span> input_ids, output_ids <span class="keyword">in</span> <span class="built_in">zip</span>(model_inputs.input_ids, generated_ids)</span><br><span class="line">]</span><br><span class="line">response = tokenizer.batch_decode(generated_ids, skip_special_tokens=<span class="literal">True</span>)[<span class="number">0</span>]</span><br><span class="line"><span class="built_in">print</span>(response)</span><br></pre></td></tr></table></figure>
+<p>运行脚本，查看模型返回结果。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# python3 qwen0.5b-demo.py</span><br><span class="line">Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.</span><br><span class="line">The attention mask is not set and cannot be inferred from input because pad token is same as eos token.As a consequence, you s `attention_mask` to obtain reliable results.</span><br><span class="line">我是阿里云开发的一款超大规模语言模型，我叫通义千问。</span><br></pre></td></tr></table></figure>
+<p>查看GPU消耗。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ubuntu@ip-172-31-83-158:~$ nvidia-smi</span><br><span class="line">Fri Jul  5 03:51:05 2024</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |</span><br><span class="line">|-----------------------------------------+----------------------+----------------------+</span><br><span class="line">| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |</span><br><span class="line">| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |</span><br><span class="line">|                                         |                      |               MIG M. |</span><br><span class="line">|=========================================+======================+======================|</span><br><span class="line">|   0  Tesla T4                       On  | 00000000:00:1E.0 Off |                    0 |</span><br><span class="line">| N/A   37C    P0              32W /  70W |   1313MiB / 15360MiB |      0%      Default |</span><br><span class="line">|                                         |                      |                  N/A |</span><br><span class="line">+-----------------------------------------+----------------------+----------------------+</span><br><span class="line"></span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| Processes:                                                                            |</span><br><span class="line">|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |</span><br><span class="line">|        ID   ID                                                             Usage      |</span><br><span class="line">|=======================================================================================|</span><br><span class="line">|    0   N/A  N/A      3152      C   python3                                    1308MiB |</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br></pre></td></tr></table></figure>
+<p><strong>Qwen Gradio 图形化界面</strong></p>
+<p>命令行进行对话并不方便，可以使用官方提供的<code>web_demo.py</code>脚本 [6]，通过图形化页面进行对话，脚本网址是<a href="https://github.com/QwenLM/Qwen2/blob/main/examples/demo/web_demo.py。?ref=liuqianglong.com">https://github.com/QwenLM/Qwen2/blob/main/examples/demo/web_demo.py。</a></p>
+<p>安装脚本所需要的依赖，前面已经安装过<code>transformers torch accelerate</code>这三个库了，这里只需要安装<code>gradio</code>即可。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# pip install gradio</span><br></pre></td></tr></table></figure>
+<p>运行脚本，<code>-- server-name 0.0.0.0</code>允许所有地址进行访问，<code>--checkpoint-path /root/Qwen2-0.5B-Instruct</code>指定模型文件所在目录。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# python3 web_demo.py --server-name 0.0.0.0 --checkpoint-path /root/Qwen2-0.5B-Instruct</span><br></pre></td></tr></table></figure>
+<p>使用公网地址加上8000端口打开网页查看。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-hugging-face-models/image-20240705150306891.png" alt="img"></p>
+<h2 id="五、文档链接"><a href="#五、文档链接" class="headerlink" title="五、文档链接"></a>五、文档链接</h2><ul>
+<li>[1] 开源大模型排行榜：<a href="https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard?ref=liuqianglong.com">https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard</a></li>
+<li>[2] 大模型聊天竞技场： <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard?ref=liuqianglong.com">https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard</a></li>
+<li>[3] Qwen 的 Spaces 空间：<a href="https://huggingface.co/Qwen?ref=liuqianglong.com">https://huggingface.co/Qwen</a></li>
+<li>[4] Qwen2-72B-Instruct Spaces 空间：<a href="https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct?ref=liuqianglong.com">https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct</a></li>
+<li>[5] Qwen2-0.5B-Instruct 模型下载地址： <a href="https://huggingface.co/Qwen/Qwen2-0.5B-Instruct?ref=liuqianglong.com">https://huggingface.co/Qwen/Qwen2-0.5B-Instruct</a></li>
+<li>[6] Qwen2 网页demo代码 <a href="https://github.com/QwenLM/Qwen2/blob/main/examples/demo/web_demo.py?ref=liuqianglong.com">https://github.com/QwenLM/Qwen2/blob/main/examples/demo/web_demo.py</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Ollama结合Open-WebUI本地运行大模型</title>
+    <url>/posts/8a046b75.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Xinference本地运行大模型</title>
+    <url>/posts/92cb901f.html</url>
+    <content><![CDATA[<h1 id="Xinference-本地运行大模型"><a href="#Xinference-本地运行大模型" class="headerlink" title="Xinference 本地运行大模型"></a>Xinference 本地运行大模型</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/09/ai-xinference-local-model.png" alt="Xinference 本地运行大模型"></p>
+<p>本文介绍了如何使用 Docker 部署 Xinference 推理框架，并演示了如何启动和运行多种大模型，包括大语言模型、图像生成模型和多模态模型。还讲解了嵌入和重排模型的启动方法，为后续 Dify 调用嵌入和重排模型做为铺垫。</p>
+<h2 id="一、Xinference-简介"><a href="#一、Xinference-简介" class="headerlink" title="一、Xinference 简介"></a>一、Xinference 简介</h2><p>Xorbits Inference (Xinference) 是一个开源的分布式推理框架，专为大规模模型推理任务设计。它支持大语言模型（LLM）、多模态模型、语音识别模型等多种模型的推理。以下是 Xinference 的主要特点 [1]：</p>
+<ul>
+<li><strong>模型一键部署</strong>：极大简化了大语言模型、多模态模型和语音识别模型的部署过程。</li>
+<li><strong>内置前沿模型</strong>：支持一键下载并部署大量前沿开源模型，如 <code>Qwen2</code>、<code>chatglm2</code>、等。</li>
+<li><strong>异构硬件支持</strong>：可以利用 CPU 和 GPU 进行推理，提升集群吞吐量和降低延迟。</li>
+<li><strong>灵活的 API</strong>：提供包括 RPC 和 RESTful API 在内的多种接口，兼容 OpenAI 协议，方便与现有系统集成。</li>
+<li><strong>分布式架构</strong>：支持跨设备和跨服务器的分布式部署，允许高并发推理，并简化扩容和缩容操作。</li>
+<li><strong>第三方集成</strong>：与 LangChain 等流行库无缝对接，快速构建基于 AI 的应用程序。</li>
+</ul>
+<h2 id="二、Xinference-Docker-部署"><a href="#二、Xinference-Docker-部署" class="headerlink" title="二、Xinference Docker 部署"></a>二、Xinference Docker 部署</h2><p>docker镜像文件非常大，拉取文件需要耗费很长时间。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull xprobe/xinference</span><br></pre></td></tr></table></figure>
+<p>查看xinference docker镜像文件，目前大小为17.7GB。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker images</span><br><span class="line">REPOSITORY          TAG       IMAGE ID       CREATED         SIZE</span><br><span class="line">xprobe/xinference   latest    96b2be814b0f   2 days ago     17.6GB</span><br></pre></td></tr></table></figure>
+<p>创建一个目录，用与存放xinference缓存文件和日志文件。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir -p /xinference/data</span><br></pre></td></tr></table></figure>
+<p>启动容器。默认情况下，镜像中不包含任何模型文件，使用过程中会在容器内下载模型。如果需要使用已经下载好的模型，需要将宿主机的目录挂载到容器内。这种情况下，需要在运行容器时指定本地卷，并且为 Xinference 配置环境变量。</p>
+<ul>
+<li><strong>XINFERENCE_MODEL_SRC</strong>：配置模型下载仓库。默认下载源是 “huggingface”，也可以设置为 “modelscope” 作为下载源。</li>
+<li><strong>XINFERENCE_HOME</strong>：Xinference 默认使用 <code>&lt;HOME&gt;/.xinference</code> 作为默认目录来存储模型以及日志等必要的文件。其中 <code>&lt;HOME&gt;</code> 是当前用户的主目录。可以通过配置这个环境变量来修改默认目录。</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --name xinference \</span><br><span class="line">  -v /xinference/data/.xinference:/root/.xinference \</span><br><span class="line">  -v /xinference/data/.cache/huggingface:/root/.cache/huggingface \</span><br><span class="line">  -v /xinference/data/.cache/modelscope:/root/.cache/modelscope \</span><br><span class="line">  -v /xinference/log:/workspace/xinference/logs \</span><br><span class="line">  -e XINFERENCE_HOME=/xinference \</span><br><span class="line">  -p 9997:9997 \</span><br><span class="line">  --gpus all \</span><br><span class="line">  xprobe/xinference:latest \</span><br><span class="line">  xinference-local -H 0.0.0.0 --log-level debug</span><br></pre></td></tr></table></figure>
+<h2 id="三、Xinference-本地运行大模型"><a href="#三、Xinference-本地运行大模型" class="headerlink" title="三、Xinference 本地运行大模型"></a>三、Xinference 本地运行大模型</h2><p>容器启动后，访问公网地址加上9997端口，启动qwen2-instruct模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240705172918283.png" alt="image-20240705172918283"></p>
+<p>使用Xinference自带的图形化聊天界面。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240705172924372.png" alt="image-20240705172924372"></p>
+<p>聊天测试。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240705172928726.png" alt="image-20240705172928726"></p>
+<p>测试<strong>图片生成</strong>模型，启动<code>sd-trubo</code>图片生成模型，<strong>模型下载和启动的时间较长，需要多等待一会</strong>，运行大概需要12G GPU。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240705173006725.png" alt="image-20240705173006725"></p>
+<p>启动图形化聊天界面。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240708104954508.png" alt="image-20240708104954508"></p>
+<p>使用提示词<code>cartoon cloud</code>生成图片，设置分辨率为512<em>512，点击Generate生成图片。图片像素设置的越大，生成的时间越长，占用的GPU越多，设置1024 </em> 1024像素，大致需要占用6G GPU。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240708104917935.png" alt="image-20240708104917935"></p>
+<p>Xinference目前无法同时运行多个大模型，在运行新的模型之前，需要停止之前的模型。</p>
+<p>测试<strong>多模态</strong>模型，启动<code>qwen-vl-chat</code>视觉聊天模型，模型下载和启动也需要较长时间，模型需要20G GPU才能运行，所以至少需要<code>g5.xlarge</code>（24G GPU）才能运行，<code>g4dn.xlarge</code>（16G GPU）无法运行。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240829115013624.png" alt="image-20240829115013624"></p>
+<p>上传图片聊天测试。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240829114943971.png" alt="image-20240829114943971"></p>
+<h2 id="四、Xinference-启动嵌入和重排模型"><a href="#四、Xinference-启动嵌入和重排模型" class="headerlink" title="四、Xinference 启动嵌入和重排模型"></a>四、Xinference 启动嵌入和重排模型</h2><p>Xinference只能同时启动一个语音模型、图片模型、语音模型，但是可以同时启动多个嵌入模型、重排模型。</p>
+<p>这里使用的嵌入（embedding）模型是<code>bge-m3</code>，重排（reranker）模型是<code>bge-reranker-v2-m3</code>。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240708144807154.png" alt="image-20240708144807154"></p>
+<p>启动<code>bge-m3</code>嵌入模型，ollama后续可以调用这个模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240708132935817.png" alt="image-20240708132935817"></p>
+<p>模型正常启动，后续Dify可以调用此嵌入模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240708132940587.png" alt="image-20240708132940587"></p>
+<p>启动<code>bge-reranker-v2-m3</code>重排模型，ollama 后续可以调用这个模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240708132944835.png" alt="image-20240708132944835"></p>
+<p>模型正常启动，后续Dify可以调用此重排模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-xinference-local-model/image-20240708133009007.png" alt="image-20240708133009007"></p>
+<h2 id="五、文档链接"><a href="#五、文档链接" class="headerlink" title="五、文档链接"></a>五、文档链接</h2><ul>
+<li>[1] Xinference Github主页：<a href="https://github.com/xorbitsai/inference/blob/main/README_zh_CN.md?ref=liuqianglong.com">https://github.com/xorbitsai/inference/blob/main/README_zh_CN.md</a></li>
+<li>[2] Xinference 环境变量：<a href="https://inference.readthedocs.io/zh-cn/latest/getting_started/environments.html?ref=liuqianglong.com">https://inference.readthedocs.io/zh-cn/latest/getting_started/environments.html</a></li>
+<li>[3] Xinference Docker安装文档：<a href="https://inference.readthedocs.io/zh-cn/latest/getting_started/using_docker_image.html?ref=liuqianglong.com">https://inference.readthedocs.io/zh-cn/latest/getting_started/using_docker_image.html</a></li>
+<li>[4] 嵌入模型bge-m3：<a href="https://huggingface.co/BAAI/bge-m3?ref=liuqianglong.com">https://huggingface.co/BAAI/bge-m3</a></li>
+<li>[5] 重排模型bge-reranker-v2-m3：<a href="https://huggingface.co/BAAI/bge-reranker-v2-m3?ref=liuqianglong.com">https://huggingface.co/BAAI/bge-reranker-v2-m3</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>Ollama结合Open-WebUI本地运行大模型</title>
+    <url>/posts/8a046b75.html</url>
+    <content><![CDATA[<h1 id="Ollama-结合-Open-WebUI-本地运行大模型"><a href="#Ollama-结合-Open-WebUI-本地运行大模型" class="headerlink" title="Ollama 结合 Open-WebUI 本地运行大模型"></a>Ollama 结合 Open-WebUI 本地运行大模型</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/08/ollama-openwebui-llm.png" alt="Ollama 结合 Open-WebUI 本地运行大模型"></p>
+<p>本文介绍了如何使用 Ollama 在本地运行大型语言模型，以及利用 Open-WebUI 提供的图形化界面与大语言模型进行交互。</p>
+<h2 id="一、Ollama-简介"><a href="#一、Ollama-简介" class="headerlink" title="一、Ollama 简介"></a>一、Ollama 简介</h2><p>Ollama 是一个开源框架，专门设计用于在本地运行大型语言模型（LLM）。它的主要特点和功能如下：</p>
+<ul>
+<li><strong>简化部署</strong>：Ollama 旨在简化在 Docker 容器中部署 LLM 的过程，使得管理和运行这些模型变得更加容易。安装完成后，用户可以通过简单的命令行操作启动和运行大型语言模型。例如，要运行 Gemma 2B 模型，只需执行命令 <code>ollama run gemma:2b</code>。</li>
+<li><strong>捆绑模型组件</strong>：它将模型权重、配置和数据捆绑到一个包中，称为 Modelfile，这有助于优化设置和配置细节，包括 GPU 使用情况。</li>
+<li><strong>支持多种模型</strong>：Ollama 支持多种大型语言模型，如 Llama 2、Code Llama、Mistral、Gemma 等，并允许用户根据特定需求定制和创建自己的模型。</li>
+<li><strong>跨平台支持</strong>：支持 Windows、macOS 和 Linux 平台。安装过程简单，用户只需访问 Ollama 的官方网站下载相应平台的安装包即可。</li>
+</ul>
+<h2 id="二、Docker安装-Ollama"><a href="#二、Docker安装-Ollama" class="headerlink" title="二、Docker安装 Ollama"></a>二、Docker安装 Ollama</h2><p>选择Deep Learning类型的AMI，这个类型的AMI已经预先安装了英伟达的驱动。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705135706563.png" alt="img"></p>
+<p>选择<code>g4dn.xlarge</code>类型实例，带有1个NVIDA T4显卡，共有16GB GPU，这是带有英伟达显卡最便宜的实例。这个AMI已经预装了docker包，如果没有安装的Ubuntu系列系统，可以通过下面命令安装。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt update -y</span><br><span class="line">apt install docker -y</span><br><span class="line">systemctl start docker</span><br></pre></td></tr></table></figure>
+<p>拉取ollama docker镜像（依赖网速，2-3分钟左右）</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull ollama/ollama</span><br></pre></td></tr></table></figure>
+<p>查看镜像文件，镜像大概2GB左右。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">~# </span><span class="language-bash">docker images</span></span><br><span class="line">REPOSITORY      TAG       IMAGE ID       CREATED        SIZE</span><br><span class="line">ollama/ollama   latest    d5cbea22fd07   30 hours ago   1.98GB</span><br></pre></td></tr></table></figure>
+<p>根据Docker Hub ollama主页 <a href="https://hub.docker.com/r/ollama/ollama?ref=liuqianglong.com">https://hub.docker.com/r/ollama/ollama</a> [1]，快速启动容器，注意，<strong>这里没有添加GPU参数，是通过<code>CPU</code>加载启动的</strong>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">~# </span><span class="language-bash">docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama</span></span><br></pre></td></tr></table></figure>
+<p>查看容器状态。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker ps</span><br><span class="line">CONTAINER ID   IMAGE           COMMAND               CREATED         STATUS         PORTS                                           NAMES</span><br><span class="line">e43072764685   ollama/ollama   &quot;/bin/ollama serve&quot;   6 seconds ago   Up 5 seconds   0.0.0.0:11434-&gt;11434/tcp, :::11434-&gt;11434/tcp   ollama</span><br></pre></td></tr></table></figure>
+<p>在docker容器内运行模型（1分钟左右拉起来）。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker exec -it ollama bash</span><br><span class="line"></span><br><span class="line">root@e43072764685:/# ollama run qwen2:0.5b</span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">&gt;&gt; 你叫什么？</span></span><br><span class="line">我叫通义千问。</span><br></pre></td></tr></table></figure>
+<p>新开一个SSH窗口，在模型回答问题时，查看通过<code>top</code>命令，查看CPU使用率，可以看到CPU已经满负荷运行了，正在使用CPU进行推理。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">top - 08:41:19 up  5:14,  4 users,  load average: 0.32, 0.25, 0.13</span><br><span class="line">Tasks: 161 total,   3 running, 158 sleeping,   0 stopped,   0 zombie</span><br><span class="line"><span class="meta prompt_">%</span><span class="language-bash">Cpu(s): 31.9 us,  0.2 sy,  0.0 ni, 67.9 <span class="built_in">id</span>,  0.0 wa,  0.0 hi,  0.0 si,  0.1 st</span></span><br><span class="line">MiB Mem :  15779.1 total,   1575.5 free,    518.2 used,  13685.4 buff/cache</span><br><span class="line">MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14806.4 avail Mem</span><br><span class="line"></span><br><span class="line">    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND</span><br><span class="line">   7080 root      20   0 1067764 442088 344752 R 123.3   2.7   0:17.46 ollama_llama_se</span><br><span class="line">   7006 root      20   0 2365904 400032 389632 S   1.0   2.5   0:13.81 ollama</span><br><span class="line">   6986 root      20   0 1238716  13636   9856 S   0.7   0.1   0:00.23 containerd-shim</span><br></pre></td></tr></table></figure>
+<p>通过<code>ollama list</code>命令，查看下载的所有模型。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@e43072764685:/# ollama list</span><br><span class="line">NAME            ID              SIZE    MODIFIED</span><br><span class="line">qwen2:0.5b      6f48b936a09f    352 MB  About a minute ago</span><br></pre></td></tr></table></figure>
+<p>在模型回答问题时，通过<code>nvidia-smi</code>命令查看GPU使用情况，通过CPU进行推理时，看到并没有暂用GPU资源。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# nvidia-smi</span><br><span class="line">Fri Jul  5 08:41:38 2024</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |</span><br><span class="line">|-----------------------------------------+----------------------+----------------------+</span><br><span class="line">| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |</span><br><span class="line">| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |</span><br><span class="line">|                                         |                      |               MIG M. |</span><br><span class="line">|=========================================+======================+======================|</span><br><span class="line">|   0  Tesla T4                       On  | 00000000:00:1E.0 Off |                    0 |</span><br><span class="line">| N/A   33C    P8               9W /  70W |      2MiB / 15360MiB |      0%      Default |</span><br><span class="line">|                                         |                      |                  N/A |</span><br><span class="line">+-----------------------------------------+----------------------+----------------------+</span><br><span class="line"></span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| Processes:                                                                            |</span><br><span class="line">|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |</span><br><span class="line">|        ID   ID                                                             Usage      |</span><br><span class="line">|=======================================================================================|</span><br><span class="line">|  No running processes found                                                           |</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br></pre></td></tr></table></figure>
+<p>删除容器。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~#  docker rm -f ollama</span><br><span class="line">ollama</span><br></pre></td></tr></table></figure>
+<p>重启启动ollama容器，通过<strong>GPU</strong>启动。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama</span><br><span class="line">b094349fc98c8dee31640485ed88ecef38202e33baadcbb9d503ecc1055ac974</span><br></pre></td></tr></table></figure>
+<p><strong>Ollama 环境变量</strong></p>
+<p>通过下面命令，ollama可以加载环境变量，可以根据实际需求决定是否添加对应的环境变量。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama --restart always -e OLLAMA_KEEP_ALIVE=-1 ollama/ollama</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>ollama常用环境变量：</p>
+<ul>
+<li>OLLAMA_KEEP_ALIVE=-1，模型加载后，默认的Keepalive是5分钟，修改为-1可以让模型持续启动，OLLAMA_KEEP_ALIVE=60 表示 60 秒，OLLAMA_KEEP_ALIVE=10m 表示10分钟。<a href="https://github.com/ollama/ollama/pull/3094?ref=liuqianglong.com">https://github.com/ollama/ollama/pull/3094</a></li>
+<li>OLLAMA_ORIGINS=*，跨域访问环境变量，可以用与沉浸式翻译。</li>
+</ul>
+</blockquote>
+<p><strong>Ollama 升级</strong></p>
+<p>ollama升级过程参考，停止容器后，重新拉取容器启动即可。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker exec -it ollama bash</span><br><span class="line">root@3d1be8deba41:/# ollama -v</span><br><span class="line">ollama version is 0.1.40</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) root@ip-172-31-79-195:~# docker pull ollama/ollama</span><br><span class="line">Using default tag: latest</span><br><span class="line">latest: Pulling from ollama/ollama</span><br><span class="line">7646c8da3324: Pull complete</span><br><span class="line">d1060ab4fb75: Pull complete</span><br><span class="line">e58f7d737fbb: Pull complete</span><br><span class="line">Digest: sha256:4a3c5b5261f325580d7f4f6440e5094d807784f0513439dcabfda9c2bdf4191e</span><br><span class="line">Status: Downloaded newer image for ollama/ollama:latest</span><br><span class="line">docker.io/ollama/ollama:latest</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) root@ip-172-31-79-195:~# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 -e OLLAMA_ORIGINS=* --name ollama --restart always  ollama/ollama</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">root@46648320fcd4:/# ollama -v</span><br><span class="line">ollama version is 0.3.7</span><br></pre></td></tr></table></figure>
+<h2 id="三、Open-WebUI"><a href="#三、Open-WebUI" class="headerlink" title="三、Open-WebUI"></a>三、Open-WebUI</h2><p>OpenWebUI是一个可扩展、功能丰富且用户友好的自托管WebUI，它支持完全离线操作，并兼容Ollama和OpenAI的API。这为用户提供了一个可视化的界面，使得与大型语言模型的交互更加直观和便捷 [3]。</p>
+<p>从docker hub拉取open-webui镜像（文件1G左右，看网速，2-3分钟）</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull dyrnq/open-webui:main</span><br></pre></td></tr></table></figure>
+<p>注意，官方文档是从 GitHub Container Registry (GHCR) 上拉取镜像，而不是从 Docker Hub。官方文档拉取命令如下：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull ghcr.io/open-webui/open-webui:main</span><br></pre></td></tr></table></figure>
+<p>查看镜像</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker images</span><br><span class="line">REPOSITORY         TAG       IMAGE ID       CREATED         SIZE</span><br><span class="line">dyrnq/open-webui   main      8aa8279a3e25   10 hours ago   3.9GB</span><br><span class="line">ollama/ollama      latest    d5cbea22fd07   30 hours ago   1.98GB</span><br></pre></td></tr></table></figure>
+<p>启动docker镜像，映射出来3000端口。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always dyrnq/open-webui:main</span><br></pre></td></tr></table></figure>
+<p>查看EC2的公网IP地址。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# curl ifconfig.me</span><br><span class="line">54.243.6.37</span><br></pre></td></tr></table></figure>
+<p>访问Open WebUI。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165219856.png" alt="img"></p>
+<p>创建账号，这个是本地账号，随便添加账号信息即可。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165223559.png" alt="img"></p>
+<p>选择ollama中的模型，聊天测试。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165228399.png" alt="img"></p>
+<p>可以直接拉取目前ollama没有的模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165234184.png" alt="img"></p>
+<p>与下载的新模型进行对话。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240828110808614.png" alt="img"></p>
+<h2 id="四、文档链接"><a href="#四、文档链接" class="headerlink" title="四、文档链接"></a>四、文档链接</h2><ul>
+<li>[1] Dockerhub ollama镜像文件：<a href="https://hub.docker.com/r/ollama/ollama?ref=liuqianglong.com">https://hub.docker.com/r/ollama/ollama</a></li>
+<li>[2] ollama keepalive：<a href="https://github.com/ollama/ollama/pull/3094?ref=liuqianglong.com">https://github.com/ollama/ollama/pull/3094</a></li>
+<li>[3] Open WebUI Github：<a href="https://github.com/open-webui/open-webui?ref=liuqianglong.com">https://github.com/open-webui/open-webui</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>安装Dify并集成Ollama和Xinference</title>
+    <url>/posts/1126c401.html</url>
+    <content><![CDATA[<h1 id="安装-Dify-并集成-Ollama-和-Xinference"><a href="#安装-Dify-并集成-Ollama-和-Xinference" class="headerlink" title="安装 Dify 并集成 Ollama 和 Xinference"></a>安装 Dify 并集成 Ollama 和 Xinference</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/09/ai-dify-ollama-xinference.png" alt="安装 Dify 并集成 Ollama 和 Xinference"></p>
+<p>本文介绍了通过 Docker 安装 Dify，然后集成 Ollama 和 XInference，并利用 Dify 快速搭建一个基于知识库问答的应用。</p>
+<h2 id="一、Dify-简介"><a href="#一、Dify-简介" class="headerlink" title="一、Dify 简介"></a>一、Dify 简介</h2><p><strong>Dify</strong> 是一款开源的大语言模型（LLM）应用开发平台，旨在帮助开发者快速构建和部署生成式 AI 应用。以下是 Dify 的主要功能和特点 [1]：</p>
+<ul>
+<li><strong>融合 Backend as Service 和 LLMOps 理念</strong>：Dify 将后端即服务（Backend as Service）和 LLMOps 的理念结合，使开发者能够快速搭建生产级的生成式 AI 应用。</li>
+<li><strong>支持多种模型</strong>：Dify 支持数百种专有和开源的 LLM 模型，包括 GPT、Mistral、Llama3 等，能够无缝集成来自多家推理提供商和自托管解决方案的模型。</li>
+<li><strong>直观的 Prompt 编排界面</strong>：Dify 提供了一个直观的 Prompt IDE，用于编写提示、比较模型性能，并向基于聊天的应用程序添加语音转换等附加功能。</li>
+<li><strong>高质量的 RAG 引擎</strong>：Dify 拥有广泛的 RAG 功能，涵盖从文档摄取到检索的一切，并支持从 PDF、PPT 等常见文档格式中提取文本。</li>
+<li><strong>集成 Agent 框架</strong>：用户可以基于 LLM 函数调用或 ReAct 定义代理，并为代理添加预构建或自定义工具。Dify 提供了 50 多种内置工具，如 Google 搜索、DELL·E、Stable Diffusion 和 WolframAlpha。</li>
+<li><strong>灵活的流程编排</strong>：Dify 提供了一个强大的可视化画布，用于构建和测试强大的 AI 工作流，使开发者可以直观地设计和优化他们的 AI 流程。</li>
+<li><strong>全面的监控和分析工具</strong>：Dify 提供了监控和分析应用日志和性能的工具，开发者可以根据生产数据和注释不断改进提示、数据集和模型。</li>
+<li><strong>后端即服务</strong>：Dify 的所有功能都附带相应的 API，因此可以轻松将 Dify 集成到您自己的业务逻辑中。</li>
+</ul>
+<h2 id="二、Dify-安装"><a href="#二、Dify-安装" class="headerlink" title="二、Dify 安装"></a>二、Dify 安装</h2><p>拷贝 Dify Github代码到本地 [2]。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/langgenius/dify.git</span><br></pre></td></tr></table></figure>
+<p>Copy</p>
+<p>进入 dify 源代码的 docker 目录，拷贝环境变量。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd dify/docker</span><br><span class="line">cp .env.example .env</span><br></pre></td></tr></table></figure>
+<p>Copy</p>
+<p>通过docker compose安装应用。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker compose up -d</span><br></pre></td></tr></table></figure>
+<p>进入ollama容器，启动<code>qwen2:7b</code>模型。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-30-167:~/dify/docker# docker pull ollama/ollama</span><br><span class="line">root@ip-172-31-83-158:~/dify/docker# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama --restart always -e OLLAMA_KEEP_ALIVE=-1 ollama/ollama</span><br><span class="line">root@ip-172-31-83-158:~/dify/docker# docker exec -it ollama bash</span><br><span class="line">root@b094349fc98c:/# ollama run qwen2:7b</span><br></pre></td></tr></table></figure>
+<h2 id="三、Dify-添加Ollama模型问答"><a href="#三、Dify-添加Ollama模型问答" class="headerlink" title="三、Dify 添加Ollama模型问答"></a>三、Dify 添加Ollama模型问答</h2><p>通过EC2的公网IP地址加上80端口，登录Dify主页，创建管理账户。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831210619928.png" alt="image-20240831210619928"></p>
+<p>通过管理员账号登录。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831210856556.png" alt="image-20240831210856556"></p>
+<p>点击用户-设置。<img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240912155736438.png" alt="image-20240912155736438"></p>
+<p>添加Ollama模型。<img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831210928284.png" alt="image-20240831210928284"></p>
+<p>添加<code>qwen2:7b</code>模型，因为Ollama是在本机启动，所以设置URL为本地IP地址，端口为<code>114341</code>，</p>
+<blockquote>
+<p>qwen2-7b-instruct 利用YARN（一种增强模型长度外推的技术）支持 131,072 tokens上下文，为了保障正常使用和正常输出，建议API限定用户输入为 128,000 ，输出最大 6,144。[3]</p>
+</blockquote>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831210956971.png" alt="image-20240831210956971"></p>
+<p>点击 工作室-创建空白应用</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831211013899.png" alt="image-20240831211013899"></p>
+<p>创建“聊天助手”类型的应用，设置应用名称为<code>Qwen2-7B</code>，点击创建。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831211016746.png" alt="image-20240831211016746"></p>
+<p>为应用设置提示词”你是一个人工智能助手”，可以和<code>Qwen2:7B</code>进行对话测试，这里是和大模型本身进行对话，没有引入外部的知识库，后续会引入知识库比较回答的结果。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831211022033.png" alt="image-20240831211022033"></p>
+<h2 id="四、Dify-基于知识库问答"><a href="#四、Dify-基于知识库问答" class="headerlink" title="四、Dify 基于知识库问答"></a>四、Dify 基于知识库问答</h2><p>添加<code>Xorbits Inference</code>提供的模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831224623367.png" alt="image-20240708133836384"></p>
+<p>添加<code>Text Embedding</code>，即文本嵌入模型，模型的名称为<code>bge-m3</code>，服务器URL为<code>http://172.31.30.167:9997</code>（这里是本机的IP，也可以安装在其他机器，网络和端口可达即可），已经提前在本机上启动了XInference，并且启动了<code>bge-m3</code>模型（参考上一篇文章）。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831224701205.png" alt="image-20240831224701205"></p>
+<p>添加<code>Rerank</code>，即重排模型，模型的名称为<code>bge-reraker-v2-m3</code>，服务器URL为<code>http://172.31.30.167:9997</code>（这里是本机的IP，也可以安装在其他机器，网络和端口可达即可），已经提前在本机上启动了XInference，并且启动了<code>bge-reraker-v2-m3</code>模型（参考上一篇文章）。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831224932686.png" alt="image-20240831224932686"></p>
+<p>查看系统默认设置。<img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831225022229.png" alt="image-20240831225022229"></p>
+<p>点击“知识库”-“导入已有文本”-“上传文本文件”-选择《促进和规范数据跨境流动规定》的文档。<img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831225042306.png" alt="image-20240831225042306"></p>
+<p>导入成功后，设置文本检索方式，开启<code>Rerank</code>模型，选择<code>bge-reranker-v2-m3</code>模型，开启默认的<code>Score</code>阈值为0.5（即文本匹配度低于0.5分时，不会召回，不会添加到大模型的上下文中）。<img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831225141554.png" alt="image-20240831225141554"></p>
+<p>在之前的聊天应用中，添加上面创建的知识库，重新询问大模型相同的问题，可以看到模型结合知识库进行了回答。<img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831225356966.png" alt="image-20240831225356966"></p>
+<p>可以点击“Prompt日志”，查看日志文件，可以查看系统提示词，将匹配的知识库内容放在了<code>&lt;context&gt;&lt;/context&gt;</code>中。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831231810412.png" alt="image-20240831231810412"></p>
+<p>点击创建的知识库-点击“召回测试”，可以输入一段文本，用与匹配知识库中的文本，匹配到的文本有一个权重分数，上面设置过的阈值是0.5，即大于这个分数的才会显示为“召回段落”。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-dify-ollama-xinference/image-20240831231815155.png" alt="image-20240831231815155"></p>
+<h2 id="五、文档链接"><a href="#五、文档链接" class="headerlink" title="五、文档链接"></a>五、文档链接</h2><ul>
+<li>[1] Dify 官网：<a href="https://dify.ai/zh?ref=liuqianglong.com">https://dify.ai/zh</a></li>
+<li>[2] Dify Docker Compose 部署：<a href="https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose?ref=liuqianglong.com">https://docs.dify.ai/v/zh-hans/getting-started/install-self-hosted/docker-compose</a></li>
+<li>[3] Qwen Token限制：<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-qianwen-7b-14b-72b-api-detailes?ref=liuqianglong.com">https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-qianwen-7b-14b-72b-api-detailes</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>李沐交大讲座——大语言模型及个人成长分享</title>
+    <url>/posts/990424a1.html</url>
+    <content><![CDATA[<h1 id="李沐交大讲座——大语言模型及个人成长分享"><a href="#李沐交大讲座——大语言模型及个人成长分享" class="headerlink" title="李沐交大讲座——大语言模型及个人成长分享"></a>李沐交大讲座——大语言模型及个人成长分享</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/10/limu-ai.png" alt="李沐交大讲座——大语言模型及个人成长分享"></p>
+<p>李沐在交大分享了关于大模型的实践经验和未来的预测，以及个人工作和成长的一些经验，感觉很有收货，摘录了一些重点，感兴趣可以看原视频。</p>
+<blockquote>
+<p><strong>李沐</strong>：BosonAI联合创始人，前亚马逊首席科学家，曾任AI创业公司Marianas Labs CTO、百度深度学习研究院主任研发架构师。</p>
+</blockquote>
+<h2 id="大语言模型的现在和的未来"><a href="#大语言模型的现在和的未来" class="headerlink" title="大语言模型的现在和的未来"></a>大语言模型的现在和的未来</h2><p><strong>语言模型的最核心的三个要素是算力、数据和算法</strong>：语言模型像炼丹，数据就像炼丹材料，算力就像炼丹炉等设备，算法就像丹方。以前的深度学习就像一个丹就治一个病，现在希望为丹注入灵魂，解决很多问题。</p>
+<p><strong>带宽</strong>：带宽是最难也是最重要的，大模型分布式训练需要通过光纤连接，光纤目前带宽在400G左右，会成为瓶颈，光纤传输延迟也需要考虑。现在的趋势是把GPU放到一起，距离足够近，英伟达的GB200就是这个思路。密集的GPU会带来电力和散热问题，散热需要使用水冷，水冷对基建有更高的要求。</p>
+<p><strong>内存</strong>：内存比算力更关键，大模型需要大量内存处理数据。当前单芯片内存约 192 GB，内存不够，模型就做不大，模型上限将依赖内存突破。</p>
+<p><strong>算力</strong></p>
+<ul>
+<li>算力提升主要依赖摩尔定律，随着工艺进步和浮点数精度降低（Int4、Int8），硬件效率提升。</li>
+<li>随着模型更大时，供电成为关键问题，自己做数据中心时，曾经计算自己造一个电厂的成本比付的电费成本要低。</li>
+<li>模型分为训练和推理阶段，英伟达在训练芯片上仍处于垄断地位，推理阶段别的芯片还可以。</li>
+<li>尽管推理芯片有替代品，英伟达在训练芯片上仍处于垄断地位。模型训练成本会随时间下降，因此大模型并非长期性价比最高的选择，企业需关注模型的长期价值而非规模。</li>
+</ul>
+<p><strong>训练数据：</strong> OpenAI 或别的开源模型，目前基本都是用10T~50T Token 做预训练。可能弄到更多数据，但是清洗之后可能还是回到这个数值，而且更多的数据不一定带来更好的提升。</p>
+<p><strong>模型尺寸</strong>：未来主流模型将在 100B-500B 参数，500B 以上模型可以训练，但是难以提供服务。保持在这个范围，MoE 虽可用于更大模型，但有效激活规模仍在 500B 左右。</p>
+<p><strong>各领域AI模型发展水平</strong></p>
+<ul>
+<li>语言模型：目前已经达到较高水平，约为80-85分。</li>
+<li>音频模型：已经达到可用水平，评分大约在70-80分之间。</li>
+<li>视频生成模型：尤其是生成具有特定功能的视频，还处于起步阶段，整体水平大约为50分。</li>
+</ul>
+<h2 id="AI-应用现在与挑战"><a href="#AI-应用现在与挑战" class="headerlink" title="AI 应用现在与挑战"></a>AI 应用现在与挑战</h2><p>在 AI 领域目前还没有出现 Killer APP（即短视频类似抖音的APP）。</p>
+<p><strong>三类AI 应用：</strong></p>
+<ul>
+<li>文科白领：AI 在个人助理、Call center、文本处理等领域表现良好，能完成 80-90% 的任务。</li>
+<li>工科白领：AI 可以自动化处理编程任务，如检索和修改代码，但无法完全取代程序员，尤其是复杂任务。</li>
+<li>蓝领阶级：自动驾驶进展较大，但其他蓝领任务（如端盘子、运货）因复杂的物理世界交互难以实现，需要更多数据和技术突破，可能还需 5 年左右。</li>
+</ul>
+<p><strong>垂直模型的误区</strong>：垂直模型是一个伪命题，没有真正的垂直模型，一个很垂直领域的模型，它的通用能力也是不能差的。比如说你要在某一个学科里面拿第一，你别的科目也不能差到哪里去。</p>
+<p><strong>模型评估与数据：</strong> 模型评估非常困难，用人评估比较贵，用模型评估会带来偏差。有一个好的评估可以解决 50% 的问题，解决了评估问题，就能够进行优化了，而且也拥有了一些数据。数据决定模型上限，想让模型在某一个方面做得特别好，需要先把相关数据准备好。</p>
+<p><strong>费用：</strong> 自建机房不一定比租 GPU 便宜太大，因为大头被英伟达吃掉了，它的利润是90%。我是从 Amazon 干了 7 年半才出来创业，但我其实不用 Amazon 服务，太贵了。我们都用小公司买来的，他们当年用来挖比特币的。:)</p>
+<h2 id="自我提升的方法"><a href="#自我提升的方法" class="headerlink" title="自我提升的方法"></a>自我提升的方法</h2><p><strong>大公司：</strong> 在大公司，你要解决问题是公司关心的问题。这一点很重要。大家一定要想清楚：我要在公司干什么，公司今年准备干什么，最好两者保持一致。如果干的事情是自己喜欢的，但不是公司追求的，这就会让人很难受。</p>
+<p><strong>从上级的角度反思自己</strong>：每周总结：你完成了哪些任务？哪些目标未达成？分析原因：是否因为懒惰、方向不对，还是其他因素？</p>
+<p><strong>直面问题</strong>：</p>
+<ul>
+<li><strong>懒惰</strong>：寻找解决方案，比如找学习伙伴进行相互监督，固定时间一起学习或工作。</li>
+<li>不擅长<ul>
+<li><strong>换方向</strong>：如果遇到自己不擅长的领域，考虑调整方向，选择更适合自己的领域。</li>
+<li><strong>加倍努力</strong>：如果无法避免短板，那就花两倍的时间和精力去攻克问题。</li>
+</ul>
+</li>
+</ul>
+<p><strong>对自己狠一点</strong>：自我提升最终比拼的是对自己有多狠，愿意承受多大的努力和坚持。</p>
+<p><strong>养成总结与规划的习惯</strong>：</p>
+<ul>
+<li><strong>每周总结</strong>：每周花30分钟回顾工作，分析不足，规划改进。</li>
+<li><strong>季度回顾</strong>：每季度反思是否实现了既定目标，并根据情况调整下一阶段的计划。</li>
+</ul>
+<p><strong>选择比努力更重要</strong>：做任何选择前，先明确自己的目标。只有目标清晰，才能做出正确的选择。</p>
+<p><strong>定期反思动机</strong>：每年或每五年，反思自己的动机和工作状态。如果过去的一年感觉不开心或没有进展，可能是动机不够强。若是因为时机不成熟，那就继续努力等待；如果是动机不对，及时调整方向。</p>
+<p><strong>讲座B站视频：</strong> <a href="https://www.bilibili.com/video/BV1dHWkewEWz/?vd_source=90d4eedee2acfff3367a55da193a86a0&amp;ref=liuqianglong.com">https://www.bilibili.com/video/BV1dHWkewEWz/?vd_source=90d4eedee2acfff3367a55da193a86a0</a></p>
 ]]></content>
   </entry>
 </search>
