@@ -249,6 +249,106 @@
       </tags>
   </entry>
   <entry>
+    <title>注重实效的哲学程序员修炼之道第一章阅读心得</title>
+    <url>/posts/aaf337f2.html</url>
+    <content><![CDATA[<h1 id="注重实效的哲学——程序员修炼之道第一章阅读心得"><a href="#注重实效的哲学——程序员修炼之道第一章阅读心得" class="headerlink" title="注重实效的哲学——程序员修炼之道第一章阅读心得"></a>注重实效的哲学——程序员修炼之道第一章阅读心得</h1><blockquote>
+<p>强烈推荐这本书《程序员修炼之道——从小工到专家》 <a href="https://book.douban.com/subject/5387402/">https://book.douban.com/subject/5387402/</a></p>
+</blockquote>
+<h2 id="注重实效的程序员的特征"><a href="#注重实效的程序员的特征" class="headerlink" title="注重实效的程序员的特征"></a>注重实效的程序员的特征</h2><p>他们处理问题、寻求解决方案时的态度、风格、哲学。</p>
+<ol>
+<li><strong>能越出直接问题去思考更深层次的东西</strong>。总是设法把问题放到更大的语境中，设法注意更大的图景，以最小代价达到最佳效果。</li>
+<li><strong>项目代码的维护，对自己的代码负责，将项目代码保持整洁优雅</strong>。</li>
+<li><strong>善于发现变化、接受变化、自我改变</strong>。能克服惰性，在改变中，提高效率，自我提升。</li>
+<li><strong>注重积累自己的知识资产</strong>。定期读好书、学新知识、温故总结。</li>
+<li><strong>更好的和他人交流</strong>。工作生活中我们会有快一半的时间用于交流，我们应该在交流中学习，提高交流的效率，在交流中收获良师益友。</li>
+</ol>
+<p>以上我从书中总结的五点非常重要，下面会结合实际情况详细分析、并找到如何做的方案。</p>
+<p>以及个人认为时间的规划也很重要，长期安排和短期安排都很重要，附 Geek 工作效率图</p>
+<h2 id="项目代码的维护"><a href="#项目代码的维护" class="headerlink" title="项目代码的维护"></a>项目代码的维护</h2><blockquote>
+<p>在所有弱点中。最大的弱点就是害怕暴露弱点。</p>
+</blockquote>
+<h3 id="软件的熵"><a href="#软件的熵" class="headerlink" title="软件的熵"></a>软件的熵</h3><p>当软件在无序增长时，也就是熵增加，软件趋向于腐烂。</p>
+<p>但是显而易见的，有两种项目：一种随着开发，软件的熵越来越高，有着指数般的成长趋势，项目逐渐腐烂；而另一种，随着开发，软件的熵得到了很好的控制，线性般的成长趋势，甚至就好像有一个上限值一样，成长趋势越来越慢，几乎停下来。</p>
+<p>那么是什么造成了这样的差异呢？</p>
+<h3 id="破窗理论"><a href="#破窗理论" class="headerlink" title="破窗理论"></a>破窗理论</h3><blockquote>
+<p>在市区，有些建筑漂亮整洁，而另一些却是破败不堪堆满垃圾。根据研究者调查发现了一种触发机制，一种很快能将整洁、完整的建筑变为破败的废弃物的机制。</p>
+<p>破窗户</p>
+<p>一扇破窗户，只要有那么一段时间不修理，就会给建筑的居民带来<strong>废弃感</strong>。很快有一扇窗户破了，人们开始乱扔垃圾、乱涂乱画，严重的结构损坏开始了，这个时候废弃感成为了现实，每个人都感受得到。</p>
+<p>破窗理论启发了纽约和各大城市的警察部门，他们对一些轻微的按键严加处理，以防止大案的发生，这非常奏效。</p>
+</blockquote>
+<p>所以我们不要留着破窗户（低劣的设计、错误的决策、糟糕的代码）不修，发现一个就应该修一个。</p>
+<blockquote>
+<p>我们看到过整洁、运行良好的系统，一旦窗户开始破裂，就相当迅速的恶化。</p>
+<p>如果你发现自己在有好些破窗户的项目里工作，会很容易产生这样的想法：“这些代码的其余部分也是垃圾，我只要照着做就行了。”项目在这之前是否一致很好，并没有任何关系。比如一辆飞起的轿车放了一星期，无人理睬，而一旦有一扇窗户被打破，数小时车上的设备就会被抢夺一空。</p>
+<p>同样的道理，如果你发现你所在的团队和项目的代码十分漂亮——编写整洁、涉及良好并且很优雅——你就很可能会格外注意不去把它弄脏，因为你不会想成为第一个弄脏东西的人。</p>
+</blockquote>
+<p>所以修复破窗非常非常重要，见到一个就立马修复它。</p>
+<h2 id="足够好的软件"><a href="#足够好的软件" class="headerlink" title="足够好的软件"></a>足够好的软件</h2><ol>
+<li>让用户参与权衡</li>
+<li>知道何时止步（编程就像画画，不要过度修饰和过于求精）</li>
+</ol>
+<h2 id="变化"><a href="#变化" class="headerlink" title="变化"></a>变化</h2><p>温水煮青蛙的事常常发生在我们生活中，随着时间的推移，任何事都会有变化，假如我们不去发现变化、并做出改变来应对，我们其实就和青蛙没有什么区别。</p>
+<ol>
+<li>我们要克服惰性，做变化的催化剂，用一些改变的成果(demo)给团队惊喜，和团队宣传变化后的大图景（new future），团结团队迎接变化。</li>
+<li>变化更是挑战，正面迎战挑战，可以获得提高效率、提升自我的成果。</li>
+</ol>
+<h2 id="注重积累自己的知识资产"><a href="#注重积累自己的知识资产" class="headerlink" title="注重积累自己的知识资产"></a>注重积累自己的知识资产</h2><h3 id="经营管理知识资产"><a href="#经营管理知识资产" class="headerlink" title="经营管理知识资产"></a>经营管理知识资产</h3><blockquote>
+<p>知识是有时效性的资产</p>
+</blockquote>
+<p>就好比一百多年前最厉害的武器 火枪大炮，在如今早已被AK、导弹所替代，更何况在当今这个每过十年都会有翻天覆地变化的时代，旧知识的价值的降低速度非常之快。</p>
+<p>所以我们应该善于经营管理自己的知识资产，我认为更重要的是</p>
+<ol>
+<li>新知识和旧知识并不矛盾，应该携手共进，知识是相通的。</li>
+<li>培养核心学习能力。学习知识的核心，而不是只学习知识的 形。</li>
+<li>培养学习习惯、终身学习。</li>
+</ol>
+<p>书中的观点：</p>
+<ol>
+<li>定期投资</li>
+<li>多元化</li>
+<li>管理风险；低买高卖。</li>
+</ol>
+<p>最重要的是，<strong>定期为你的知识资产投资</strong></p>
+<h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>制定目标并执行是一个非常好的定期投资方式。</p>
+<p>书中举例的目标：</p>
+<ol>
+<li>每年至少学一种新的语言</li>
+<li>每季度阅读一本技术书籍，也要阅读非技术书籍</li>
+<li>学习新的思想</li>
+<li>跟上技术潮流，</li>
+<li>试用不同的环境、工具。</li>
+</ol>
+<p>我的目标：</p>
+<ol>
+<li>跟进社区技术发展，关注社区文章、动态</li>
+<li>写一篇技术文章</li>
+<li>看一本技术书籍</li>
+<li>做一次技术分享</li>
+<li>在技术上，给自己以新的领域的挑战</li>
+</ol>
+<h2 id="高效的获取知识"><a href="#高效的获取知识" class="headerlink" title="高效的获取知识"></a>高效的获取知识</h2><h3 id="学习机会"><a href="#学习机会" class="headerlink" title="学习机会"></a>学习机会</h3><ol>
+<li>解决问题</li>
+<li>和厉害的人一起交流自己解决不了的问题</li>
+<li>让自己无聊的时候（排队、坐车）有东西可以学，强烈推荐 pocket</li>
+</ol>
+<h3 id="谷歌、问问题"><a href="#谷歌、问问题" class="headerlink" title="谷歌、问问题"></a>谷歌、问问题</h3><ol>
+<li>首先要明确自己的问题是什么</li>
+<li>精确地的描述问题</li>
+<li>锲而不舍、不断思考</li>
+</ol>
+<h2 id="高效的交流"><a href="#高效的交流" class="headerlink" title="高效的交流"></a>高效的交流</h2><ol>
+<li>知道你真正想要什么</li>
+<li>了解你的听众，知道他想听什么，能听懂什么</li>
+<li>选择好时机</li>
+<li>选择风格：简短？正式？随意？详细？</li>
+<li>让听众参与、做倾听者</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>感悟</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>让事情去发生</title>
     <url>/posts/b5babe99.html</url>
     <content><![CDATA[<h1 id="有关10000小时定律"><a href="#有关10000小时定律" class="headerlink" title="有关10000小时定律"></a>有关10000小时定律</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>知乎上看到了一篇有关10000小时定律的文章写得非常好，纠正了我们以前的客观认识，并且写的很深入，记记笔记。<br><a href="https://www.zhihu.com/question/21655527/answer/44515153">https://www.zhihu.com/question/21655527/answer/44515153</a></p>
@@ -356,106 +456,6 @@
 <p>而高手，更能看到事情的发展过程，</p>
 <p>以及采取某个方案，会对事情发展产生什么影响。</p>
 <p>让事情发生吧，我来做观众。</p>
-]]></content>
-      <tags>
-        <tag>感悟</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>注重实效的哲学程序员修炼之道第一章阅读心得</title>
-    <url>/posts/aaf337f2.html</url>
-    <content><![CDATA[<h1 id="注重实效的哲学——程序员修炼之道第一章阅读心得"><a href="#注重实效的哲学——程序员修炼之道第一章阅读心得" class="headerlink" title="注重实效的哲学——程序员修炼之道第一章阅读心得"></a>注重实效的哲学——程序员修炼之道第一章阅读心得</h1><blockquote>
-<p>强烈推荐这本书《程序员修炼之道——从小工到专家》 <a href="https://book.douban.com/subject/5387402/">https://book.douban.com/subject/5387402/</a></p>
-</blockquote>
-<h2 id="注重实效的程序员的特征"><a href="#注重实效的程序员的特征" class="headerlink" title="注重实效的程序员的特征"></a>注重实效的程序员的特征</h2><p>他们处理问题、寻求解决方案时的态度、风格、哲学。</p>
-<ol>
-<li><strong>能越出直接问题去思考更深层次的东西</strong>。总是设法把问题放到更大的语境中，设法注意更大的图景，以最小代价达到最佳效果。</li>
-<li><strong>项目代码的维护，对自己的代码负责，将项目代码保持整洁优雅</strong>。</li>
-<li><strong>善于发现变化、接受变化、自我改变</strong>。能克服惰性，在改变中，提高效率，自我提升。</li>
-<li><strong>注重积累自己的知识资产</strong>。定期读好书、学新知识、温故总结。</li>
-<li><strong>更好的和他人交流</strong>。工作生活中我们会有快一半的时间用于交流，我们应该在交流中学习，提高交流的效率，在交流中收获良师益友。</li>
-</ol>
-<p>以上我从书中总结的五点非常重要，下面会结合实际情况详细分析、并找到如何做的方案。</p>
-<p>以及个人认为时间的规划也很重要，长期安排和短期安排都很重要，附 Geek 工作效率图</p>
-<h2 id="项目代码的维护"><a href="#项目代码的维护" class="headerlink" title="项目代码的维护"></a>项目代码的维护</h2><blockquote>
-<p>在所有弱点中。最大的弱点就是害怕暴露弱点。</p>
-</blockquote>
-<h3 id="软件的熵"><a href="#软件的熵" class="headerlink" title="软件的熵"></a>软件的熵</h3><p>当软件在无序增长时，也就是熵增加，软件趋向于腐烂。</p>
-<p>但是显而易见的，有两种项目：一种随着开发，软件的熵越来越高，有着指数般的成长趋势，项目逐渐腐烂；而另一种，随着开发，软件的熵得到了很好的控制，线性般的成长趋势，甚至就好像有一个上限值一样，成长趋势越来越慢，几乎停下来。</p>
-<p>那么是什么造成了这样的差异呢？</p>
-<h3 id="破窗理论"><a href="#破窗理论" class="headerlink" title="破窗理论"></a>破窗理论</h3><blockquote>
-<p>在市区，有些建筑漂亮整洁，而另一些却是破败不堪堆满垃圾。根据研究者调查发现了一种触发机制，一种很快能将整洁、完整的建筑变为破败的废弃物的机制。</p>
-<p>破窗户</p>
-<p>一扇破窗户，只要有那么一段时间不修理，就会给建筑的居民带来<strong>废弃感</strong>。很快有一扇窗户破了，人们开始乱扔垃圾、乱涂乱画，严重的结构损坏开始了，这个时候废弃感成为了现实，每个人都感受得到。</p>
-<p>破窗理论启发了纽约和各大城市的警察部门，他们对一些轻微的按键严加处理，以防止大案的发生，这非常奏效。</p>
-</blockquote>
-<p>所以我们不要留着破窗户（低劣的设计、错误的决策、糟糕的代码）不修，发现一个就应该修一个。</p>
-<blockquote>
-<p>我们看到过整洁、运行良好的系统，一旦窗户开始破裂，就相当迅速的恶化。</p>
-<p>如果你发现自己在有好些破窗户的项目里工作，会很容易产生这样的想法：“这些代码的其余部分也是垃圾，我只要照着做就行了。”项目在这之前是否一致很好，并没有任何关系。比如一辆飞起的轿车放了一星期，无人理睬，而一旦有一扇窗户被打破，数小时车上的设备就会被抢夺一空。</p>
-<p>同样的道理，如果你发现你所在的团队和项目的代码十分漂亮——编写整洁、涉及良好并且很优雅——你就很可能会格外注意不去把它弄脏，因为你不会想成为第一个弄脏东西的人。</p>
-</blockquote>
-<p>所以修复破窗非常非常重要，见到一个就立马修复它。</p>
-<h2 id="足够好的软件"><a href="#足够好的软件" class="headerlink" title="足够好的软件"></a>足够好的软件</h2><ol>
-<li>让用户参与权衡</li>
-<li>知道何时止步（编程就像画画，不要过度修饰和过于求精）</li>
-</ol>
-<h2 id="变化"><a href="#变化" class="headerlink" title="变化"></a>变化</h2><p>温水煮青蛙的事常常发生在我们生活中，随着时间的推移，任何事都会有变化，假如我们不去发现变化、并做出改变来应对，我们其实就和青蛙没有什么区别。</p>
-<ol>
-<li>我们要克服惰性，做变化的催化剂，用一些改变的成果(demo)给团队惊喜，和团队宣传变化后的大图景（new future），团结团队迎接变化。</li>
-<li>变化更是挑战，正面迎战挑战，可以获得提高效率、提升自我的成果。</li>
-</ol>
-<h2 id="注重积累自己的知识资产"><a href="#注重积累自己的知识资产" class="headerlink" title="注重积累自己的知识资产"></a>注重积累自己的知识资产</h2><h3 id="经营管理知识资产"><a href="#经营管理知识资产" class="headerlink" title="经营管理知识资产"></a>经营管理知识资产</h3><blockquote>
-<p>知识是有时效性的资产</p>
-</blockquote>
-<p>就好比一百多年前最厉害的武器 火枪大炮，在如今早已被AK、导弹所替代，更何况在当今这个每过十年都会有翻天覆地变化的时代，旧知识的价值的降低速度非常之快。</p>
-<p>所以我们应该善于经营管理自己的知识资产，我认为更重要的是</p>
-<ol>
-<li>新知识和旧知识并不矛盾，应该携手共进，知识是相通的。</li>
-<li>培养核心学习能力。学习知识的核心，而不是只学习知识的 形。</li>
-<li>培养学习习惯、终身学习。</li>
-</ol>
-<p>书中的观点：</p>
-<ol>
-<li>定期投资</li>
-<li>多元化</li>
-<li>管理风险；低买高卖。</li>
-</ol>
-<p>最重要的是，<strong>定期为你的知识资产投资</strong></p>
-<h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>制定目标并执行是一个非常好的定期投资方式。</p>
-<p>书中举例的目标：</p>
-<ol>
-<li>每年至少学一种新的语言</li>
-<li>每季度阅读一本技术书籍，也要阅读非技术书籍</li>
-<li>学习新的思想</li>
-<li>跟上技术潮流，</li>
-<li>试用不同的环境、工具。</li>
-</ol>
-<p>我的目标：</p>
-<ol>
-<li>跟进社区技术发展，关注社区文章、动态</li>
-<li>写一篇技术文章</li>
-<li>看一本技术书籍</li>
-<li>做一次技术分享</li>
-<li>在技术上，给自己以新的领域的挑战</li>
-</ol>
-<h2 id="高效的获取知识"><a href="#高效的获取知识" class="headerlink" title="高效的获取知识"></a>高效的获取知识</h2><h3 id="学习机会"><a href="#学习机会" class="headerlink" title="学习机会"></a>学习机会</h3><ol>
-<li>解决问题</li>
-<li>和厉害的人一起交流自己解决不了的问题</li>
-<li>让自己无聊的时候（排队、坐车）有东西可以学，强烈推荐 pocket</li>
-</ol>
-<h3 id="谷歌、问问题"><a href="#谷歌、问问题" class="headerlink" title="谷歌、问问题"></a>谷歌、问问题</h3><ol>
-<li>首先要明确自己的问题是什么</li>
-<li>精确地的描述问题</li>
-<li>锲而不舍、不断思考</li>
-</ol>
-<h2 id="高效的交流"><a href="#高效的交流" class="headerlink" title="高效的交流"></a>高效的交流</h2><ol>
-<li>知道你真正想要什么</li>
-<li>了解你的听众，知道他想听什么，能听懂什么</li>
-<li>选择好时机</li>
-<li>选择风格：简短？正式？随意？详细？</li>
-<li>让听众参与、做倾听者</li>
-</ol>
 ]]></content>
       <tags>
         <tag>感悟</tag>
@@ -1250,7 +1250,7 @@
   <entry>
     <title>Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程</title>
     <url>/posts/52d0ac0c.html</url>
-    <content><![CDATA[<h1 id="Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程"><a href="#Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程" class="headerlink" title="Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程"></a>Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程</h1><blockquote>
+    <content><![CDATA[<blockquote>
 <p><strong>作者</strong>：一位踩过无数坑的AI开发者<br><strong>适用人群</strong>：Linux初学者、深度学习入门者、AI项目部署工程师<br><strong>更新时间</strong>：2025年1月1日<br><strong>支持系统</strong>：Ubuntu 20.04/22.04/24.04（其他Linux发行版可参考）</p>
 </blockquote>
 <hr>
@@ -1364,7 +1364,7 @@
 <h2 id="硬件检测—识别你的NVIDIA显卡"><a href="#硬件检测—识别你的NVIDIA显卡" class="headerlink" title="硬件检测—识别你的NVIDIA显卡"></a>硬件检测—识别你的NVIDIA显卡</h2><p>在安装驱动之前，首先需要确认系统中是否装有NVIDIA显卡及其型号。</p>
 <h3 id="使用nvidia-smi命令"><a href="#使用nvidia-smi命令" class="headerlink" title="使用nvidia-smi命令"></a>使用<code>nvidia-smi</code>命令</h3><p>查看系统是否已经安装了NVIDIA驱动，<code>nvidia-smi</code> 是最直接的工具。它能提供详细的GPU信息，包括驱动版本、CUDA版本上限和GPU使用情况。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/b1bee6c17bf546cfaebadeddcf611c9f.png" alt="外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传"></p>
+<p><img src="https://img.xtaiyang.store/windows/b1bee6c17bf546cfaebadeddcf611c9f.png" alt="外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传"></p>
 <ul>
 <li>如果命令未找到，说明未安装驱动。</li>
 <li>如果报错 <code>NVIDIA-SMI has failed</code>，可能是驱动未正确加载或Secure Boot问题。</li>
@@ -1382,7 +1382,7 @@
 <li>PCI（Peripheral Component Interconnect）是一种计算机硬件的局部总线标准，用于连接计算机内部的高速设备，如显卡、声卡等。通过这个命令，可以获取系统中所有通过 PCI 总线连接的设备的详细信息。</li>
 </ul>
 <p><strong>示例</strong>:</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/409128d5a4fa4d77a4c211c8d3f63325.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/409128d5a4fa4d77a4c211c8d3f63325.png" alt="在这里插入图片描述"></p>
 <p><strong>输出</strong>:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">00:00.0 Host bridge: Intel Corporation Device 4650 (rev 05)</span><br><span class="line">00:01.0 PCI bridge: Intel Corporation Device 460d (rev 05)</span><br><span class="line">...</span><br><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1)</span><br><span class="line">01:00.1 Audio device: NVIDIA Corporation Device 2291 (rev a1)</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
 <div class="table-container">
@@ -1431,7 +1431,7 @@
 <li>用于快速查看系统中安装的显卡信息。</li>
 </ul>
 <p><strong>示例</strong>:</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/0c158ac526504483a2b2a54fb257d33a.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/0c158ac526504483a2b2a54fb257d33a.png" alt="在这里插入图片描述"></p>
 <p><strong>输出</strong>:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1)</span><br></pre></td></tr></table></figure>
 <div class="table-container">
@@ -1475,7 +1475,7 @@
 <li>用于查看显卡的更多技术细节，如内存地址、驱动程序等</li>
 </ul>
 <p><strong>示例</strong>:</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/970edba9e6cb41b98be58fe9a51a8eb7.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/970edba9e6cb41b98be58fe9a51a8eb7.png" alt="在这里插入图片描述"></p>
 <p><strong>输出</strong>:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1) (prog-if 00 [VGA controller])</span><br><span class="line">        Subsystem: Gigabyte Technology Co., Ltd Device 4134</span><br><span class="line">        Flags: bus master, fast devsel, latency 0, IRQ 141</span><br><span class="line">        Memory at 53000000 (32-bit, non-prefetchable) [size=16M]</span><br><span class="line">        Memory at 40000000 (64-bit, prefetchable) [size=256M]</span><br><span class="line">        Memory at 50000000 (64-bit, prefetchable) [size=32M]</span><br><span class="line">        I/O ports at 5000 [size=128]</span><br><span class="line">        Expansion ROM at 54000000 [disabled] [size=512K]</span><br><span class="line">        Capabilities: &lt;access denied&gt;</span><br><span class="line">        Kernel driver <span class="keyword">in</span> use: nouveau</span><br><span class="line">        Kernel modules: nvidiafb, nouveau</span><br></pre></td></tr></table></figure>
 <div class="table-container">
@@ -1525,7 +1525,7 @@
 <li>用于查看系统中所有 NVIDIA 设备（包括显卡和音频设备）。</li>
 </ul>
 <p><strong>示例</strong>:</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/b6e9a0f91dfc4326b2e719caed151ab6.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/b6e9a0f91dfc4326b2e719caed151ab6.png" alt="在这里插入图片描述"></p>
 <p><strong>输出</strong>:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1)</span><br><span class="line">01:00.1 Audio device: NVIDIA Corporation Device 2291 (rev a1)</span><br></pre></td></tr></table></figure>
 <div class="table-container">
@@ -1575,7 +1575,7 @@
 </li>
 </ul>
 <p><strong>示例</strong>:</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/4569ebca94bd4165ae0bcb65215cccd3.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/4569ebca94bd4165ae0bcb65215cccd3.png" alt="在这里插入图片描述"></p>
 <p><strong>输出</strong>:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller [0300]: NVIDIA Corporation Device [10de:2584] (rev a1) (prog-if 00 [VGA controller])</span><br><span class="line">        Subsystem: Gigabyte Technology Co., Ltd Device [1458:4134]</span><br><span class="line">        ...</span><br></pre></td></tr></table></figure>
 <div class="table-container">
@@ -1641,7 +1641,7 @@
 </div>
 <h3 id="使用GPU监控工具"><a href="#使用GPU监控工具" class="headerlink" title="使用GPU监控工具"></a>使用GPU监控工具</h3><h4 id="安装intel-gpu-tools"><a href="#安装intel-gpu-tools" class="headerlink" title="安装intel-gpu-tools"></a>安装intel-gpu-tools</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install intel-gpu-tools</span><br></pre></td></tr></table></figure>
 <h4 id="查看GPU信息"><a href="#查看GPU信息" class="headerlink" title="查看GPU信息"></a>查看GPU信息</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">lsgpu</span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/a0392559570b4bcd927a6b1dce02b3f1.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/a0392559570b4bcd927a6b1dce02b3f1.png" alt="在这里插入图片描述"></p>
 <ol>
 <li>第一部分 (<code>sys:/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/drm/card0</code>):</li>
 </ol>
@@ -1700,12 +1700,12 @@
 <li><a href="https://admin.pci-ids.ucw.cz/read/PC">The PCI ID Repository</a></li>
 </ol>
 <blockquote>
-<p>这是最常用的 PCI ID 查询网站<br><img src="https://i-blog.csdnimg.cn/direct/ff1d577cba2d4396a1eb9dd0be954f9e.gif" alt="在这里插入图片描述"></p>
+<p>这是最常用的 PCI ID 查询网站<br><img src="https://img.xtaiyang.store/windows/ff1d577cba2d4396a1eb9dd0be954f9e.gif" alt="在这里插入图片描述"></p>
 </blockquote>
 <ol>
-<li><p><a href="https://pcilookup.com/">PCI Lookup</a><br><img src="https://i-blog.csdnimg.cn/direct/06ecfdac84d6498ca4f6372c5e1e06e6.gif" alt="在这里插入图片描述"></p>
+<li><p><a href="https://pcilookup.com/">PCI Lookup</a><br><img src="https://img.xtaiyang.store/windows/06ecfdac84d6498ca4f6372c5e1e06e6.gif" alt="在这里插入图片描述"></p>
 </li>
-<li><p><a href="https://www.techpowerup.com/gpu-specs/">TechPowerUp GPU Database</a><br><img src="https://i-blog.csdnimg.cn/direct/4e492a8edd8245c1a5003e9a373bd329.png" alt="在这里插入图片描述"></p>
+<li><p><a href="https://www.techpowerup.com/gpu-specs/">TechPowerUp GPU Database</a><br><img src="https://img.xtaiyang.store/windows/4e492a8edd8245c1a5003e9a373bd329.png" alt="在这里插入图片描述"></p>
 </li>
 </ol>
 <p>这些数据库会定期更新以包含新发布的硬件设备信息。由于有些新设备可能还未被收录，建议查询多个来源进行交叉验证。</p>
@@ -1714,9 +1714,9 @@
 </blockquote>
 <p><a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X">CPU-X</a>可以提供包括处理器、主板、内存、系统、显卡、性能等完整的硬件信息。</p>
 <h4 id="安装CPU-X"><a href="#安装CPU-X" class="headerlink" title="安装CPU-X"></a>安装CPU-X</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install cpu-x</span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/a15096993f314de6b30ba02e757ea4fd.png" alt="在这里插入图片描述"><br>安装成功后<br><img src="https://i-blog.csdnimg.cn/direct/61cd4fb95c4a4498aa4d8d8d4661df66.png" alt="在这里插入图片描述"><br>双击输入密码启动<br><img src="https://i-blog.csdnimg.cn/direct/a611d400cba048678ba5f32c2f6102a5.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/a9f44f6f8d9a4299ab31e6bad25bbcb1.png" alt="在这里插入图片描述"></p>
-<p>也可以通过命令行控制启动（支持多种方式显示）<br><img src="https://i-blog.csdnimg.cn/direct/05dec04f28d84260a7b87022ea90a89f.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/a15096993f314de6b30ba02e757ea4fd.png" alt="在这里插入图片描述"><br>安装成功后<br><img src="https://img.xtaiyang.store/windows/61cd4fb95c4a4498aa4d8d8d4661df66.png" alt="在这里插入图片描述"><br>双击输入密码启动<br><img src="https://img.xtaiyang.store/windows/a611d400cba048678ba5f32c2f6102a5.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/a9f44f6f8d9a4299ab31e6bad25bbcb1.png" alt="在这里插入图片描述"></p>
+<p>也可以通过命令行控制启动（支持多种方式显示）<br><img src="https://img.xtaiyang.store/windows/05dec04f28d84260a7b87022ea90a89f.png" alt="在这里插入图片描述"></p>
 <h3 id="更多显卡信息获取方式"><a href="#更多显卡信息获取方式" class="headerlink" title="更多显卡信息获取方式"></a>更多显卡信息获取方式</h3><p>为了获取更详细或针对特定品牌显卡的实时信息，可以使用以下专用命令：</p>
 <ul>
 <li><p><strong>NVIDIA GPU:</strong></p>
@@ -1759,7 +1759,7 @@
 <li>点击”Apply Changes”（应用更改）以安装驱动</li>
 <li>重启系统</li>
 </ol>
-<p><img src="https://i-blog.csdnimg.cn/direct/24749a3e12324a398b1c76f60d5e5d2b.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/24749a3e12324a398b1c76f60d5e5d2b.png" alt="在这里插入图片描述"></p>
 <p><strong>驱动选项说明</strong>：</p>
 <blockquote>
 <p>默认选择第一个选项<code>安装</code>即可</p>
@@ -1813,11 +1813,11 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sudo bash -c &quot;echo &#x27;blacklist nouveau&#x27; &gt;&gt; /etc/modprobe.d/blacklist-nouveau.conf&quot;</span></span><br><span class="line"><span class="comment"># sudo bash -c &quot;echo &#x27;options nouveau modeset=0&#x27; &gt;&gt; /etc/modprobe.d/blacklist-nouveau.conf&quot;</span></span><br><span class="line">echo <span class="string">&quot;blacklist nouveau&quot;</span> | sudo tee /etc/modprobe.d/blacklist-nouveau.conf</span><br><span class="line">echo <span class="string">&quot;options nouveau modeset=0&quot;</span> | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf</span><br><span class="line">sudo update-initramfs -u</span><br><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
 <p>重启后，通过 <code>lsmod | grep nouveau</code> 确认Nouveau已被禁用（应无任何输出）</p>
 <h4 id="1-下载官方驱动"><a href="#1-下载官方驱动" class="headerlink" title="1. 下载官方驱动"></a>1. 下载官方驱动</h4><p>访问<a href="https://www.nvidia.cn/Download/index.aspx?lang=cn#">NVIDIA驱动下载官网</a>，根据你的显卡型号和操作系统选择并下载最新的驱动安装包（一个 <code>.run</code> 文件）</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/b42cd8aca17a457a9afe752a0d6493d9.png" alt="在这里插入图片描述"></p>
-<p>点击查找后，跳转到驱动主页<br><img src="https://i-blog.csdnimg.cn/direct/db704377f62c473394543196e9e5c7fd.png" alt="在这里插入图片描述"><br>下载最新版推荐驱动<br><img src="https://i-blog.csdnimg.cn/direct/5f87ea04f7c84641903cfe00f39cc402.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/b42cd8aca17a457a9afe752a0d6493d9.png" alt="在这里插入图片描述"></p>
+<p>点击查找后，跳转到驱动主页<br><img src="https://img.xtaiyang.store/windows/db704377f62c473394543196e9e5c7fd.png" alt="在这里插入图片描述"><br>下载最新版推荐驱动<br><img src="https://img.xtaiyang.store/windows/5f87ea04f7c84641903cfe00f39cc402.png" alt="在这里插入图片描述"></p>
 <p>也可使用<code>wget</code>命令下载</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget https://us.download.nvidia.com/XFree86/Linux-x86_64/550.144.03/NVIDIA-Linux-x86_64-550.144.03.run</span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/93343a43de6c4d2bbe2b58186b23aae8.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/93343a43de6c4d2bbe2b58186b23aae8.png" alt="在这里插入图片描述"></p>
 <h4 id="2-安装编译依赖"><a href="#2-安装编译依赖" class="headerlink" title="2. 安装编译依赖"></a>2. 安装编译依赖</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install gcc make </span><br></pre></td></tr></table></figure>
 <p><strong>编译工具作用说明</strong>：</p>
 <div class="table-container">
@@ -1853,10 +1853,10 @@
 </tbody>
 </table>
 </div>
-<p><img src="https://i-blog.csdnimg.cn/direct/f20aa971025146d79d72fc7851654246.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/f20aa971025146d79d72fc7851654246.png" alt="在这里插入图片描述"></p>
 <h4 id="3-运行安装程序"><a href="#3-运行安装程序" class="headerlink" title="3. 运行安装程序"></a>3. 运行安装程序</h4><p>进入<code>.run</code>文件所在的目录，赋予其执行权限并运行</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x NVIDIA-Linux-x86_64-550.144.03.run  <span class="comment"># 修改权限</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/b1c3e1985ace4d3ebe95687080789be1.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/b1c3e1985ace4d3ebe95687080789be1.png" alt="在这里插入图片描述"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo ./NVIDIA-Linux-x86_64-550.144.03.run   # 安装驱动</span><br></pre></td></tr></table></figure>
 <ul>
 <li>安装可选参数<ul>
@@ -1866,32 +1866,32 @@
 </ul>
 </li>
 </ul>
-<h5 id="安装过程："><a href="#安装过程：" class="headerlink" title="安装过程："></a>安装过程：</h5><p><strong>选择“Continue installation”，回车</strong><br><img src="https://i-blog.csdnimg.cn/direct/eb614fd953f74ff99f0c7185e703d70e.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/f0e47f2419fc4293a6497a89abac8763.png" alt="在这里插入图片描述"><br><strong>禁用<code>nouveau</code>驱动</strong><br><img src="https://i-blog.csdnimg.cn/direct/c82250a1b5d24b998eabf1610e311449.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/cb9ddd7b63ed4acead219db5ef9cd44b.png" alt="在这里插入图片描述"><br><strong>NVIDIA 自动屏蔽 nouveau 驱动</strong><br><img src="https://i-blog.csdnimg.cn/direct/504ba222f81c45bfbd8138dc4e2526ed.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/46bd6d00949146eabb6b0f26a40046a1.png" alt="在这里插入图片描述"></p>
-<p><strong>下一步</strong><br><img src="https://i-blog.csdnimg.cn/direct/dfeeeccd0b85465e9ac33053b0d66299.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/91f1af9aa6ba4b61a56e506080a90ab7.png" alt="在这里插入图片描述"><br><strong>我这里选择终止安装（应该可以直接继续安装）</strong><br><img src="https://i-blog.csdnimg.cn/direct/1a71c294f6054d48a1d8d53b6e25e268.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/832c57d981154b9cadd2e5ea42357526.png" alt="在这里插入图片描述"><br><strong>重新构建</strong><br><img src="https://i-blog.csdnimg.cn/direct/46a2371b078b4cf0b85aaae62de62218.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/5a539ede1d1e4147a2eadcc60faa00d6.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/d232f3b194fa47988160d0cb9a846f17.png" alt="在这里插入图片描述"><br><strong>构建完成之后退出</strong><br><img src="https://i-blog.csdnimg.cn/direct/e752e13b3ddf40229915785864837251.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/6c0f0a78305e40c996999b34a3a5ec3c.png" alt="在这里插入图片描述"></p>
+<h5 id="安装过程："><a href="#安装过程：" class="headerlink" title="安装过程："></a>安装过程：</h5><p><strong>选择“Continue installation”，回车</strong><br><img src="https://img.xtaiyang.store/windows/eb614fd953f74ff99f0c7185e703d70e.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/f0e47f2419fc4293a6497a89abac8763.png" alt="在这里插入图片描述"><br><strong>禁用<code>nouveau</code>驱动</strong><br><img src="https://img.xtaiyang.store/windows/c82250a1b5d24b998eabf1610e311449.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/cb9ddd7b63ed4acead219db5ef9cd44b.png" alt="在这里插入图片描述"><br><strong>NVIDIA 自动屏蔽 nouveau 驱动</strong><br><img src="https://img.xtaiyang.store/windows/504ba222f81c45bfbd8138dc4e2526ed.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/46bd6d00949146eabb6b0f26a40046a1.png" alt="在这里插入图片描述"></p>
+<p><strong>下一步</strong><br><img src="https://img.xtaiyang.store/windows/dfeeeccd0b85465e9ac33053b0d66299.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/91f1af9aa6ba4b61a56e506080a90ab7.png" alt="在这里插入图片描述"><br><strong>我这里选择终止安装（应该可以直接继续安装）</strong><br><img src="https://img.xtaiyang.store/windows/1a71c294f6054d48a1d8d53b6e25e268.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/832c57d981154b9cadd2e5ea42357526.png" alt="在这里插入图片描述"><br><strong>重新构建</strong><br><img src="https://img.xtaiyang.store/windows/46a2371b078b4cf0b85aaae62de62218.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/5a539ede1d1e4147a2eadcc60faa00d6.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/d232f3b194fa47988160d0cb9a846f17.png" alt="在这里插入图片描述"><br><strong>构建完成之后退出</strong><br><img src="https://img.xtaiyang.store/windows/e752e13b3ddf40229915785864837251.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/6c0f0a78305e40c996999b34a3a5ec3c.png" alt="在这里插入图片描述"></p>
 <p><strong>重新执行安装命令，这次选择继续安装</strong></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/d69a6143f98f4ce9abf2af8af834e541.gif" alt="在这里插入图片描述"><br><strong>编译通过后，接着运行到下面这里，选择“Yes”</strong><br><img src="https://i-blog.csdnimg.cn/direct/891180835aff40b09a0678bdf89feba0.png" alt="在这里插入图片描述"><br><strong>点击确定</strong><br><img src="https://i-blog.csdnimg.cn/direct/21e5666f73f74ca8bd2e46d77b2b1f5e.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/f5e26bdf3b0d44a89c50a49c4da670b0.png" alt="在这里插入图片描述"><br><strong>选择不需要重新构建</strong><br><img src="https://i-blog.csdnimg.cn/direct/224384cf69ce4a3a832e66351b117b2f.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/8a5e8b14325b410798e9166f41fe6917.png" alt="在这里插入图片描述"><br><strong>选择no</strong><br><img src="https://i-blog.csdnimg.cn/direct/2ed4fcc539df4d54a262cd9ba0cd37ab.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/571a83e2dae247efa20e3c8fafc7bc8a.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/27ca2d1383e34eef8fcdd9e8f5283b1a.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/6f00c750164740ee8b31a4690639b9e7.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/e4a8b748b6774a47be4c8dc3f601d6ba.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/6b4530146bac499496488e978adfcfea.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/d69a6143f98f4ce9abf2af8af834e541.gif" alt="在这里插入图片描述"><br><strong>编译通过后，接着运行到下面这里，选择“Yes”</strong><br><img src="https://img.xtaiyang.store/windows/891180835aff40b09a0678bdf89feba0.png" alt="在这里插入图片描述"><br><strong>点击确定</strong><br><img src="https://img.xtaiyang.store/windows/21e5666f73f74ca8bd2e46d77b2b1f5e.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/f5e26bdf3b0d44a89c50a49c4da670b0.png" alt="在这里插入图片描述"><br><strong>选择不需要重新构建</strong><br><img src="https://img.xtaiyang.store/windows/224384cf69ce4a3a832e66351b117b2f.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/8a5e8b14325b410798e9166f41fe6917.png" alt="在这里插入图片描述"><br><strong>选择no</strong><br><img src="https://img.xtaiyang.store/windows/2ed4fcc539df4d54a262cd9ba0cd37ab.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/571a83e2dae247efa20e3c8fafc7bc8a.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/27ca2d1383e34eef8fcdd9e8f5283b1a.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/6f00c750164740ee8b31a4690639b9e7.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/e4a8b748b6774a47be4c8dc3f601d6ba.png" alt="在这里插入图片描述"><br><img src="https://img.xtaiyang.store/windows/6b4530146bac499496488e978adfcfea.png" alt="在这里插入图片描述"></p>
 <h5 id="安装完成："><a href="#安装完成：" class="headerlink" title="安装完成："></a>安装完成：</h5><p><strong><code>reboot</code>重启电脑，终端运行<code>nvidia-smi</code></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>nvidia-smi：这是 NVIDIA System Management Interface 的缩写，用于监控和管理 NVIDIA GPU 的状态。这个命令会显示 GPU 的型号、CUDA 版本等信息。如果一切正常，说明 NVIDIA 驱动和 CUDA 安装成功。<br><img src="https://i-blog.csdnimg.cn/direct/358910b9ce584fdd86cc371b412b5c6e.png" alt="在这里插入图片描述"><strong>注意：</strong>右上角显示的<strong>不是当前安装的CUDA 版本</strong>，显示的是显卡<strong>最高支持</strong>的 CUDA 版本为 12.4<br>如果需要安装更高版本的CUDA，需要更新NVIDIA显卡驱动版本</p>
+<p>nvidia-smi：这是 NVIDIA System Management Interface 的缩写，用于监控和管理 NVIDIA GPU 的状态。这个命令会显示 GPU 的型号、CUDA 版本等信息。如果一切正常，说明 NVIDIA 驱动和 CUDA 安装成功。<br><img src="https://img.xtaiyang.store/windows/358910b9ce584fdd86cc371b412b5c6e.png" alt="在这里插入图片描述"><strong>注意：</strong>右上角显示的<strong>不是当前安装的CUDA 版本</strong>，显示的是显卡<strong>最高支持</strong>的 CUDA 版本为 12.4<br>如果需要安装更高版本的CUDA，需要更新NVIDIA显卡驱动版本</p>
 </blockquote>
 <h5 id="实时监控GPU状态："><a href="#实时监控GPU状态：" class="headerlink" title="实时监控GPU状态："></a>实时监控GPU状态：</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 每5秒刷新一次</span></span><br><span class="line">nvidia-smi -l 5</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>直接在命令行中启动一个循环，每 5 秒刷新一次 GPU 状态，包括 GPU 的温度、使用率、内存使用情况、进程信息等，适用于简单的监控需求。<br>-l 5：这个选项指定了 -l（或 —loop）参数，表示每 5 秒刷新一次 GPU 的状态信息。</p>
 </blockquote>
-<p><img src="https://i-blog.csdnimg.cn/direct/773fa3c8e1de4e68a8423a8e52b8c410.gif" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/773fa3c8e1de4e68a8423a8e52b8c410.gif" alt="在这里插入图片描述"></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用watch命令</span></span><br><span class="line">watch -n 5 nvidia-smi</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>通过 watch 命令提供更丰富的交互性和持久性，每 5 秒执行一次 nvidia-smi，适合需要持续监控和更复杂交互的场景。<br>watch：这是一个在 Unix 和 Linux 系统中常用的命令，用于周期性地执行一个命令并显示其输出。相当于启动一个持续运行的进程，每 5 秒执行一次 nvidia-smi<br>-n 5：这个选项指定了每 5 秒执行一次 nvidia-smi 命令。</p>
 </blockquote>
-<p><img src="https://i-blog.csdnimg.cn/direct/fd1cabde2fd149a4846a04be2f26e659.gif" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/fd1cabde2fd149a4846a04be2f26e659.gif" alt="在这里插入图片描述"></p>
 <p><strong>安装过程注意事项</strong>：</p>
 <ul>
 <li>如果提示nouveau驱动冲突，选择自动禁用</li>
@@ -2120,9 +2120,9 @@
 </blockquote>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install nvidia-cuda-toolkit</span><br></pre></td></tr></table></figure>
 <h3 id="方法二：手动安装（推荐）"><a href="#方法二：手动安装（推荐）" class="headerlink" title="方法二：手动安装（推荐）"></a>方法二：手动安装（推荐）</h3><h4 id="1-下载CUDA-Toolkit"><a href="#1-下载CUDA-Toolkit" class="headerlink" title="1. 下载CUDA Toolkit"></a>1. 下载CUDA Toolkit</h4><p>访问<a href="https://developer.nvidia.com/cuda-downloads">NVIDIA CUDA下载官网</a>选择适合系统的CUDA版本，选择你的系统和安装方式。推荐使用 <code>runfile(local)</code>。</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/e210b93982184dbf9fd71e07f5a515a8.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/c217653e2bc04096a813ac53c788f2bf.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/f499f39232f84f33af8e03b6f578b607.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/e210b93982184dbf9fd71e07f5a515a8.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/c217653e2bc04096a813ac53c788f2bf.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/f499f39232f84f33af8e03b6f578b607.png" alt="在这里插入图片描述"></p>
 <p><strong>安装方式对比</strong>：</p>
 <div class="table-container">
 <table>
@@ -2157,24 +2157,24 @@
 </table>
 </div>
 <h4 id="2-安装CUDA（以runfile方式为例）"><a href="#2-安装CUDA（以runfile方式为例）" class="headerlink" title="2. 安装CUDA（以runfile方式为例）"></a>2. 安装CUDA（以runfile方式为例）</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda_12.2.2_535.104.05_linux.run</span><br><span class="line"><span class="built_in">chmod</span> +x cuda_12.2.2_535.104.05_linux.run</span><br><span class="line"><span class="built_in">sudo</span> sh cuda_12.2.2_535.104.05_linux.run</span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/9f6d7c9507084a2ba1b5b93312306d27.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/4d1b1c96c2fa4643ba91e157963c9113.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/9f6d7c9507084a2ba1b5b93312306d27.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/4d1b1c96c2fa4643ba91e157963c9113.png" alt="在这里插入图片描述"></p>
 <p><strong>安装过程</strong>：（回车后需要，等待片刻…  ）</p>
 <ul>
 <li><p>接受最终用户许可协议（输入<strong>“accept”</strong>）</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/8f2c310a71604475be2c28017250736a.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/8f2c310a71604475be2c28017250736a.png" alt="在这里插入图片描述"></p>
 </li>
 <li><p><strong>回车键</strong>进行勾选，括号中显示X就是选中，没有X就是没有选中，上下键控制移动</p>
 </li>
 <li><p><strong>⚠️取消勾选 “Driver” 安装选项</strong>，因为我们已经手动安装了最新版本的驱动</p>
 </li>
 <li><p>选择<strong>“Install”</strong>开始安装</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/d1dc7e63542c4d0eab1429f91bbf6d64.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/d1dc7e63542c4d0eab1429f91bbf6d64.png" alt="在这里插入图片描述"></p>
 </li>
 <li><p>等待安装完成</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/e4e30ad336c84a26a41ffa9ddc89e4b0.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/e4e30ad336c84a26a41ffa9ddc89e4b0.png" alt="在这里插入图片描述"></p>
 <p>使用大模型解释一下：</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/d5685994c53b4a2ba4de623cf9251bfd.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/d5685994c53b4a2ba4de623cf9251bfd.png" alt="在这里插入图片描述"></p>
 </li>
 </ul>
 <h4 id="3-配置环境变量"><a href="#3-配置环境变量" class="headerlink" title="3. 配置环境变量"></a>3. 配置环境变量</h4><blockquote>
@@ -2184,7 +2184,7 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.bashrc</span><br></pre></td></tr></table></figure>
 <p>在文件末尾添加以下行（请根据你的CUDA版本修改路径）：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=/usr/local/cuda-12.2/bin:<span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> LD_LIBRARY_PATH=/usr/local/cuda-12.2/lib64:<span class="variable">$LD_LIBRARY_PATH</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/d680d64b7b254c9f8e6a6583c9c284af.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/d680d64b7b254c9f8e6a6583c9c284af.png" alt="在这里插入图片描述"></p>
 <blockquote>
 <p>💡 <strong>建议</strong>：将 CUDA 路径放在 <code>$PATH</code> 前面，确保优先使用指定版本。 </p>
 </blockquote>
@@ -2245,26 +2245,26 @@
 <h4 id="4-使配置生效"><a href="#4-使配置生效" class="headerlink" title="4. 使配置生效"></a>4. 使配置生效</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure>
 <h4 id="5-验证-CUDA-安装"><a href="#5-验证-CUDA-安装" class="headerlink" title="5. 验证 CUDA 安装"></a>5. 验证 CUDA 安装</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvcc --version</span><br><span class="line">或者</span><br><span class="line">nvcc -V</span><br></pre></td></tr></table></figure>
 <p>如果显示CUDA编译器的版本信息，则安装成功。</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/4041e0e9bcec47e094e758236b4a97cd.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/4041e0e9bcec47e094e758236b4a97cd.png" alt="在这里插入图片描述"></p>
 <hr>
 <h2 id="安装cuDNN"><a href="#安装cuDNN" class="headerlink" title="安装cuDNN"></a>安装cuDNN</h2><p><code>cuDNN</code>是NVIDIA专门为深度学习优化的库，显著提升了训练和推理速度</p>
 <h3 id="下载cuDNN"><a href="#下载cuDNN" class="headerlink" title="下载cuDNN"></a>下载cuDNN</h3><blockquote>
 <p>一般最新版本的显卡驱动都能适配最新版本的 cuDNN，若最新版本不适合当前的 CUDA，可以安装历史版本。</p>
 </blockquote>
 <p>访问<a href="https://developer.nvidia.com/cudnn-downloads">NVIDIA cuDNN下载官网</a>，选择与CUDA版本兼容的cuDNN。</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/6ebd7bc4e39240f086a011d10ba61a66.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/6ebd7bc4e39240f086a011d10ba61a66.png" alt="在这里插入图片描述"></p>
 <p>选择相应选项后会生成下载命令：</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/28f7e29433ee4a95957b0d396060634c.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/28f7e29433ee4a95957b0d396060634c.png" alt="在这里插入图片描述"></p>
 <h3 id="安装cuDNN-1"><a href="#安装cuDNN-1" class="headerlink" title="安装cuDNN"></a>安装cuDNN</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cudnn/9.7.1/local_installers/cudnn-local-repo-ubuntu2004-9.7.1_1.0-1_amd64.deb</span><br><span class="line"><span class="built_in">sudo</span> dpkg -i cudnn-local-repo-ubuntu2004-9.7.1_1.0-1_amd64.deb</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">cp</span> /var/cudnn-local-repo-ubuntu2004-9.7.1/cudnn-*-keyring.gpg /usr/share/keyrings/</span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get -y install cudnn</span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/3a0f70a560ce4a5aa7049dd1ae35e7ba.png" alt="在这里插入图片描述"></p>
-<p><img src="https://i-blog.csdnimg.cn/direct/f1e01fd52b4e4852b0d2da371ee845a3.gif" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/3a0f70a560ce4a5aa7049dd1ae35e7ba.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/f1e01fd52b4e4852b0d2da371ee845a3.gif" alt="在这里插入图片描述"></p>
 <h3 id="验证-cuDNN"><a href="#验证-cuDNN" class="headerlink" title="验证 cuDNN"></a>验证 cuDNN</h3><p>无直接命令，后续通过 PyTorch 可验证。</p>
 <h3 id="版本兼容性查询："><a href="#版本兼容性查询：" class="headerlink" title="版本兼容性查询："></a>版本兼容性查询：</h3><ul>
 <li><p>查看<a href="https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/support-matrix.html#support-matrix">Support Matrix</a>确认支持的CUDA版本</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/6457439d1c554800b564c5b2b3431e8b.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/6457439d1c554800b564c5b2b3431e8b.png" alt="在这里插入图片描述"></p>
 </li>
 <li><p>如不支持最新版本，可查找<code>cuDNN</code>支持的历史版本</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/0ffe3107086243249ffc71fd3d422d81.gif" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/0ffe3107086243249ffc71fd3d422d81.gif" alt="在这里插入图片描述"></p>
 </li>
 </ul>
 <hr>
@@ -2298,7 +2298,7 @@
 <p>执行以下命令，列出系统上已安装的所有 Python 版本，默认版本的编号旁边会标有星号「*」：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> update-alternatives --config python3</span><br></pre></td></tr></table></figure>
 <p>输入 Python 版本旁边的编号，即可将其设置为默认版本。</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/3e75f14e77594fd4a719ac434d622f4d.gif" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/3e75f14e77594fd4a719ac434d622f4d.gif" alt="在这里插入图片描述"></p>
 <p><strong>使用软链接设置默认 Python 版本：</strong></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sudo rm /usr/<span class="built_in">bin</span>/python3</span><br><span class="line">sudo ln -s /usr/<span class="built_in">bin</span>/python3<span class="number">.10</span> /usr/<span class="built_in">bin</span>/python3</span><br></pre></td></tr></table></figure>
 <h4 id="6-安装-pip"><a href="#6-安装-pip" class="headerlink" title="6. 安装 pip"></a>6. 安装 <code>pip</code></h4><p>自动安装 Python 3 的包管理工具 pip</p>
@@ -2374,7 +2374,7 @@
 <ul>
 <li>官方地址：<a href="https://docs.anaconda.com/miniconda/install/#quick-command-line-install">https://docs.conda.io/en/latest/miniconda.html</a></li>
 </ul>
-<p><img src="https://i-blog.csdnimg.cn/direct/aa3541ae0fe644d7aa3742f7eecc390d.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/aa3541ae0fe644d7aa3742f7eecc390d.png" alt="在这里插入图片描述"></p>
 <h6 id="2-选择合适的版本"><a href="#2-选择合适的版本" class="headerlink" title="(2) 选择合适的版本"></a>(2) 选择合适的版本</h6><p>根据你的操作系统（Linux、macOS 或 Windows）和系统架构（x86_64 或 ARM），选择对应的安装脚本。例如：</p>
 <p>我这里是Linux系统x86_64架构，选择下载 <code>Miniconda3-latest-Linux-x86_64.sh</code>。</p>
 <h6 id="3-使用命令行下载（可选）"><a href="#3-使用命令行下载（可选）" class="headerlink" title="(3) 使用命令行下载（可选）"></a>(3) 使用命令行下载（可选）</h6><p>如果你在终端中操作，可以直接使用 <code>wget</code> 或 <code>curl</code> 下载安装脚本。例如：</p>
@@ -2471,14 +2471,14 @@
 <p><strong>手动下载</strong></p>
 <p>如果上述方法均无效，您可以手动下载 PyTorch 的 <code>.whl</code> 文件并安装。访问 <a href="https://pytorch.org/get-started/locally/">PyTorch 官方网站</a> 或 <a href="https://download.pytorch.org/whl/torch_stable.html">PyTorch 下载页面</a>，选择适合您环境的 <code>.whl</code> 文件并使用以下命令安装：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip3 install /path/to/downloaded/file.whl</span><br></pre></td></tr></table></figure>
-<p><img src="https://i-blog.csdnimg.cn/direct/118ff5571ccd49a1bcac3f9d9af0f8db.gif" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/118ff5571ccd49a1bcac3f9d9af0f8db.gif" alt="在这里插入图片描述"></p>
 <h3 id="验证安装"><a href="#验证安装" class="headerlink" title="验证安装"></a>验证安装</h3><p>在 Python 环境中，创建测试脚本验证<code>CUDA</code>和<code>cuDNN</code>是否正常工作：</p>
 <blockquote>
 <p>如果输出显示 <code>CUDA Available: True</code> 以及<code>cuDNN Available: True</code>，则说明 CUDA 和 cuDNN 已成功安装并可供使用。</p>
 </blockquote>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> torch  <span class="comment"># 导入 PyTorch 库</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 打印当前安装的 PyTorch 版本</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;PyTorch Version:&quot;</span>, torch.__version__)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 检查当前系统是否支持 CUDA（即是否有可用的 GPU）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;CUDA Available:&quot;</span>, torch.cuda.is_available())</span><br><span class="line"></span><br><span class="line"><span class="comment"># 打印当前 PyTorch 支持的 CUDA 版本（注意：这显示的是 PyTorch 编译时支持的 CUDA 版本，而不是系统中实际安装的 CUDA 版本）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;CUDA Version:&quot;</span>, torch.version.cuda)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 检查 cuDNN 是否可用（cuDNN 是 NVIDIA 提供的用于加速深度学习计算的库）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;cuDNN Available:&quot;</span>, torch.backends.cudnn.is_available())</span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取并打印当前默认 GPU 的名称（假设至少有一个 GPU 可用）</span></span><br><span class="line"><span class="comment"># torch.cuda.get_device_name(0) 返回第 0 号 GPU 的名称</span></span><br><span class="line"><span class="keyword">if</span> torch.cuda.is_available():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;GPU Name:&quot;</span>, torch.cuda.get_device_name(<span class="number">0</span>))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;GPU Count:&quot;</span>, torch.cuda.device_count())</span><br></pre></td></tr></table></figure>
 <p>输出：</p>
-<p><img src="https://i-blog.csdnimg.cn/direct/3657ca0001814954b4bf9583961344f1.png" alt="在这里插入图片描述"></p>
+<p><img src="https://img.xtaiyang.store/windows/3657ca0001814954b4bf9583961344f1.png" alt="在这里插入图片描述"></p>
 <p>🎉 <strong>恭喜你！</strong> 你的深度学习环境已成功搭建！</p>
 <hr>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文详细介绍了Ubuntu系统下NVIDIA显卡驱动与CUDA环境的完整配置流程。关键要点包括：</p>
@@ -2522,9 +2522,7 @@
         <tag>CUDA</tag>
         <tag>NVIDIA驱动</tag>
         <tag>PyTorch</tag>
-        <tag>环境配置</tag>
         <tag>Linux</tag>
-        <tag>GPU加速</tag>
       </tags>
   </entry>
 </search>
