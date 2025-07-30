@@ -249,106 +249,6 @@
       </tags>
   </entry>
   <entry>
-    <title>注重实效的哲学程序员修炼之道第一章阅读心得</title>
-    <url>/posts/aaf337f2.html</url>
-    <content><![CDATA[<h1 id="注重实效的哲学——程序员修炼之道第一章阅读心得"><a href="#注重实效的哲学——程序员修炼之道第一章阅读心得" class="headerlink" title="注重实效的哲学——程序员修炼之道第一章阅读心得"></a>注重实效的哲学——程序员修炼之道第一章阅读心得</h1><blockquote>
-<p>强烈推荐这本书《程序员修炼之道——从小工到专家》 <a href="https://book.douban.com/subject/5387402/">https://book.douban.com/subject/5387402/</a></p>
-</blockquote>
-<h2 id="注重实效的程序员的特征"><a href="#注重实效的程序员的特征" class="headerlink" title="注重实效的程序员的特征"></a>注重实效的程序员的特征</h2><p>他们处理问题、寻求解决方案时的态度、风格、哲学。</p>
-<ol>
-<li><strong>能越出直接问题去思考更深层次的东西</strong>。总是设法把问题放到更大的语境中，设法注意更大的图景，以最小代价达到最佳效果。</li>
-<li><strong>项目代码的维护，对自己的代码负责，将项目代码保持整洁优雅</strong>。</li>
-<li><strong>善于发现变化、接受变化、自我改变</strong>。能克服惰性，在改变中，提高效率，自我提升。</li>
-<li><strong>注重积累自己的知识资产</strong>。定期读好书、学新知识、温故总结。</li>
-<li><strong>更好的和他人交流</strong>。工作生活中我们会有快一半的时间用于交流，我们应该在交流中学习，提高交流的效率，在交流中收获良师益友。</li>
-</ol>
-<p>以上我从书中总结的五点非常重要，下面会结合实际情况详细分析、并找到如何做的方案。</p>
-<p>以及个人认为时间的规划也很重要，长期安排和短期安排都很重要，附 Geek 工作效率图</p>
-<h2 id="项目代码的维护"><a href="#项目代码的维护" class="headerlink" title="项目代码的维护"></a>项目代码的维护</h2><blockquote>
-<p>在所有弱点中。最大的弱点就是害怕暴露弱点。</p>
-</blockquote>
-<h3 id="软件的熵"><a href="#软件的熵" class="headerlink" title="软件的熵"></a>软件的熵</h3><p>当软件在无序增长时，也就是熵增加，软件趋向于腐烂。</p>
-<p>但是显而易见的，有两种项目：一种随着开发，软件的熵越来越高，有着指数般的成长趋势，项目逐渐腐烂；而另一种，随着开发，软件的熵得到了很好的控制，线性般的成长趋势，甚至就好像有一个上限值一样，成长趋势越来越慢，几乎停下来。</p>
-<p>那么是什么造成了这样的差异呢？</p>
-<h3 id="破窗理论"><a href="#破窗理论" class="headerlink" title="破窗理论"></a>破窗理论</h3><blockquote>
-<p>在市区，有些建筑漂亮整洁，而另一些却是破败不堪堆满垃圾。根据研究者调查发现了一种触发机制，一种很快能将整洁、完整的建筑变为破败的废弃物的机制。</p>
-<p>破窗户</p>
-<p>一扇破窗户，只要有那么一段时间不修理，就会给建筑的居民带来<strong>废弃感</strong>。很快有一扇窗户破了，人们开始乱扔垃圾、乱涂乱画，严重的结构损坏开始了，这个时候废弃感成为了现实，每个人都感受得到。</p>
-<p>破窗理论启发了纽约和各大城市的警察部门，他们对一些轻微的按键严加处理，以防止大案的发生，这非常奏效。</p>
-</blockquote>
-<p>所以我们不要留着破窗户（低劣的设计、错误的决策、糟糕的代码）不修，发现一个就应该修一个。</p>
-<blockquote>
-<p>我们看到过整洁、运行良好的系统，一旦窗户开始破裂，就相当迅速的恶化。</p>
-<p>如果你发现自己在有好些破窗户的项目里工作，会很容易产生这样的想法：“这些代码的其余部分也是垃圾，我只要照着做就行了。”项目在这之前是否一致很好，并没有任何关系。比如一辆飞起的轿车放了一星期，无人理睬，而一旦有一扇窗户被打破，数小时车上的设备就会被抢夺一空。</p>
-<p>同样的道理，如果你发现你所在的团队和项目的代码十分漂亮——编写整洁、涉及良好并且很优雅——你就很可能会格外注意不去把它弄脏，因为你不会想成为第一个弄脏东西的人。</p>
-</blockquote>
-<p>所以修复破窗非常非常重要，见到一个就立马修复它。</p>
-<h2 id="足够好的软件"><a href="#足够好的软件" class="headerlink" title="足够好的软件"></a>足够好的软件</h2><ol>
-<li>让用户参与权衡</li>
-<li>知道何时止步（编程就像画画，不要过度修饰和过于求精）</li>
-</ol>
-<h2 id="变化"><a href="#变化" class="headerlink" title="变化"></a>变化</h2><p>温水煮青蛙的事常常发生在我们生活中，随着时间的推移，任何事都会有变化，假如我们不去发现变化、并做出改变来应对，我们其实就和青蛙没有什么区别。</p>
-<ol>
-<li>我们要克服惰性，做变化的催化剂，用一些改变的成果(demo)给团队惊喜，和团队宣传变化后的大图景（new future），团结团队迎接变化。</li>
-<li>变化更是挑战，正面迎战挑战，可以获得提高效率、提升自我的成果。</li>
-</ol>
-<h2 id="注重积累自己的知识资产"><a href="#注重积累自己的知识资产" class="headerlink" title="注重积累自己的知识资产"></a>注重积累自己的知识资产</h2><h3 id="经营管理知识资产"><a href="#经营管理知识资产" class="headerlink" title="经营管理知识资产"></a>经营管理知识资产</h3><blockquote>
-<p>知识是有时效性的资产</p>
-</blockquote>
-<p>就好比一百多年前最厉害的武器 火枪大炮，在如今早已被AK、导弹所替代，更何况在当今这个每过十年都会有翻天覆地变化的时代，旧知识的价值的降低速度非常之快。</p>
-<p>所以我们应该善于经营管理自己的知识资产，我认为更重要的是</p>
-<ol>
-<li>新知识和旧知识并不矛盾，应该携手共进，知识是相通的。</li>
-<li>培养核心学习能力。学习知识的核心，而不是只学习知识的 形。</li>
-<li>培养学习习惯、终身学习。</li>
-</ol>
-<p>书中的观点：</p>
-<ol>
-<li>定期投资</li>
-<li>多元化</li>
-<li>管理风险；低买高卖。</li>
-</ol>
-<p>最重要的是，<strong>定期为你的知识资产投资</strong></p>
-<h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>制定目标并执行是一个非常好的定期投资方式。</p>
-<p>书中举例的目标：</p>
-<ol>
-<li>每年至少学一种新的语言</li>
-<li>每季度阅读一本技术书籍，也要阅读非技术书籍</li>
-<li>学习新的思想</li>
-<li>跟上技术潮流，</li>
-<li>试用不同的环境、工具。</li>
-</ol>
-<p>我的目标：</p>
-<ol>
-<li>跟进社区技术发展，关注社区文章、动态</li>
-<li>写一篇技术文章</li>
-<li>看一本技术书籍</li>
-<li>做一次技术分享</li>
-<li>在技术上，给自己以新的领域的挑战</li>
-</ol>
-<h2 id="高效的获取知识"><a href="#高效的获取知识" class="headerlink" title="高效的获取知识"></a>高效的获取知识</h2><h3 id="学习机会"><a href="#学习机会" class="headerlink" title="学习机会"></a>学习机会</h3><ol>
-<li>解决问题</li>
-<li>和厉害的人一起交流自己解决不了的问题</li>
-<li>让自己无聊的时候（排队、坐车）有东西可以学，强烈推荐 pocket</li>
-</ol>
-<h3 id="谷歌、问问题"><a href="#谷歌、问问题" class="headerlink" title="谷歌、问问题"></a>谷歌、问问题</h3><ol>
-<li>首先要明确自己的问题是什么</li>
-<li>精确地的描述问题</li>
-<li>锲而不舍、不断思考</li>
-</ol>
-<h2 id="高效的交流"><a href="#高效的交流" class="headerlink" title="高效的交流"></a>高效的交流</h2><ol>
-<li>知道你真正想要什么</li>
-<li>了解你的听众，知道他想听什么，能听懂什么</li>
-<li>选择好时机</li>
-<li>选择风格：简短？正式？随意？详细？</li>
-<li>让听众参与、做倾听者</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>感悟</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>让事情去发生</title>
     <url>/posts/b5babe99.html</url>
     <content><![CDATA[<h1 id="有关10000小时定律"><a href="#有关10000小时定律" class="headerlink" title="有关10000小时定律"></a>有关10000小时定律</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>知乎上看到了一篇有关10000小时定律的文章写得非常好，纠正了我们以前的客观认识，并且写的很深入，记记笔记。<br><a href="https://www.zhihu.com/question/21655527/answer/44515153">https://www.zhihu.com/question/21655527/answer/44515153</a></p>
@@ -456,6 +356,106 @@
 <p>而高手，更能看到事情的发展过程，</p>
 <p>以及采取某个方案，会对事情发展产生什么影响。</p>
 <p>让事情发生吧，我来做观众。</p>
+]]></content>
+      <tags>
+        <tag>感悟</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>注重实效的哲学程序员修炼之道第一章阅读心得</title>
+    <url>/posts/aaf337f2.html</url>
+    <content><![CDATA[<h1 id="注重实效的哲学——程序员修炼之道第一章阅读心得"><a href="#注重实效的哲学——程序员修炼之道第一章阅读心得" class="headerlink" title="注重实效的哲学——程序员修炼之道第一章阅读心得"></a>注重实效的哲学——程序员修炼之道第一章阅读心得</h1><blockquote>
+<p>强烈推荐这本书《程序员修炼之道——从小工到专家》 <a href="https://book.douban.com/subject/5387402/">https://book.douban.com/subject/5387402/</a></p>
+</blockquote>
+<h2 id="注重实效的程序员的特征"><a href="#注重实效的程序员的特征" class="headerlink" title="注重实效的程序员的特征"></a>注重实效的程序员的特征</h2><p>他们处理问题、寻求解决方案时的态度、风格、哲学。</p>
+<ol>
+<li><strong>能越出直接问题去思考更深层次的东西</strong>。总是设法把问题放到更大的语境中，设法注意更大的图景，以最小代价达到最佳效果。</li>
+<li><strong>项目代码的维护，对自己的代码负责，将项目代码保持整洁优雅</strong>。</li>
+<li><strong>善于发现变化、接受变化、自我改变</strong>。能克服惰性，在改变中，提高效率，自我提升。</li>
+<li><strong>注重积累自己的知识资产</strong>。定期读好书、学新知识、温故总结。</li>
+<li><strong>更好的和他人交流</strong>。工作生活中我们会有快一半的时间用于交流，我们应该在交流中学习，提高交流的效率，在交流中收获良师益友。</li>
+</ol>
+<p>以上我从书中总结的五点非常重要，下面会结合实际情况详细分析、并找到如何做的方案。</p>
+<p>以及个人认为时间的规划也很重要，长期安排和短期安排都很重要，附 Geek 工作效率图</p>
+<h2 id="项目代码的维护"><a href="#项目代码的维护" class="headerlink" title="项目代码的维护"></a>项目代码的维护</h2><blockquote>
+<p>在所有弱点中。最大的弱点就是害怕暴露弱点。</p>
+</blockquote>
+<h3 id="软件的熵"><a href="#软件的熵" class="headerlink" title="软件的熵"></a>软件的熵</h3><p>当软件在无序增长时，也就是熵增加，软件趋向于腐烂。</p>
+<p>但是显而易见的，有两种项目：一种随着开发，软件的熵越来越高，有着指数般的成长趋势，项目逐渐腐烂；而另一种，随着开发，软件的熵得到了很好的控制，线性般的成长趋势，甚至就好像有一个上限值一样，成长趋势越来越慢，几乎停下来。</p>
+<p>那么是什么造成了这样的差异呢？</p>
+<h3 id="破窗理论"><a href="#破窗理论" class="headerlink" title="破窗理论"></a>破窗理论</h3><blockquote>
+<p>在市区，有些建筑漂亮整洁，而另一些却是破败不堪堆满垃圾。根据研究者调查发现了一种触发机制，一种很快能将整洁、完整的建筑变为破败的废弃物的机制。</p>
+<p>破窗户</p>
+<p>一扇破窗户，只要有那么一段时间不修理，就会给建筑的居民带来<strong>废弃感</strong>。很快有一扇窗户破了，人们开始乱扔垃圾、乱涂乱画，严重的结构损坏开始了，这个时候废弃感成为了现实，每个人都感受得到。</p>
+<p>破窗理论启发了纽约和各大城市的警察部门，他们对一些轻微的按键严加处理，以防止大案的发生，这非常奏效。</p>
+</blockquote>
+<p>所以我们不要留着破窗户（低劣的设计、错误的决策、糟糕的代码）不修，发现一个就应该修一个。</p>
+<blockquote>
+<p>我们看到过整洁、运行良好的系统，一旦窗户开始破裂，就相当迅速的恶化。</p>
+<p>如果你发现自己在有好些破窗户的项目里工作，会很容易产生这样的想法：“这些代码的其余部分也是垃圾，我只要照着做就行了。”项目在这之前是否一致很好，并没有任何关系。比如一辆飞起的轿车放了一星期，无人理睬，而一旦有一扇窗户被打破，数小时车上的设备就会被抢夺一空。</p>
+<p>同样的道理，如果你发现你所在的团队和项目的代码十分漂亮——编写整洁、涉及良好并且很优雅——你就很可能会格外注意不去把它弄脏，因为你不会想成为第一个弄脏东西的人。</p>
+</blockquote>
+<p>所以修复破窗非常非常重要，见到一个就立马修复它。</p>
+<h2 id="足够好的软件"><a href="#足够好的软件" class="headerlink" title="足够好的软件"></a>足够好的软件</h2><ol>
+<li>让用户参与权衡</li>
+<li>知道何时止步（编程就像画画，不要过度修饰和过于求精）</li>
+</ol>
+<h2 id="变化"><a href="#变化" class="headerlink" title="变化"></a>变化</h2><p>温水煮青蛙的事常常发生在我们生活中，随着时间的推移，任何事都会有变化，假如我们不去发现变化、并做出改变来应对，我们其实就和青蛙没有什么区别。</p>
+<ol>
+<li>我们要克服惰性，做变化的催化剂，用一些改变的成果(demo)给团队惊喜，和团队宣传变化后的大图景（new future），团结团队迎接变化。</li>
+<li>变化更是挑战，正面迎战挑战，可以获得提高效率、提升自我的成果。</li>
+</ol>
+<h2 id="注重积累自己的知识资产"><a href="#注重积累自己的知识资产" class="headerlink" title="注重积累自己的知识资产"></a>注重积累自己的知识资产</h2><h3 id="经营管理知识资产"><a href="#经营管理知识资产" class="headerlink" title="经营管理知识资产"></a>经营管理知识资产</h3><blockquote>
+<p>知识是有时效性的资产</p>
+</blockquote>
+<p>就好比一百多年前最厉害的武器 火枪大炮，在如今早已被AK、导弹所替代，更何况在当今这个每过十年都会有翻天覆地变化的时代，旧知识的价值的降低速度非常之快。</p>
+<p>所以我们应该善于经营管理自己的知识资产，我认为更重要的是</p>
+<ol>
+<li>新知识和旧知识并不矛盾，应该携手共进，知识是相通的。</li>
+<li>培养核心学习能力。学习知识的核心，而不是只学习知识的 形。</li>
+<li>培养学习习惯、终身学习。</li>
+</ol>
+<p>书中的观点：</p>
+<ol>
+<li>定期投资</li>
+<li>多元化</li>
+<li>管理风险；低买高卖。</li>
+</ol>
+<p>最重要的是，<strong>定期为你的知识资产投资</strong></p>
+<h3 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h3><p>制定目标并执行是一个非常好的定期投资方式。</p>
+<p>书中举例的目标：</p>
+<ol>
+<li>每年至少学一种新的语言</li>
+<li>每季度阅读一本技术书籍，也要阅读非技术书籍</li>
+<li>学习新的思想</li>
+<li>跟上技术潮流，</li>
+<li>试用不同的环境、工具。</li>
+</ol>
+<p>我的目标：</p>
+<ol>
+<li>跟进社区技术发展，关注社区文章、动态</li>
+<li>写一篇技术文章</li>
+<li>看一本技术书籍</li>
+<li>做一次技术分享</li>
+<li>在技术上，给自己以新的领域的挑战</li>
+</ol>
+<h2 id="高效的获取知识"><a href="#高效的获取知识" class="headerlink" title="高效的获取知识"></a>高效的获取知识</h2><h3 id="学习机会"><a href="#学习机会" class="headerlink" title="学习机会"></a>学习机会</h3><ol>
+<li>解决问题</li>
+<li>和厉害的人一起交流自己解决不了的问题</li>
+<li>让自己无聊的时候（排队、坐车）有东西可以学，强烈推荐 pocket</li>
+</ol>
+<h3 id="谷歌、问问题"><a href="#谷歌、问问题" class="headerlink" title="谷歌、问问题"></a>谷歌、问问题</h3><ol>
+<li>首先要明确自己的问题是什么</li>
+<li>精确地的描述问题</li>
+<li>锲而不舍、不断思考</li>
+</ol>
+<h2 id="高效的交流"><a href="#高效的交流" class="headerlink" title="高效的交流"></a>高效的交流</h2><ol>
+<li>知道你真正想要什么</li>
+<li>了解你的听众，知道他想听什么，能听懂什么</li>
+<li>选择好时机</li>
+<li>选择风格：简短？正式？随意？详细？</li>
+<li>让听众参与、做倾听者</li>
+</ol>
 ]]></content>
       <tags>
         <tag>感悟</tag>
@@ -593,6 +593,83 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Ollama结合Open-WebUI本地运行大模型</title>
+    <url>/posts/8a046b75.html</url>
+    <content><![CDATA[<h1 id="Ollama-结合-Open-WebUI-本地运行大模型"><a href="#Ollama-结合-Open-WebUI-本地运行大模型" class="headerlink" title="Ollama 结合 Open-WebUI 本地运行大模型"></a>Ollama 结合 Open-WebUI 本地运行大模型</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/08/ollama-openwebui-llm.png" alt="Ollama 结合 Open-WebUI 本地运行大模型"></p>
+<p>本文介绍了如何使用 Ollama 在本地运行大型语言模型，以及利用 Open-WebUI 提供的图形化界面与大语言模型进行交互。</p>
+<h2 id="一、Ollama-简介"><a href="#一、Ollama-简介" class="headerlink" title="一、Ollama 简介"></a>一、Ollama 简介</h2><p>Ollama 是一个开源框架，专门设计用于在本地运行大型语言模型（LLM）。它的主要特点和功能如下：</p>
+<ul>
+<li><strong>简化部署</strong>：Ollama 旨在简化在 Docker 容器中部署 LLM 的过程，使得管理和运行这些模型变得更加容易。安装完成后，用户可以通过简单的命令行操作启动和运行大型语言模型。例如，要运行 Gemma 2B 模型，只需执行命令 <code>ollama run gemma:2b</code>。</li>
+<li><strong>捆绑模型组件</strong>：它将模型权重、配置和数据捆绑到一个包中，称为 Modelfile，这有助于优化设置和配置细节，包括 GPU 使用情况。</li>
+<li><strong>支持多种模型</strong>：Ollama 支持多种大型语言模型，如 Llama 2、Code Llama、Mistral、Gemma 等，并允许用户根据特定需求定制和创建自己的模型。</li>
+<li><strong>跨平台支持</strong>：支持 Windows、macOS 和 Linux 平台。安装过程简单，用户只需访问 Ollama 的官方网站下载相应平台的安装包即可。</li>
+</ul>
+<h2 id="二、Docker安装-Ollama"><a href="#二、Docker安装-Ollama" class="headerlink" title="二、Docker安装 Ollama"></a>二、Docker安装 Ollama</h2><p>选择Deep Learning类型的AMI，这个类型的AMI已经预先安装了英伟达的驱动。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705135706563.png" alt="img"></p>
+<p>选择<code>g4dn.xlarge</code>类型实例，带有1个NVIDA T4显卡，共有16GB GPU，这是带有英伟达显卡最便宜的实例。这个AMI已经预装了docker包，如果没有安装的Ubuntu系列系统，可以通过下面命令安装。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt update -y</span><br><span class="line">apt install docker -y</span><br><span class="line">systemctl start docker</span><br></pre></td></tr></table></figure>
+<p>拉取ollama docker镜像（依赖网速，2-3分钟左右）</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull ollama/ollama</span><br></pre></td></tr></table></figure>
+<p>查看镜像文件，镜像大概2GB左右。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">~# </span><span class="language-bash">docker images</span></span><br><span class="line">REPOSITORY      TAG       IMAGE ID       CREATED        SIZE</span><br><span class="line">ollama/ollama   latest    d5cbea22fd07   30 hours ago   1.98GB</span><br></pre></td></tr></table></figure>
+<p>根据Docker Hub ollama主页 <a href="https://hub.docker.com/r/ollama/ollama?ref=liuqianglong.com">https://hub.docker.com/r/ollama/ollama</a> [1]，快速启动容器，注意，<strong>这里没有添加GPU参数，是通过<code>CPU</code>加载启动的</strong>。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">~# </span><span class="language-bash">docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama</span></span><br></pre></td></tr></table></figure>
+<p>查看容器状态。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker ps</span><br><span class="line">CONTAINER ID   IMAGE           COMMAND               CREATED         STATUS         PORTS                                           NAMES</span><br><span class="line">e43072764685   ollama/ollama   &quot;/bin/ollama serve&quot;   6 seconds ago   Up 5 seconds   0.0.0.0:11434-&gt;11434/tcp, :::11434-&gt;11434/tcp   ollama</span><br></pre></td></tr></table></figure>
+<p>在docker容器内运行模型（1分钟左右拉起来）。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker exec -it ollama bash</span><br><span class="line"></span><br><span class="line">root@e43072764685:/# ollama run qwen2:0.5b</span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">&gt;&gt; 你叫什么？</span></span><br><span class="line">我叫通义千问。</span><br></pre></td></tr></table></figure>
+<p>新开一个SSH窗口，在模型回答问题时，查看通过<code>top</code>命令，查看CPU使用率，可以看到CPU已经满负荷运行了，正在使用CPU进行推理。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">top - 08:41:19 up  5:14,  4 users,  load average: 0.32, 0.25, 0.13</span><br><span class="line">Tasks: 161 total,   3 running, 158 sleeping,   0 stopped,   0 zombie</span><br><span class="line"><span class="meta prompt_">%</span><span class="language-bash">Cpu(s): 31.9 us,  0.2 sy,  0.0 ni, 67.9 <span class="built_in">id</span>,  0.0 wa,  0.0 hi,  0.0 si,  0.1 st</span></span><br><span class="line">MiB Mem :  15779.1 total,   1575.5 free,    518.2 used,  13685.4 buff/cache</span><br><span class="line">MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14806.4 avail Mem</span><br><span class="line"></span><br><span class="line">    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND</span><br><span class="line">   7080 root      20   0 1067764 442088 344752 R 123.3   2.7   0:17.46 ollama_llama_se</span><br><span class="line">   7006 root      20   0 2365904 400032 389632 S   1.0   2.5   0:13.81 ollama</span><br><span class="line">   6986 root      20   0 1238716  13636   9856 S   0.7   0.1   0:00.23 containerd-shim</span><br></pre></td></tr></table></figure>
+<p>通过<code>ollama list</code>命令，查看下载的所有模型。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@e43072764685:/# ollama list</span><br><span class="line">NAME            ID              SIZE    MODIFIED</span><br><span class="line">qwen2:0.5b      6f48b936a09f    352 MB  About a minute ago</span><br></pre></td></tr></table></figure>
+<p>在模型回答问题时，通过<code>nvidia-smi</code>命令查看GPU使用情况，通过CPU进行推理时，看到并没有暂用GPU资源。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# nvidia-smi</span><br><span class="line">Fri Jul  5 08:41:38 2024</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |</span><br><span class="line">|-----------------------------------------+----------------------+----------------------+</span><br><span class="line">| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |</span><br><span class="line">| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |</span><br><span class="line">|                                         |                      |               MIG M. |</span><br><span class="line">|=========================================+======================+======================|</span><br><span class="line">|   0  Tesla T4                       On  | 00000000:00:1E.0 Off |                    0 |</span><br><span class="line">| N/A   33C    P8               9W /  70W |      2MiB / 15360MiB |      0%      Default |</span><br><span class="line">|                                         |                      |                  N/A |</span><br><span class="line">+-----------------------------------------+----------------------+----------------------+</span><br><span class="line"></span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| Processes:                                                                            |</span><br><span class="line">|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |</span><br><span class="line">|        ID   ID                                                             Usage      |</span><br><span class="line">|=======================================================================================|</span><br><span class="line">|  No running processes found                                                           |</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br></pre></td></tr></table></figure>
+<p>删除容器。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~#  docker rm -f ollama</span><br><span class="line">ollama</span><br></pre></td></tr></table></figure>
+<p>重启启动ollama容器，通过<strong>GPU</strong>启动。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama</span><br><span class="line">b094349fc98c8dee31640485ed88ecef38202e33baadcbb9d503ecc1055ac974</span><br></pre></td></tr></table></figure>
+<p><strong>Ollama 环境变量</strong></p>
+<p>通过下面命令，ollama可以加载环境变量，可以根据实际需求决定是否添加对应的环境变量。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama --restart always -e OLLAMA_KEEP_ALIVE=-1 ollama/ollama</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>ollama常用环境变量：</p>
+<ul>
+<li>OLLAMA_KEEP_ALIVE=-1，模型加载后，默认的Keepalive是5分钟，修改为-1可以让模型持续启动，OLLAMA_KEEP_ALIVE=60 表示 60 秒，OLLAMA_KEEP_ALIVE=10m 表示10分钟。<a href="https://github.com/ollama/ollama/pull/3094?ref=liuqianglong.com">https://github.com/ollama/ollama/pull/3094</a></li>
+<li>OLLAMA_ORIGINS=*，跨域访问环境变量，可以用与沉浸式翻译。</li>
+</ul>
+</blockquote>
+<p><strong>Ollama 升级</strong></p>
+<p>ollama升级过程参考，停止容器后，重新拉取容器启动即可。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker exec -it ollama bash</span><br><span class="line">root@3d1be8deba41:/# ollama -v</span><br><span class="line">ollama version is 0.1.40</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) root@ip-172-31-79-195:~# docker pull ollama/ollama</span><br><span class="line">Using default tag: latest</span><br><span class="line">latest: Pulling from ollama/ollama</span><br><span class="line">7646c8da3324: Pull complete</span><br><span class="line">d1060ab4fb75: Pull complete</span><br><span class="line">e58f7d737fbb: Pull complete</span><br><span class="line">Digest: sha256:4a3c5b5261f325580d7f4f6440e5094d807784f0513439dcabfda9c2bdf4191e</span><br><span class="line">Status: Downloaded newer image for ollama/ollama:latest</span><br><span class="line">docker.io/ollama/ollama:latest</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) root@ip-172-31-79-195:~# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 -e OLLAMA_ORIGINS=* --name ollama --restart always  ollama/ollama</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">root@46648320fcd4:/# ollama -v</span><br><span class="line">ollama version is 0.3.7</span><br></pre></td></tr></table></figure>
+<h2 id="三、Open-WebUI"><a href="#三、Open-WebUI" class="headerlink" title="三、Open-WebUI"></a>三、Open-WebUI</h2><p>OpenWebUI是一个可扩展、功能丰富且用户友好的自托管WebUI，它支持完全离线操作，并兼容Ollama和OpenAI的API。这为用户提供了一个可视化的界面，使得与大型语言模型的交互更加直观和便捷 [3]。</p>
+<p>从docker hub拉取open-webui镜像（文件1G左右，看网速，2-3分钟）</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull dyrnq/open-webui:main</span><br></pre></td></tr></table></figure>
+<p>注意，官方文档是从 GitHub Container Registry (GHCR) 上拉取镜像，而不是从 Docker Hub。官方文档拉取命令如下：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull ghcr.io/open-webui/open-webui:main</span><br></pre></td></tr></table></figure>
+<p>查看镜像</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker images</span><br><span class="line">REPOSITORY         TAG       IMAGE ID       CREATED         SIZE</span><br><span class="line">dyrnq/open-webui   main      8aa8279a3e25   10 hours ago   3.9GB</span><br><span class="line">ollama/ollama      latest    d5cbea22fd07   30 hours ago   1.98GB</span><br></pre></td></tr></table></figure>
+<p>启动docker镜像，映射出来3000端口。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always dyrnq/open-webui:main</span><br></pre></td></tr></table></figure>
+<p>查看EC2的公网IP地址。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# curl ifconfig.me</span><br><span class="line">54.243.6.37</span><br></pre></td></tr></table></figure>
+<p>访问Open WebUI。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165219856.png" alt="img"></p>
+<p>创建账号，这个是本地账号，随便添加账号信息即可。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165223559.png" alt="img"></p>
+<p>选择ollama中的模型，聊天测试。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165228399.png" alt="img"></p>
+<p>可以直接拉取目前ollama没有的模型。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165234184.png" alt="img"></p>
+<p>与下载的新模型进行对话。</p>
+<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240828110808614.png" alt="img"></p>
+<h2 id="四、文档链接"><a href="#四、文档链接" class="headerlink" title="四、文档链接"></a>四、文档链接</h2><ul>
+<li>[1] Dockerhub ollama镜像文件：<a href="https://hub.docker.com/r/ollama/ollama?ref=liuqianglong.com">https://hub.docker.com/r/ollama/ollama</a></li>
+<li>[2] ollama keepalive：<a href="https://github.com/ollama/ollama/pull/3094?ref=liuqianglong.com">https://github.com/ollama/ollama/pull/3094</a></li>
+<li>[3] Open WebUI Github：<a href="https://github.com/open-webui/open-webui?ref=liuqianglong.com">https://github.com/open-webui/open-webui</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>HuggingFace模型下载及使用</title>
     <url>/posts/9c7ceea5.html</url>
     <content><![CDATA[<h1 id="Hugging-Face-模型下载及使用"><a href="#Hugging-Face-模型下载及使用" class="headerlink" title="Hugging Face 模型下载及使用"></a>Hugging Face 模型下载及使用</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/08/ai-hugging-face-models.png" alt="Hugging Face 模型下载及使用"></p>
@@ -721,83 +798,6 @@
 <li>[3] Xinference Docker安装文档：<a href="https://inference.readthedocs.io/zh-cn/latest/getting_started/using_docker_image.html?ref=liuqianglong.com">https://inference.readthedocs.io/zh-cn/latest/getting_started/using_docker_image.html</a></li>
 <li>[4] 嵌入模型bge-m3：<a href="https://huggingface.co/BAAI/bge-m3?ref=liuqianglong.com">https://huggingface.co/BAAI/bge-m3</a></li>
 <li>[5] 重排模型bge-reranker-v2-m3：<a href="https://huggingface.co/BAAI/bge-reranker-v2-m3?ref=liuqianglong.com">https://huggingface.co/BAAI/bge-reranker-v2-m3</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Ollama结合Open-WebUI本地运行大模型</title>
-    <url>/posts/8a046b75.html</url>
-    <content><![CDATA[<h1 id="Ollama-结合-Open-WebUI-本地运行大模型"><a href="#Ollama-结合-Open-WebUI-本地运行大模型" class="headerlink" title="Ollama 结合 Open-WebUI 本地运行大模型"></a>Ollama 结合 Open-WebUI 本地运行大模型</h1><p><img src="https://liuqianglong.com/content/images/size/w2000/2024/08/ollama-openwebui-llm.png" alt="Ollama 结合 Open-WebUI 本地运行大模型"></p>
-<p>本文介绍了如何使用 Ollama 在本地运行大型语言模型，以及利用 Open-WebUI 提供的图形化界面与大语言模型进行交互。</p>
-<h2 id="一、Ollama-简介"><a href="#一、Ollama-简介" class="headerlink" title="一、Ollama 简介"></a>一、Ollama 简介</h2><p>Ollama 是一个开源框架，专门设计用于在本地运行大型语言模型（LLM）。它的主要特点和功能如下：</p>
-<ul>
-<li><strong>简化部署</strong>：Ollama 旨在简化在 Docker 容器中部署 LLM 的过程，使得管理和运行这些模型变得更加容易。安装完成后，用户可以通过简单的命令行操作启动和运行大型语言模型。例如，要运行 Gemma 2B 模型，只需执行命令 <code>ollama run gemma:2b</code>。</li>
-<li><strong>捆绑模型组件</strong>：它将模型权重、配置和数据捆绑到一个包中，称为 Modelfile，这有助于优化设置和配置细节，包括 GPU 使用情况。</li>
-<li><strong>支持多种模型</strong>：Ollama 支持多种大型语言模型，如 Llama 2、Code Llama、Mistral、Gemma 等，并允许用户根据特定需求定制和创建自己的模型。</li>
-<li><strong>跨平台支持</strong>：支持 Windows、macOS 和 Linux 平台。安装过程简单，用户只需访问 Ollama 的官方网站下载相应平台的安装包即可。</li>
-</ul>
-<h2 id="二、Docker安装-Ollama"><a href="#二、Docker安装-Ollama" class="headerlink" title="二、Docker安装 Ollama"></a>二、Docker安装 Ollama</h2><p>选择Deep Learning类型的AMI，这个类型的AMI已经预先安装了英伟达的驱动。</p>
-<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705135706563.png" alt="img"></p>
-<p>选择<code>g4dn.xlarge</code>类型实例，带有1个NVIDA T4显卡，共有16GB GPU，这是带有英伟达显卡最便宜的实例。这个AMI已经预装了docker包，如果没有安装的Ubuntu系列系统，可以通过下面命令安装。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt update -y</span><br><span class="line">apt install docker -y</span><br><span class="line">systemctl start docker</span><br></pre></td></tr></table></figure>
-<p>拉取ollama docker镜像（依赖网速，2-3分钟左右）</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull ollama/ollama</span><br></pre></td></tr></table></figure>
-<p>查看镜像文件，镜像大概2GB左右。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">~# </span><span class="language-bash">docker images</span></span><br><span class="line">REPOSITORY      TAG       IMAGE ID       CREATED        SIZE</span><br><span class="line">ollama/ollama   latest    d5cbea22fd07   30 hours ago   1.98GB</span><br></pre></td></tr></table></figure>
-<p>根据Docker Hub ollama主页 <a href="https://hub.docker.com/r/ollama/ollama?ref=liuqianglong.com">https://hub.docker.com/r/ollama/ollama</a> [1]，快速启动容器，注意，<strong>这里没有添加GPU参数，是通过<code>CPU</code>加载启动的</strong>。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">~# </span><span class="language-bash">docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama</span></span><br></pre></td></tr></table></figure>
-<p>查看容器状态。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker ps</span><br><span class="line">CONTAINER ID   IMAGE           COMMAND               CREATED         STATUS         PORTS                                           NAMES</span><br><span class="line">e43072764685   ollama/ollama   &quot;/bin/ollama serve&quot;   6 seconds ago   Up 5 seconds   0.0.0.0:11434-&gt;11434/tcp, :::11434-&gt;11434/tcp   ollama</span><br></pre></td></tr></table></figure>
-<p>在docker容器内运行模型（1分钟左右拉起来）。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker exec -it ollama bash</span><br><span class="line"></span><br><span class="line">root@e43072764685:/# ollama run qwen2:0.5b</span><br><span class="line"><span class="meta prompt_">&gt;</span><span class="language-bash">&gt;&gt; 你叫什么？</span></span><br><span class="line">我叫通义千问。</span><br></pre></td></tr></table></figure>
-<p>新开一个SSH窗口，在模型回答问题时，查看通过<code>top</code>命令，查看CPU使用率，可以看到CPU已经满负荷运行了，正在使用CPU进行推理。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">top - 08:41:19 up  5:14,  4 users,  load average: 0.32, 0.25, 0.13</span><br><span class="line">Tasks: 161 total,   3 running, 158 sleeping,   0 stopped,   0 zombie</span><br><span class="line"><span class="meta prompt_">%</span><span class="language-bash">Cpu(s): 31.9 us,  0.2 sy,  0.0 ni, 67.9 <span class="built_in">id</span>,  0.0 wa,  0.0 hi,  0.0 si,  0.1 st</span></span><br><span class="line">MiB Mem :  15779.1 total,   1575.5 free,    518.2 used,  13685.4 buff/cache</span><br><span class="line">MiB Swap:      0.0 total,      0.0 free,      0.0 used.  14806.4 avail Mem</span><br><span class="line"></span><br><span class="line">    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND</span><br><span class="line">   7080 root      20   0 1067764 442088 344752 R 123.3   2.7   0:17.46 ollama_llama_se</span><br><span class="line">   7006 root      20   0 2365904 400032 389632 S   1.0   2.5   0:13.81 ollama</span><br><span class="line">   6986 root      20   0 1238716  13636   9856 S   0.7   0.1   0:00.23 containerd-shim</span><br></pre></td></tr></table></figure>
-<p>通过<code>ollama list</code>命令，查看下载的所有模型。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@e43072764685:/# ollama list</span><br><span class="line">NAME            ID              SIZE    MODIFIED</span><br><span class="line">qwen2:0.5b      6f48b936a09f    352 MB  About a minute ago</span><br></pre></td></tr></table></figure>
-<p>在模型回答问题时，通过<code>nvidia-smi</code>命令查看GPU使用情况，通过CPU进行推理时，看到并没有暂用GPU资源。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# nvidia-smi</span><br><span class="line">Fri Jul  5 08:41:38 2024</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |</span><br><span class="line">|-----------------------------------------+----------------------+----------------------+</span><br><span class="line">| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |</span><br><span class="line">| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |</span><br><span class="line">|                                         |                      |               MIG M. |</span><br><span class="line">|=========================================+======================+======================|</span><br><span class="line">|   0  Tesla T4                       On  | 00000000:00:1E.0 Off |                    0 |</span><br><span class="line">| N/A   33C    P8               9W /  70W |      2MiB / 15360MiB |      0%      Default |</span><br><span class="line">|                                         |                      |                  N/A |</span><br><span class="line">+-----------------------------------------+----------------------+----------------------+</span><br><span class="line"></span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br><span class="line">| Processes:                                                                            |</span><br><span class="line">|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |</span><br><span class="line">|        ID   ID                                                             Usage      |</span><br><span class="line">|=======================================================================================|</span><br><span class="line">|  No running processes found                                                           |</span><br><span class="line">+---------------------------------------------------------------------------------------+</span><br></pre></td></tr></table></figure>
-<p>删除容器。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~#  docker rm -f ollama</span><br><span class="line">ollama</span><br></pre></td></tr></table></figure>
-<p>重启启动ollama容器，通过<strong>GPU</strong>启动。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama</span><br><span class="line">b094349fc98c8dee31640485ed88ecef38202e33baadcbb9d503ecc1055ac974</span><br></pre></td></tr></table></figure>
-<p><strong>Ollama 环境变量</strong></p>
-<p>通过下面命令，ollama可以加载环境变量，可以根据实际需求决定是否添加对应的环境变量。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama --restart always -e OLLAMA_KEEP_ALIVE=-1 ollama/ollama</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>ollama常用环境变量：</p>
-<ul>
-<li>OLLAMA_KEEP_ALIVE=-1，模型加载后，默认的Keepalive是5分钟，修改为-1可以让模型持续启动，OLLAMA_KEEP_ALIVE=60 表示 60 秒，OLLAMA_KEEP_ALIVE=10m 表示10分钟。<a href="https://github.com/ollama/ollama/pull/3094?ref=liuqianglong.com">https://github.com/ollama/ollama/pull/3094</a></li>
-<li>OLLAMA_ORIGINS=*，跨域访问环境变量，可以用与沉浸式翻译。</li>
-</ul>
-</blockquote>
-<p><strong>Ollama 升级</strong></p>
-<p>ollama升级过程参考，停止容器后，重新拉取容器启动即可。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker exec -it ollama bash</span><br><span class="line">root@3d1be8deba41:/# ollama -v</span><br><span class="line">ollama version is 0.1.40</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) root@ip-172-31-79-195:~# docker pull ollama/ollama</span><br><span class="line">Using default tag: latest</span><br><span class="line">latest: Pulling from ollama/ollama</span><br><span class="line">7646c8da3324: Pull complete</span><br><span class="line">d1060ab4fb75: Pull complete</span><br><span class="line">e58f7d737fbb: Pull complete</span><br><span class="line">Digest: sha256:4a3c5b5261f325580d7f4f6440e5094d807784f0513439dcabfda9c2bdf4191e</span><br><span class="line">Status: Downloaded newer image for ollama/ollama:latest</span><br><span class="line">docker.io/ollama/ollama:latest</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(base) root@ip-172-31-79-195:~# docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 -e OLLAMA_ORIGINS=* --name ollama --restart always  ollama/ollama</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">root@46648320fcd4:/# ollama -v</span><br><span class="line">ollama version is 0.3.7</span><br></pre></td></tr></table></figure>
-<h2 id="三、Open-WebUI"><a href="#三、Open-WebUI" class="headerlink" title="三、Open-WebUI"></a>三、Open-WebUI</h2><p>OpenWebUI是一个可扩展、功能丰富且用户友好的自托管WebUI，它支持完全离线操作，并兼容Ollama和OpenAI的API。这为用户提供了一个可视化的界面，使得与大型语言模型的交互更加直观和便捷 [3]。</p>
-<p>从docker hub拉取open-webui镜像（文件1G左右，看网速，2-3分钟）</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull dyrnq/open-webui:main</span><br></pre></td></tr></table></figure>
-<p>注意，官方文档是从 GitHub Container Registry (GHCR) 上拉取镜像，而不是从 Docker Hub。官方文档拉取命令如下：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">docker pull ghcr.io/open-webui/open-webui:main</span><br></pre></td></tr></table></figure>
-<p>查看镜像</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker images</span><br><span class="line">REPOSITORY         TAG       IMAGE ID       CREATED         SIZE</span><br><span class="line">dyrnq/open-webui   main      8aa8279a3e25   10 hours ago   3.9GB</span><br><span class="line">ollama/ollama      latest    d5cbea22fd07   30 hours ago   1.98GB</span><br></pre></td></tr></table></figure>
-<p>启动docker镜像，映射出来3000端口。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always dyrnq/open-webui:main</span><br></pre></td></tr></table></figure>
-<p>查看EC2的公网IP地址。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">root@ip-172-31-83-158:~# curl ifconfig.me</span><br><span class="line">54.243.6.37</span><br></pre></td></tr></table></figure>
-<p>访问Open WebUI。</p>
-<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165219856.png" alt="img"></p>
-<p>创建账号，这个是本地账号，随便添加账号信息即可。</p>
-<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165223559.png" alt="img"></p>
-<p>选择ollama中的模型，聊天测试。</p>
-<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165228399.png" alt="img"></p>
-<p>可以直接拉取目前ollama没有的模型。</p>
-<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240705165234184.png" alt="img"></p>
-<p>与下载的新模型进行对话。</p>
-<p><img src="https://liuqianglong.com/content/images/mypost/ai-ollama-openwebui-llm/image-20240828110808614.png" alt="img"></p>
-<h2 id="四、文档链接"><a href="#四、文档链接" class="headerlink" title="四、文档链接"></a>四、文档链接</h2><ul>
-<li>[1] Dockerhub ollama镜像文件：<a href="https://hub.docker.com/r/ollama/ollama?ref=liuqianglong.com">https://hub.docker.com/r/ollama/ollama</a></li>
-<li>[2] ollama keepalive：<a href="https://github.com/ollama/ollama/pull/3094?ref=liuqianglong.com">https://github.com/ollama/ollama/pull/3094</a></li>
-<li>[3] Open WebUI Github：<a href="https://github.com/open-webui/open-webui?ref=liuqianglong.com">https://github.com/open-webui/open-webui</a></li>
 </ul>
 ]]></content>
   </entry>
@@ -1246,5 +1246,1285 @@
 <li>AutoDL 当前仅支持个人用户通过端口转发在本地访问服务，如需开放服务端口到公网一般需要企业认证，请参考：<a href="https://www.autodl.com/docs/port/">开放端口</a></li>
 </ul>
 <h5 id="6-企业部署还需考虑高并发、高可用、安全机制等问题"><a href="#6-企业部署还需考虑高并发、高可用、安全机制等问题" class="headerlink" title="6. 企业部署还需考虑高并发、高可用、安全机制等问题"></a>6. 企业部署还需考虑高并发、高可用、安全机制等问题</h5>]]></content>
+  </entry>
+  <entry>
+    <title>Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程</title>
+    <url>/posts/52d0ac0c.html</url>
+    <content><![CDATA[<h1 id="Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程"><a href="#Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程" class="headerlink" title="Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程"></a>Ubuntu深度学习环境终极搭建指南：从NVIDIA驱动、CUDA到PyTorch保姆级教程</h1><blockquote>
+<p><strong>作者</strong>：一位踩过无数坑的AI开发者<br><strong>适用人群</strong>：Linux初学者、深度学习入门者、AI项目部署工程师<br><strong>更新时间</strong>：2025年1月1日<br><strong>支持系统</strong>：Ubuntu 20.04/22.04/24.04（其他Linux发行版可参考）</p>
+</blockquote>
+<hr>
+<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>在深度学习、机器学习及高性能计算领域，正确配置NVIDIA显卡驱动与CUDA环境是发挥GPU算力的关键第一步。然而，NVIDIA驱动、CUDA、cuDNN与深度学习框架（如PyTorch）之间的版本兼容性问题，常常让初学者陷入困境。</p>
+<p>本文旨在提供一份<strong>从零开始、保姆级的Ubuntu深度学习环境搭建指南</strong>。我们将手把手带你完成硬件检测、驱动安装、CUDA与cuDNN配置、Python环境管理，直至PyTorch的安装与GPU验证。无论你是Linux新手还是希望快速部署项目的工程师，本指南都将助你一次成功，跨越环境配置的门槛。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在进行深度学习、机器学习或高性能计算时，正确配置NVIDIA显卡驱动和CUDA环境是至关重要的。本文将为您提供一个完整的Ubuntu系统下NVIDIA显卡驱动与CUDA环境配置指南，涵盖从显卡识别到PyTorch安装的全流程。</p>
+<p>在深度学习项目中，GPU环境配置是每个开发者必须跨越的第一道门槛。然而，NVIDIA驱动、CUDA、cuDNN、PyTorch之间的版本兼容性问题常常让人“从入门到放弃”。</p>
+<p>本文将带你<strong>从零开始，手把手完成整套深度学习环境的搭建</strong>，涵盖硬件检测、驱动安装、CUDA配置、PyTorch验证等完整流程，并提供常见问题解决方案，助你一次成功！</p>
+<blockquote>
+<p><strong>⚠️ 重要提示：开始前请注意</strong></p>
+<ol>
+<li><strong>数据备份</strong>：驱动和内核级别的操作有一定风险，强烈建议备份系统中的重要数据。</li>
+<li><strong>网络环境</strong>：请确保稳定的网络连接，因为需要下载大文件（驱动、CUDA Toolkit等）。</li>
+<li><strong>物理访问</strong>：尽可能在物理机前操作，避免通过SSH远程安装显卡驱动。如果安装失败导致图形界面无法进入，物理访问对于修复至关重要。</li>
+<li><strong>仔细阅读</strong>：请勿盲目复制粘贴命令，务必理解每一步的意义，特别是版本号的选择。</li>
+</ol>
+</blockquote>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ol>
+<li><strong>环境组件概述</strong></li>
+<li><strong>硬件检测：识别你的NVIDIA显卡</strong></li>
+<li><strong>安装NVIDIA显卡驱动</strong></li>
+<li><strong>安装CUDA Toolkit</strong></li>
+<li><strong>安装cuDNN</strong></li>
+<li><strong>管理Python环境并安装Miniconda</strong></li>
+<li><strong>PyTorch安装与GPU验证</strong></li>
+<li><strong>总结</strong></li>
+</ol>
+<h2 id="环境组件概述"><a href="#环境组件概述" class="headerlink" title="环境组件概述"></a>环境组件概述</h2><p>在开始配置之前，让我们先了解各个组件的作用和安装顺序：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>组件名称</th>
+<th>意义</th>
+<th>安装顺序</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>显卡驱动（GPU Driver）</td>
+<td>连接操作系统和GPU硬件的软件程序，管理GPU的基本功能，是所有组件的基础。必须与特定GPU硬件兼容，以确保GPU能够正常工作并与操作系统和应用程序通信</td>
+<td>1</td>
+</tr>
+<tr>
+<td>CUDA (Compute Unified Device Architecture)</td>
+<td>NVIDIA开发的并行计算平台和编程模型，用于加速通用计算任务。它允许开发者使用GPU进行高性能的数值计算，包括深度学习训练和推理</td>
+<td>2</td>
+</tr>
+<tr>
+<td>CUDA Toolkit</td>
+<td>包含编译CUDA代码所需的工具、运行时库和数学库，是使用CUDA进行开发的必备工具集</td>
+<td>3</td>
+</tr>
+<tr>
+<td>cuDNN (CUDA Deep Neural Network Library)</td>
+<td>NVIDIA的深度学习库，专门用于加速深度神经网络的训练和推理，提升深度学习框架在GPU上的性能</td>
+<td>4</td>
+</tr>
+<tr>
+<td>PyTorch</td>
+<td>深度学习框架，提供构建和训练神经网络的高级API，可与CUDA和cuDNN集成以实现GPU加速</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="重要概念理解"><a href="#重要概念理解" class="headerlink" title="重要概念理解"></a>重要概念理解</h3><p><strong>运行任何CUDA程序都需要两个基本条件</strong>：</p>
+<ul>
+<li>硬件：支持CUDA的显卡</li>
+<li>软件：与CUDA Toolkit兼容的显卡驱动程序</li>
+</ul>
+<p><strong>NVIDIA显卡驱动与CUDA的关系</strong>：</p>
+<ul>
+<li>NVIDIA显卡驱动与CUDA并不是一对一对应的关系</li>
+<li>NVIDIA显卡驱动只要满足CUDA版本的最低要求即可</li>
+<li>CUDA程序是向后兼容的，针对特定版本的CUDA编译的应用程序将继续在后续驱动程序版本上工作</li>
+</ul>
+<p><strong>版本兼容性</strong>： 一般CUDA版本是依赖驱动版本的，相当于驱动给你提供平台，CUDA相当于软件，确定了平台版本，软件版本可随自己设置确定。</p>
+<p><strong>注意</strong>：CUDA版本与MXNet（一种深度学习框架）版本是一一对应的，不可改变</p>
+<p>您可以参考NVIDIA官方文档了解具体的CUDA与驱动版本对应关系：<a href="https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html">CUDA Toolkit Release Notes</a></p>
+<h3 id="CUDA与驱动版本对照表"><a href="#CUDA与驱动版本对照表" class="headerlink" title="CUDA与驱动版本对照表"></a>CUDA与驱动版本对照表</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>CUDA Toolkit</th>
+<th>Linux x86_64 最低驱动版本</th>
+<th>Windows x86_64 最低驱动版本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CUDA 12.x</td>
+<td>&gt;=525.60.13</td>
+<td>&gt;=528.33</td>
+</tr>
+<tr>
+<td>CUDA 11.8.x ~ 11.1.x</td>
+<td>&gt;=450.80.02</td>
+<td>&gt;=452.39</td>
+</tr>
+<tr>
+<td>CUDA 11.0 (11.0.3)</td>
+<td>&gt;=450.36.06</td>
+<td>&gt;=451.22</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html">cuda与GCC版本对应参考链接</a></p>
+<hr>
+<h2 id="硬件检测—识别你的NVIDIA显卡"><a href="#硬件检测—识别你的NVIDIA显卡" class="headerlink" title="硬件检测—识别你的NVIDIA显卡"></a>硬件检测—识别你的NVIDIA显卡</h2><p>在安装驱动之前，首先需要确认系统中是否装有NVIDIA显卡及其型号。</p>
+<h3 id="使用nvidia-smi命令"><a href="#使用nvidia-smi命令" class="headerlink" title="使用nvidia-smi命令"></a>使用<code>nvidia-smi</code>命令</h3><p>查看系统是否已经安装了NVIDIA驱动，<code>nvidia-smi</code> 是最直接的工具。它能提供详细的GPU信息，包括驱动版本、CUDA版本上限和GPU使用情况。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/b1bee6c17bf546cfaebadeddcf611c9f.png" alt="外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传"></p>
+<ul>
+<li>如果命令未找到，说明未安装驱动。</li>
+<li>如果报错 <code>NVIDIA-SMI has failed</code>，可能是驱动未正确加载或Secure Boot问题。</li>
+</ul>
+<h3 id="使用lspci命令"><a href="#使用lspci命令" class="headerlink" title="使用lspci命令"></a>使用<code>lspci</code>命令</h3><p>运行以下命令检查是否识别到NVIDIA显卡：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lspci | grep -i nvidia</span><br></pre></td></tr></table></figure>
+<p>输出示例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1)</span><br><span class="line">01:00.1 Audio device: NVIDIA Corporation Device 2291 (rev a1)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>Device 2584</code> 是你的显卡设备ID，可通过 <a href="https://www.techpowerup.com/gpu-specs/">TechPowerUp GPU Database </a>查询具体型号（如 RTX 3060）。</li>
+</ul>
+<h4 id="lspci命令详解（该部分可跳过）"><a href="#lspci命令详解（该部分可跳过）" class="headerlink" title="lspci命令详解（该部分可跳过）"></a><code>lspci</code>命令详解（该部分可跳过）</h4><h5 id="命令-1-lspci"><a href="#命令-1-lspci" class="headerlink" title="命令 1: lspci"></a>命令 1: lspci</h5><p><strong>作用</strong>:</p>
+<ul>
+<li>列出所有 PCI 设备的简要信息。用于查看系统中所有硬件设备的列表。</li>
+<li>PCI（Peripheral Component Interconnect）是一种计算机硬件的局部总线标准，用于连接计算机内部的高速设备，如显卡、声卡等。通过这个命令，可以获取系统中所有通过 PCI 总线连接的设备的详细信息。</li>
+</ul>
+<p><strong>示例</strong>:</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/409128d5a4fa4d77a4c211c8d3f63325.png" alt="在这里插入图片描述"></p>
+<p><strong>输出</strong>:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">00:00.0 Host bridge: Intel Corporation Device 4650 (rev 05)</span><br><span class="line">00:01.0 PCI bridge: Intel Corporation Device 460d (rev 05)</span><br><span class="line">...</span><br><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1)</span><br><span class="line">01:00.1 Audio device: NVIDIA Corporation Device 2291 (rev a1)</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Host bridge</code></td>
+<td>主机桥接器（连接 CPU 和其他设备的核心组件）。</td>
+</tr>
+<tr>
+<td><code>PCI bridge</code></td>
+<td>PCI 桥接器，用于扩展 PCI 总线。</td>
+</tr>
+<tr>
+<td><code>USB controller</code></td>
+<td>USB 控制器，管理 USB 设备。</td>
+</tr>
+<tr>
+<td><code>SATA controller</code></td>
+<td>SATA 控制器，管理硬盘等存储设备。</td>
+</tr>
+<tr>
+<td><code>Ethernet controller</code></td>
+<td>以太网控制器，管理网络接口。</td>
+</tr>
+<tr>
+<td><code>Non-Volatile memory controller</code></td>
+<td>NVMe 控制器，管理固态硬盘。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h5 id="命令-2-lspci-grep-i-vga"><a href="#命令-2-lspci-grep-i-vga" class="headerlink" title="命令 2: lspci | grep -i vga"></a>命令 2: <code>lspci | grep -i vga</code></h5><p><strong>作用</strong>:</p>
+<ul>
+<li>列出所有 PCI 设备，并通过 <code>grep</code> 过滤出与 VGA（显卡）相关的设备。</li>
+<li><code>grep -i vga</code>: 不区分大小写(-i)查找包含”vga”的行</li>
+<li><strong>|</strong>：这是一个管道符号，用于将前一个命令的输出作为后一个命令的输入。lspci 命令的输出结果会被传递给后面的 grep 命令</li>
+<li><strong>grep</strong>：这是一个文本搜索命令，用于在文本中搜索符合特定模式的字符串。从 lspci 命令的输出中筛选出包含“VGA”字符串的行</li>
+<li>用于快速查看系统中安装的显卡信息。</li>
+</ul>
+<p><strong>示例</strong>:</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/0c158ac526504483a2b2a54fb257d33a.png" alt="在这里插入图片描述"></p>
+<p><strong>输出</strong>:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1)</span><br></pre></td></tr></table></figure>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>01:00.0</code></td>
+<td>PCI 设备地址，表示总线号（01）、设备号（00）、功能号（0）。</td>
+</tr>
+<tr>
+<td><code>VGA compatible controller</code></td>
+<td>表示该设备是一个兼容 VGA 的控制器（即显卡）。</td>
+</tr>
+<tr>
+<td><code>NVIDIA Corporation</code></td>
+<td>显卡制造商是 NVIDIA。</td>
+</tr>
+<tr>
+<td><code>Device 2584</code></td>
+<td>设备 ID，标识具体的硬件型号（2584 是 NVIDIA 的一个显卡设备 ID）。</td>
+</tr>
+<tr>
+<td><code>(rev a1)</code></td>
+<td>硬件修订版本号，表示该设备的硬件版本（a1 是十六进制值）。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h5 id="命令-3-lspci-v-grep-A-10-VGA"><a href="#命令-3-lspci-v-grep-A-10-VGA" class="headerlink" title="命令 3: lspci -v | grep -A 10 VGA"></a>命令 3: <code>lspci -v | grep -A 10 VGA</code></h5><p><strong>作用</strong>:</p>
+<ul>
+<li>列出所有 PCI 设备的详细信息，并过滤出与 VGA 相关的部分，显示其后 10 行的详细信息</li>
+<li><code>-v</code>: 表示详细模式，会显示设备的详细信息，包括设备的名称、型号、制造商等</li>
+<li><code>-A 10</code>: 显示匹配行及其后10行</li>
+<li>用于查看显卡的更多技术细节，如内存地址、驱动程序等</li>
+</ul>
+<p><strong>示例</strong>:</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/970edba9e6cb41b98be58fe9a51a8eb7.png" alt="在这里插入图片描述"></p>
+<p><strong>输出</strong>:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1) (prog-if 00 [VGA controller])</span><br><span class="line">        Subsystem: Gigabyte Technology Co., Ltd Device 4134</span><br><span class="line">        Flags: bus master, fast devsel, latency 0, IRQ 141</span><br><span class="line">        Memory at 53000000 (32-bit, non-prefetchable) [size=16M]</span><br><span class="line">        Memory at 40000000 (64-bit, prefetchable) [size=256M]</span><br><span class="line">        Memory at 50000000 (64-bit, prefetchable) [size=32M]</span><br><span class="line">        I/O ports at 5000 [size=128]</span><br><span class="line">        Expansion ROM at 54000000 [disabled] [size=512K]</span><br><span class="line">        Capabilities: &lt;access denied&gt;</span><br><span class="line">        Kernel driver <span class="keyword">in</span> use: nouveau</span><br><span class="line">        Kernel modules: nvidiafb, nouveau</span><br></pre></td></tr></table></figure>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Subsystem</code></td>
+<td>子系统信息，表示显卡的具体型号或厂商（这里是 Gigabyte 的设备 4134）。</td>
+</tr>
+<tr>
+<td><code>Flags</code></td>
+<td>设备标志，描述设备的功能特性（如是否支持总线主控、延迟时间等）。</td>
+</tr>
+<tr>
+<td><code>Memory at ...</code></td>
+<td>显卡使用的内存地址范围及其大小（用于帧缓冲区等）。</td>
+</tr>
+<tr>
+<td><code>I/O ports at ...</code></td>
+<td>显卡的 I/O 端口地址范围及其大小。</td>
+</tr>
+<tr>
+<td><code>Expansion ROM</code></td>
+<td>扩展 ROM 地址及其状态（这里是禁用状态）。</td>
+</tr>
+<tr>
+<td><code>Kernel driver in use</code></td>
+<td>当前使用的内核驱动程序（这里是开源驱动 <code>nouveau</code>）。</td>
+</tr>
+<tr>
+<td><code>Kernel modules</code></td>
+<td>可用的内核模块（这里是 <code>nvidiafb</code> 和 <code>nouveau</code>）。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h5 id="命令-4-lspci-grep-i-nvidia"><a href="#命令-4-lspci-grep-i-nvidia" class="headerlink" title="命令 4: lspci | grep -i nvidia"></a>命令 4: <code>lspci | grep -i nvidia</code></h5><p><strong>作用</strong>:</p>
+<ul>
+<li>列出所有 PCI 设备，并过滤出与 NVIDIA 相关的设备。</li>
+<li>用于查看系统中所有 NVIDIA 设备（包括显卡和音频设备）。</li>
+</ul>
+<p><strong>示例</strong>:</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/b6e9a0f91dfc4326b2e719caed151ab6.png" alt="在这里插入图片描述"></p>
+<p><strong>输出</strong>:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller: NVIDIA Corporation Device 2584 (rev a1)</span><br><span class="line">01:00.1 Audio device: NVIDIA Corporation Device 2291 (rev a1)</span><br></pre></td></tr></table></figure>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>01:00.0</code></td>
+<td>显卡设备地址</td>
+</tr>
+<tr>
+<td><code>Device 2584</code></td>
+<td>Device设备号</td>
+</tr>
+<tr>
+<td><code>01:00.1</code></td>
+<td>NVIDIA 显卡附带的音频设备地址（HDMI 音频输出）</td>
+</tr>
+<tr>
+<td><code>Audio device</code></td>
+<td>表示这是一个音频设备</td>
+</tr>
+<tr>
+<td><code>Device 2291</code></td>
+<td>音频设备的设备 ID</td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<p>如果输出如下：<br>01:00.0 3D controller: NVIDIA Corporation GM108M [GeForce 920MX] (rev a2)<br>其中，GeForce 920MX就是我们的显卡型号。</p>
+</blockquote>
+<hr>
+<h5 id="命令-5-lspci-vnn-grep-VGA-A-12"><a href="#命令-5-lspci-vnn-grep-VGA-A-12" class="headerlink" title="命令 5: lspci -vnn | grep VGA -A 12"></a>命令 5: <code>lspci -vnn | grep VGA -A 12</code></h5><p><strong>作用</strong>:</p>
+<ul>
+<li>列出所有 PCI 设备的详细信息，并过滤出与 VGA 相关的部分，显示其后 12 行的详细信息。</li>
+<li>-vnn：这是 lspci 命令的选项参数。<ul>
+<li><strong>-nn</strong>：表示以数值形式显示设备的供应商 ID （Device ID） 和设备 ID （Vendor ID）。供应商 ID 和设备 ID 是用于唯一标识硬件设备的代码，通过这些代码，可以更准确地确定设备的具体型号。</li>
+<li>VGA（Video Graphics Array）是一种视频显示标准，通常用于显卡。在这里，通过搜索“VGA”，可以找到系统中与显卡相关的信息。</li>
+<li><strong>-A 12</strong>：这是 grep 命令的选项参数，表示在找到匹配的行后，还会显示该行之后的 12 行内容。这样做的目的是为了获取更多与显卡相关的信息，因为显卡的信息可能分布在多行中，而不仅仅是在包含“VGA”字符串的那一行。</li>
+</ul>
+</li>
+</ul>
+<p><strong>示例</strong>:</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/4569ebca94bd4165ae0bcb65215cccd3.png" alt="在这里插入图片描述"></p>
+<p><strong>输出</strong>:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">01:00.0 VGA compatible controller [0300]: NVIDIA Corporation Device [10de:2584] (rev a1) (prog-if 00 [VGA controller])</span><br><span class="line">        Subsystem: Gigabyte Technology Co., Ltd Device [1458:4134]</span><br><span class="line">        ...</span><br></pre></td></tr></table></figure>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[0300]</code></td>
+<td>类别代码，表示该设备属于 VGA 兼容控制器类别。</td>
+</tr>
+<tr>
+<td><code>[10de:2584]</code></td>
+<td>Vendor ID 和 Device ID，唯一标识设备（10DE 是 NVIDIA，2584 是具体型号）。</td>
+</tr>
+<tr>
+<td><code>[1458:4134]</code></td>
+<td>子系统 Vendor ID 和 Device ID（1458 是 Gigabyte，4134 是具体型号）。</td>
+</tr>
+<tr>
+<td><code>(prog-if 00 [VGA controller])</code></td>
+<td>编程接口，表示该设备是一个 VGA 控制器。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h5 id="设备信息关键字段解释"><a href="#设备信息关键字段解释" class="headerlink" title="设备信息关键字段解释"></a>设备信息关键字段解释</h5><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>10de</code></td>
+<td>NVIDIA 的供应商ID（Vendor ID），用于标识硬件供应商。</td>
+</tr>
+<tr>
+<td><code>2584</code></td>
+<td>设备 ID (Device ID)，标识具体的硬件型号（例如 RTX 3060 的设备 ID 是 2584）。</td>
+</tr>
+<tr>
+<td><code>(rev a1)</code></td>
+<td>硬件修订版本号，表示该设备的硬件版本（a1 是十六进制值）。</td>
+</tr>
+<tr>
+<td><code>[0300]</code></td>
+<td>类别代码，表示该设备属于 VGA 兼容控制器类别。</td>
+</tr>
+<tr>
+<td><code>[1458:4134]</code></td>
+<td>子系统 Vendor ID 和 Device ID，标识显卡的具体型号和厂商。<br />1458是Gigabyte(技嘉)的供应商ID，4134是主板型号ID</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="使用GPU监控工具"><a href="#使用GPU监控工具" class="headerlink" title="使用GPU监控工具"></a>使用GPU监控工具</h3><h4 id="安装intel-gpu-tools"><a href="#安装intel-gpu-tools" class="headerlink" title="安装intel-gpu-tools"></a>安装intel-gpu-tools</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install intel-gpu-tools</span><br></pre></td></tr></table></figure>
+<h4 id="查看GPU信息"><a href="#查看GPU信息" class="headerlink" title="查看GPU信息"></a>查看GPU信息</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">lsgpu</span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/a0392559570b4bcd927a6b1dce02b3f1.png" alt="在这里插入图片描述"></p>
+<ol>
+<li>第一部分 (<code>sys:/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/drm/card0</code>):</li>
+</ol>
+<ul>
+<li>这是显卡的系统设备路径</li>
+<li><code>subsystem : drm</code> 表示这是一个 DRM (Direct Rendering Manager) 子系统</li>
+<li><code>drm card : /dev/dri/card0</code> 是显卡的设备文件路径，用于系统访问显卡</li>
+<li><code>parent</code> 指向父设备的路径，即 PCI 设备路径</li>
+</ul>
+<ol>
+<li>第二部分 (<code>sys:/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/drm/renderD128</code>):</li>
+</ol>
+<ul>
+<li><p>这是显卡渲染设备的路径</p>
+</li>
+<li><p><code>subsystem : drm</code> 同样表示这是 DRM 子系统</p>
+</li>
+<li><p><code>drm render : /dev/dri/renderD128</code> 是渲染设备的文件路径，用于 GPU 渲染操作</p>
+</li>
+<li><p>它与第一个设备共享相同的父设备</p>
+</li>
+</ul>
+<ol>
+<li><p>第三部分显示了系统中 GPU 设备的基本信息。让我来解析一下这些信息：</p>
+<ol>
+<li><p>您的系统有一张 NVIDIA 显卡：</p>
+<ul>
+<li><p>供应商 ID (vendor): 10DE（这是 NVIDIA 的供应商代码）</p>
+</li>
+<li><p>设备 ID (device): 2584</p>
+</li>
+</ul>
+</li>
+<li><p>显卡的设备路径：</p>
+<ul>
+<li><p>显卡路径：/dev/dri/card0</p>
+</li>
+<li><p>渲染设备路径：/dev/dri/renderD128</p>
+</li>
+<li><p>PCI 总线路径：0000:01:00.0</p>
+</li>
+<li><p>其中<code>card0</code> 主要负责显示输出，而 <code>renderD128</code> 主要负责 GPU 渲染计算。</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="使用权威网站查询-PCI-PCIe-设备-ID信息"><a href="#使用权威网站查询-PCI-PCIe-设备-ID信息" class="headerlink" title="使用权威网站查询 PCI/PCIe 设备 ID信息"></a>使用权威网站查询 PCI/PCIe 设备 ID信息</h3><p>可以通过以下权威网站查询具体的显卡型号：</p>
+<p>输入刚刚获得的信息:</p>
+<ul>
+<li>Vendor ID: 10de (NVIDIA Corporation） </li>
+<li>Device ID: 2584 (十六进制为 0x2584)</li>
+</ul>
+<ol>
+<li><a href="https://admin.pci-ids.ucw.cz/read/PC">The PCI ID Repository</a></li>
+</ol>
+<blockquote>
+<p>这是最常用的 PCI ID 查询网站<br><img src="https://i-blog.csdnimg.cn/direct/ff1d577cba2d4396a1eb9dd0be954f9e.gif" alt="在这里插入图片描述"></p>
+</blockquote>
+<ol>
+<li><p><a href="https://pcilookup.com/">PCI Lookup</a><br><img src="https://i-blog.csdnimg.cn/direct/06ecfdac84d6498ca4f6372c5e1e06e6.gif" alt="在这里插入图片描述"></p>
+</li>
+<li><p><a href="https://www.techpowerup.com/gpu-specs/">TechPowerUp GPU Database</a><br><img src="https://i-blog.csdnimg.cn/direct/4e492a8edd8245c1a5003e9a373bd329.png" alt="在这里插入图片描述"></p>
+</li>
+</ol>
+<p>这些数据库会定期更新以包含新发布的硬件设备信息。由于有些新设备可能还未被收录，建议查询多个来源进行交叉验证。</p>
+<h3 id="使用CPU-X（Linux版CPU-Z）"><a href="#使用CPU-X（Linux版CPU-Z）" class="headerlink" title="使用CPU-X（Linux版CPU-Z）"></a>使用CPU-X（Linux版CPU-Z）</h3><blockquote>
+<p>精通技术的 Windows 很多用户可能使用 CPU-Z。它是一个极好的实用程序，用于收集 Windows 中应用程序无法获得的全面系统信息。但是 CPU-Z 在 Linux 上不可用。不要灰心！GitHub 上一个名为 X0rg 的开发人员创建了一个 CPU-Z 克隆，名为CPU-X for Linux。</p>
+</blockquote>
+<p><a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X">CPU-X</a>可以提供包括处理器、主板、内存、系统、显卡、性能等完整的硬件信息。</p>
+<h4 id="安装CPU-X"><a href="#安装CPU-X" class="headerlink" title="安装CPU-X"></a>安装CPU-X</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install cpu-x</span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/a15096993f314de6b30ba02e757ea4fd.png" alt="在这里插入图片描述"><br>安装成功后<br><img src="https://i-blog.csdnimg.cn/direct/61cd4fb95c4a4498aa4d8d8d4661df66.png" alt="在这里插入图片描述"><br>双击输入密码启动<br><img src="https://i-blog.csdnimg.cn/direct/a611d400cba048678ba5f32c2f6102a5.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/a9f44f6f8d9a4299ab31e6bad25bbcb1.png" alt="在这里插入图片描述"></p>
+<p>也可以通过命令行控制启动（支持多种方式显示）<br><img src="https://i-blog.csdnimg.cn/direct/05dec04f28d84260a7b87022ea90a89f.png" alt="在这里插入图片描述"></p>
+<h3 id="更多显卡信息获取方式"><a href="#更多显卡信息获取方式" class="headerlink" title="更多显卡信息获取方式"></a>更多显卡信息获取方式</h3><p>为了获取更详细或针对特定品牌显卡的实时信息，可以使用以下专用命令：</p>
+<ul>
+<li><p><strong>NVIDIA GPU:</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nvidia-smi </span><br></pre></td></tr></table></figure>
+<p><em>(这是最常用、信息最全面的NVIDIA GPU监控工具)</em></p>
+</li>
+<li><p><strong>AMD GPU:</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rocm-smi</span><br></pre></td></tr></table></figure>
+<p><em>(适用于安装了ROCm驱动的AMD显卡)</em></p>
+</li>
+<li><p><strong>所有 PCI 设备（包括显卡）:</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lspci</span><br><span class="line">lspci | grep -i vga</span><br><span class="line">lspci -v | grep -A 10 VGA</span><br><span class="line">lspci | grep -i nvidia</span><br><span class="line">lspci -vnn | grep VGA -A 12</span><br></pre></td></tr></table></figure>
+<p><em>(这些命令在前面已有详细解释，用于从不同维度查询PCI设备信息)</em></p>
+</li>
+</ul>
+<h3 id="关于Nouveau驱动"><a href="#关于Nouveau驱动" class="headerlink" title="关于Nouveau驱动"></a>关于Nouveau驱动</h3><p>在您使用 <code>lspci -v</code> 等命令的输出中，可能会看到 <code>Kernel driver in use: nouveau</code>。那么，Nouveau是什么呢？</p>
+<p><strong>Nouveau</strong> 是一个开源的NVIDIA显卡驱动程序，专门为Linux系统开发。这个名字来自法语，意思是“新的”。</p>
+<p><strong>Nouveau驱动的特点：</strong></p>
+<ul>
+<li><strong>完全开源</strong>，由社区维护。</li>
+<li><strong>默认包含</strong>在大多数Linux发行版中，提供基本的显示功能。</li>
+<li><strong>相比NVIDIA官方闭源驱动：</strong><ul>
+<li>功能较为基础。</li>
+<li>性能相对较低，尤其是在3D渲染和游戏方面。</li>
+<li>不支持部分高级特性，最关键的是<strong>不支持CUDA</strong>。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>重要提示</strong>：如果您使用Linux系统进行深度学习、科学计算或任何需要GPU加速的任务，<strong>必须禁用Nouveau驱动并安装NVIDIA官方驱动</strong>。这是成功配置CUDA环境的前提。</p>
+</blockquote>
+<hr>
+<h2 id="安装NVIDIA驱动"><a href="#安装NVIDIA驱动" class="headerlink" title="安装NVIDIA驱动"></a>安装NVIDIA驱动</h2><p>确认显卡信息后，我们开始安装NVIDIA驱动。有两种主要的安装方法：</p>
+<h3 id="方法一：通过系统包管理器安装（推荐初学者）"><a href="#方法一：通过系统包管理器安装（推荐初学者）" class="headerlink" title="方法一：通过系统包管理器安装（推荐初学者）"></a>方法一：通过系统包管理器安装（推荐初学者）</h3><p>从Ubuntu 18.04 LTS开始，用户可以通过”软件和更新 - 附加驱动”工具安装NVIDIA驱动程序。这一功能在后续的 LTS 版本（如 20.04 、22.04 和 24.04）中得到了持续改进和支持。</p>
+<p><strong>步骤</strong>：</p>
+<ol>
+<li>打开”Software &amp; Updates”（软件和更新）应用程序</li>
+<li>切换到”Additional Drivers”（附加驱动）选项卡</li>
+<li>在列表中选择适合的NVIDIA驱动版本</li>
+<li>点击”Apply Changes”（应用更改）以安装驱动</li>
+<li>重启系统</li>
+</ol>
+<p><img src="https://i-blog.csdnimg.cn/direct/24749a3e12324a398b1c76f60d5e5d2b.png" alt="在这里插入图片描述"></p>
+<p><strong>驱动选项说明</strong>：</p>
+<blockquote>
+<p>默认选择第一个选项<code>安装</code>即可</p>
+</blockquote>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NVIDIA driver (open kernel) metapackage 来自 nvidia-driver-535-server-open</td>
+<td>专有测试版</td>
+<td>使用开放内核的NVIDIA服务器驱动元包，经过测试</td>
+</tr>
+<tr>
+<td>NVIDIA Server Driver metapackage 来自 nvidia-driver-535-server</td>
+<td>专有</td>
+<td>NVIDIA服务器版本驱动程序元包</td>
+</tr>
+<tr>
+<td>NVIDIA driver metapackage 来自 nvidia-driver-535</td>
+<td>专有</td>
+<td>标准NVIDIA驱动程序元包</td>
+</tr>
+<tr>
+<td>NVIDIA driver (open kernel) metapackage 来自 nvidia-driver-535-open</td>
+<td>专有</td>
+<td>使用开放内核的标准NVIDIA驱动元包</td>
+</tr>
+<tr>
+<td>X.Org X server – Nouveau display driver 来自 xserver-xorg-video-nouveau</td>
+<td>开源</td>
+<td>开源的Nouveau显示驱动程序</td>
+</tr>
+<tr>
+<td>继续使用手动安装的驱动</td>
+<td>-</td>
+<td>保持当前手动安装的驱动程序不变</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="方法二：手动安装（推荐生产环境）"><a href="#方法二：手动安装（推荐生产环境）" class="headerlink" title="方法二：手动安装（推荐生产环境）"></a>方法二：手动安装（推荐生产环境）</h3><h4 id="0-卸载旧驱动（如有）-禁用开源驱动-nouveau"><a href="#0-卸载旧驱动（如有）-禁用开源驱动-nouveau" class="headerlink" title="0. 卸载旧驱动（如有）+ 禁用开源驱动 nouveau"></a>0. 卸载旧驱动（如有）+ 禁用开源驱动 <code>nouveau</code></h4><p><strong>卸载旧驱动</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get purge &#x27;^nvidia-.*&#x27;</span><br><span class="line">sudo apt-get autoremove</span><br></pre></td></tr></table></figure>
+<p>禁用开源驱动 <code>Nouveau</code><strong>：</strong> Nouveau是Linux内核自带的开源NVIDIA驱动，与官方闭源驱动冲突，需要禁用。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># sudo bash -c &quot;echo &#x27;blacklist nouveau&#x27; &gt;&gt; /etc/modprobe.d/blacklist-nouveau.conf&quot;</span></span><br><span class="line"><span class="comment"># sudo bash -c &quot;echo &#x27;options nouveau modeset=0&#x27; &gt;&gt; /etc/modprobe.d/blacklist-nouveau.conf&quot;</span></span><br><span class="line">echo <span class="string">&quot;blacklist nouveau&quot;</span> | sudo tee /etc/modprobe.d/blacklist-nouveau.conf</span><br><span class="line">echo <span class="string">&quot;options nouveau modeset=0&quot;</span> | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf</span><br><span class="line">sudo update-initramfs -u</span><br><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
+<p>重启后，通过 <code>lsmod | grep nouveau</code> 确认Nouveau已被禁用（应无任何输出）</p>
+<h4 id="1-下载官方驱动"><a href="#1-下载官方驱动" class="headerlink" title="1. 下载官方驱动"></a>1. 下载官方驱动</h4><p>访问<a href="https://www.nvidia.cn/Download/index.aspx?lang=cn#">NVIDIA驱动下载官网</a>，根据你的显卡型号和操作系统选择并下载最新的驱动安装包（一个 <code>.run</code> 文件）</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/b42cd8aca17a457a9afe752a0d6493d9.png" alt="在这里插入图片描述"></p>
+<p>点击查找后，跳转到驱动主页<br><img src="https://i-blog.csdnimg.cn/direct/db704377f62c473394543196e9e5c7fd.png" alt="在这里插入图片描述"><br>下载最新版推荐驱动<br><img src="https://i-blog.csdnimg.cn/direct/5f87ea04f7c84641903cfe00f39cc402.png" alt="在这里插入图片描述"></p>
+<p>也可使用<code>wget</code>命令下载</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget https://us.download.nvidia.com/XFree86/Linux-x86_64/550.144.03/NVIDIA-Linux-x86_64-550.144.03.run</span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/93343a43de6c4d2bbe2b58186b23aae8.png" alt="在这里插入图片描述"></p>
+<h4 id="2-安装编译依赖"><a href="#2-安装编译依赖" class="headerlink" title="2. 安装编译依赖"></a>2. 安装编译依赖</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install gcc make </span><br></pre></td></tr></table></figure>
+<p><strong>编译工具作用说明</strong>：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>作用范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>gcc</code></td>
+<td>安装gcc编译器，用于编译C代码</td>
+<td>Nvidia驱动的某些模块可能需要C语言支持</td>
+</tr>
+<tr>
+<td><code>g++</code></td>
+<td>安装g++编译器，用于编译C++代码</td>
+<td>Nvidia驱动的某些部分可能需要C++支持</td>
+</tr>
+<tr>
+<td><code>make</code></td>
+<td>安装make工具，用于自动化构建</td>
+<td>简化软件的编译过程，执行驱动程序的安装脚本，确保正确安装Nvidia驱动</td>
+</tr>
+<tr>
+<td><code>initramfs-tools</code></td>
+<td>安装initramfs-tools工具集，用于管理初始化内存文件系统（initramfs）</td>
+<td>管理系统启动时加载的驱动程序和模块，确保Nvidia驱动在系统启动时加载</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="https://i-blog.csdnimg.cn/direct/f20aa971025146d79d72fc7851654246.png" alt="在这里插入图片描述"></p>
+<h4 id="3-运行安装程序"><a href="#3-运行安装程序" class="headerlink" title="3. 运行安装程序"></a>3. 运行安装程序</h4><p>进入<code>.run</code>文件所在的目录，赋予其执行权限并运行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x NVIDIA-Linux-x86_64-550.144.03.run  <span class="comment"># 修改权限</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/b1c3e1985ace4d3ebe95687080789be1.png" alt="在这里插入图片描述"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo ./NVIDIA-Linux-x86_64-550.144.03.run   # 安装驱动</span><br></pre></td></tr></table></figure>
+<ul>
+<li>安装可选参数<ul>
+<li><code>--no-x-check</code>：无需X服务</li>
+<li><code>--no-nouveau-check</code>：跳过nouveau检查</li>
+<li><code>--no-opengl-files</code>：避免与系统OpenGL冲突</li>
+</ul>
+</li>
+</ul>
+<h5 id="安装过程："><a href="#安装过程：" class="headerlink" title="安装过程："></a>安装过程：</h5><p><strong>选择“Continue installation”，回车</strong><br><img src="https://i-blog.csdnimg.cn/direct/eb614fd953f74ff99f0c7185e703d70e.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/f0e47f2419fc4293a6497a89abac8763.png" alt="在这里插入图片描述"><br><strong>禁用<code>nouveau</code>驱动</strong><br><img src="https://i-blog.csdnimg.cn/direct/c82250a1b5d24b998eabf1610e311449.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/cb9ddd7b63ed4acead219db5ef9cd44b.png" alt="在这里插入图片描述"><br><strong>NVIDIA 自动屏蔽 nouveau 驱动</strong><br><img src="https://i-blog.csdnimg.cn/direct/504ba222f81c45bfbd8138dc4e2526ed.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/46bd6d00949146eabb6b0f26a40046a1.png" alt="在这里插入图片描述"></p>
+<p><strong>下一步</strong><br><img src="https://i-blog.csdnimg.cn/direct/dfeeeccd0b85465e9ac33053b0d66299.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/91f1af9aa6ba4b61a56e506080a90ab7.png" alt="在这里插入图片描述"><br><strong>我这里选择终止安装（应该可以直接继续安装）</strong><br><img src="https://i-blog.csdnimg.cn/direct/1a71c294f6054d48a1d8d53b6e25e268.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/832c57d981154b9cadd2e5ea42357526.png" alt="在这里插入图片描述"><br><strong>重新构建</strong><br><img src="https://i-blog.csdnimg.cn/direct/46a2371b078b4cf0b85aaae62de62218.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/5a539ede1d1e4147a2eadcc60faa00d6.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d232f3b194fa47988160d0cb9a846f17.png" alt="在这里插入图片描述"><br><strong>构建完成之后退出</strong><br><img src="https://i-blog.csdnimg.cn/direct/e752e13b3ddf40229915785864837251.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/6c0f0a78305e40c996999b34a3a5ec3c.png" alt="在这里插入图片描述"></p>
+<p><strong>重新执行安装命令，这次选择继续安装</strong></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d69a6143f98f4ce9abf2af8af834e541.gif" alt="在这里插入图片描述"><br><strong>编译通过后，接着运行到下面这里，选择“Yes”</strong><br><img src="https://i-blog.csdnimg.cn/direct/891180835aff40b09a0678bdf89feba0.png" alt="在这里插入图片描述"><br><strong>点击确定</strong><br><img src="https://i-blog.csdnimg.cn/direct/21e5666f73f74ca8bd2e46d77b2b1f5e.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/f5e26bdf3b0d44a89c50a49c4da670b0.png" alt="在这里插入图片描述"><br><strong>选择不需要重新构建</strong><br><img src="https://i-blog.csdnimg.cn/direct/224384cf69ce4a3a832e66351b117b2f.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/8a5e8b14325b410798e9166f41fe6917.png" alt="在这里插入图片描述"><br><strong>选择no</strong><br><img src="https://i-blog.csdnimg.cn/direct/2ed4fcc539df4d54a262cd9ba0cd37ab.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/571a83e2dae247efa20e3c8fafc7bc8a.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/27ca2d1383e34eef8fcdd9e8f5283b1a.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/6f00c750164740ee8b31a4690639b9e7.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/e4a8b748b6774a47be4c8dc3f601d6ba.png" alt="在这里插入图片描述"><br><img src="https://i-blog.csdnimg.cn/direct/6b4530146bac499496488e978adfcfea.png" alt="在这里插入图片描述"></p>
+<h5 id="安装完成："><a href="#安装完成：" class="headerlink" title="安装完成："></a>安装完成：</h5><p><strong><code>reboot</code>重启电脑，终端运行<code>nvidia-smi</code></strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>nvidia-smi：这是 NVIDIA System Management Interface 的缩写，用于监控和管理 NVIDIA GPU 的状态。这个命令会显示 GPU 的型号、CUDA 版本等信息。如果一切正常，说明 NVIDIA 驱动和 CUDA 安装成功。<br><img src="https://i-blog.csdnimg.cn/direct/358910b9ce584fdd86cc371b412b5c6e.png" alt="在这里插入图片描述"><strong>注意：</strong>右上角显示的<strong>不是当前安装的CUDA 版本</strong>，显示的是显卡<strong>最高支持</strong>的 CUDA 版本为 12.4<br>如果需要安装更高版本的CUDA，需要更新NVIDIA显卡驱动版本</p>
+</blockquote>
+<h5 id="实时监控GPU状态："><a href="#实时监控GPU状态：" class="headerlink" title="实时监控GPU状态："></a>实时监控GPU状态：</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 每5秒刷新一次</span></span><br><span class="line">nvidia-smi -l 5</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>直接在命令行中启动一个循环，每 5 秒刷新一次 GPU 状态，包括 GPU 的温度、使用率、内存使用情况、进程信息等，适用于简单的监控需求。<br>-l 5：这个选项指定了 -l（或 —loop）参数，表示每 5 秒刷新一次 GPU 的状态信息。</p>
+</blockquote>
+<p><img src="https://i-blog.csdnimg.cn/direct/773fa3c8e1de4e68a8423a8e52b8c410.gif" alt="在这里插入图片描述"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 使用watch命令</span></span><br><span class="line">watch -n 5 nvidia-smi</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>通过 watch 命令提供更丰富的交互性和持久性，每 5 秒执行一次 nvidia-smi，适合需要持续监控和更复杂交互的场景。<br>watch：这是一个在 Unix 和 Linux 系统中常用的命令，用于周期性地执行一个命令并显示其输出。相当于启动一个持续运行的进程，每 5 秒执行一次 nvidia-smi<br>-n 5：这个选项指定了每 5 秒执行一次 nvidia-smi 命令。</p>
+</blockquote>
+<p><img src="https://i-blog.csdnimg.cn/direct/fd1cabde2fd149a4846a04be2f26e659.gif" alt="在这里插入图片描述"></p>
+<p><strong>安装过程注意事项</strong>：</p>
+<ul>
+<li>如果提示nouveau驱动冲突，选择自动禁用</li>
+<li>在Secure Boot启用的系统中，需要对内核模块进行签名</li>
+</ul>
+<h4 id="常见问题与解决方案"><a href="#常见问题与解决方案" class="headerlink" title="常见问题与解决方案"></a>常见问题与解决方案</h4><div class="table-container">
+<table>
+<thead>
+<tr>
+<th><strong>问题</strong></th>
+<th><strong>解决方法</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>nvidia-smi</code> 报错</td>
+<td>注册 NVIDIA 公钥到 MOK 列表，并重启系统完成注册。</td>
+</tr>
+<tr>
+<td><code>modprobe nvidia</code> 报错</td>
+<td>确保完成 MOK 注册，或禁用 Secure Boot。</td>
+</tr>
+<tr>
+<td>无法进入 GRUB 菜单</td>
+<td>快速按 <code>Shift</code> 或 <code>Esc</code> 键，或修改 GRUB 配置文件以显示菜单。</td>
+</tr>
+<tr>
+<td>MOK 管理界面未出现</td>
+<td>检查 Secure Boot 是否启用，或手动触发 MOK 注册。</td>
+</tr>
+<tr>
+<td>NVIDIA 驱动仍然无法加载</td>
+<td>禁用 Nouveau 驱动，或重新安装最新版本的 NVIDIA 驱动。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id="✅手动禁用nouveau通用驱动【针对服务器版（无图形界面）Ubuntu】"><a href="#✅手动禁用nouveau通用驱动【针对服务器版（无图形界面）Ubuntu】" class="headerlink" title="✅手动禁用nouveau通用驱动【针对服务器版（无图形界面）Ubuntu】"></a>✅手动禁用nouveau通用驱动【<u><em>针对服务器版（无图形界面）Ubuntu</em></u>】</h5><p><strong>删除原有显卡驱动</strong>（需要彻底删除，否则安装时会报错）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get remove --purge nvidia*</span><br></pre></td></tr></table></figure>
+<p><strong>修改<code>blacklist.conf</code>配置文件</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/modprobe.d/blacklist.conf</span><br></pre></td></tr></table></figure>
+<p><strong>在<code>blacklist.conf</code>文件末尾添加以下内容</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">blacklist nouveau</span><br><span class="line">options nouveau modeset=0</span><br></pre></td></tr></table></figure>
+<p><strong>更新配置并重启</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> update-initramfs -u</span><br><span class="line"><span class="built_in">sudo</span> reboot</span><br></pre></td></tr></table></figure>
+<p><strong>重启后输入下方命令，无输出则说明禁用成功</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">lsmod | grep nouveau</span><br></pre></td></tr></table></figure>
+<h5 id="❌-nvidia-smi-报错，提示无法与-NVIDIA-驱动通信"><a href="#❌-nvidia-smi-报错，提示无法与-NVIDIA-驱动通信" class="headerlink" title="❌ nvidia-smi` 报错，提示无法与 NVIDIA 驱动通信"></a>❌ nvidia-smi` 报错，提示无法与 NVIDIA 驱动通信</h5><ul>
+<li><p><strong>原因</strong>：</p>
+<ul>
+<li><strong>Secure Boot 限制</strong><ul>
+<li>当 Secure Boot 启用时，Linux 内核只会加载经过受信任密钥签名的模块。</li>
+<li>如果 NVIDIA 驱动的公钥未被添加到系统的受信任密钥数据库中，内核将拒绝加载 NVIDIA 内核模块。</li>
+</ul>
+</li>
+<li><strong>公钥未注册</strong><ul>
+<li>安装程序生成了一个 X.509 证书（包含公钥），但它尚未被注册到 MOK 列表中。</li>
+<li>因此，即使驱动已安装，内核也无法验证其签名的有效性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>解决方法</strong>：</p>
+<p>检查 <code>Secure Boot</code> 状态 ：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mokutil --sb-state</span><br></pre></td></tr></table></figure>
+<p>如果输出为 SecureBoot enabled，继续下一步。</p>
+<p><strong>步骤 1：检查公钥文件是否存在</strong></p>
+<p>确保公钥文件 <code>/usr/share/nvidia/nvidia-modsign-crt-F26065BA.der</code> 存在：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">ls</span> /usr/share/nvidia/nvidia-modsign-crt-F26065BA.der</span><br></pre></td></tr></table></figure>
+<p>如果文件不存在，请重新运行 <strong>NVIDIA 驱动安装程序</strong>，并确保选择对内核模块进行签名。</p>
+<p><strong>步骤 2：注册 NVIDIA 公钥到 MOK 列表</strong></p>
+<ol>
+<li><p>使用 <code>mokutil</code> 工具导入公钥：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> mokutil --import /usr/share/nvidia/nvidia-modsign-crt-F26065BA.der</span><br></pre></td></tr></table></figure>
+<ul>
+<li>系统会提示你设置一个密码（用于确认信任公钥）。请记住这个密码，稍后需要在 MOK 管理界面中输入。</li>
+</ul>
+</li>
+<li><p>检查是否成功导入：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> mokutil --list-new</span><br></pre></td></tr></table></figure>
+<ul>
+<li>输出应显示刚刚导入的公钥文件路径。</li>
+</ul>
+</li>
+</ol>
+<p><strong>步骤 3：重启计算机</strong></p>
+<ol>
+<li><p>重启系统以进入 MOK 管理界面：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> reboot</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在启动时，按 <code>Shift</code> 或 <code>Esc</code> 键进入 GRUB 菜单，然后选择 “Enroll MOK”（注册 MOK）。<br><code>Shift</code> 键 ：适用于大多数基于 <code>BIOS</code> 的系统。<br><code>Esc</code> 键 ：适用于某些基于 <code>UEFI</code> 的系统。</p>
+</li>
+<li><p>按照屏幕提示完成以下操作：</p>
+<ul>
+<li>选择 “Continue” 或 “Yes” 确认注册。</li>
+<li>输入之前设置的密码。</li>
+</ul>
+</li>
+<li><p>完成后，系统会提示你重启计算机。</p>
+</li>
+</ol>
+<p><strong>步骤 4：验证驱动是否正常工作</strong></p>
+<ol>
+<li><p>重启后，检查 NVIDIA 驱动是否正常加载：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure>
+<ul>
+<li>如果显示 GPU 信息，则说明驱动安装成功。</li>
+</ul>
+</li>
+<li><p>如果仍然失败，可以尝试手动重新加载 NVIDIA 内核模块：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> modprobe nvidia</span><br></pre></td></tr></table></figure>
+<ul>
+<li>如果没有报错，则说明模块加载成功。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p><strong>补充知识点</strong>：</p>
+<ul>
+<li>什么是 <code>Secure Boot</code>？<ul>
+<li><code>Secure Boot</code> 是 UEFI 固件的一项安全功能，用于确保只有经过数字签名的软件（如操作系统内核、驱动程序等）才能在系统启动时加载。</li>
+<li>如果 <code>Secure Boot</code> 启用，未签名或签名无效的内核模块将无法加载。</li>
+</ul>
+</li>
+<li><p>什么是<strong>私钥</strong>和<strong>公钥</strong>？</p>
+<ul>
+<li><strong>私钥</strong> ：用于对文件（如内核模块）进行签名的密钥。它必须保密，只有你拥有。</li>
+<li><strong>公钥</strong> ：与私钥配对的密钥，用于验证签名的有效性。公钥需要注册到系统的 <strong>MOK</strong>（Machine Owner Key）列表中，以便 <code>Secure Boot</code> 信任你的签名。</li>
+</ul>
+</li>
+<li><p><strong>错误分析</strong></p>
+<ul>
+<li>NVIDIA 驱动需要安装一个内核模块（nvidia.ko），而系统启用了 Secure Boot 和模块签名验证。</li>
+<li>安装程序提供了<strong>两个选项</strong>：<ul>
+<li><strong>Sign the kernel module</strong> ：如果希望 NVIDIA 驱动正常工作，并且系统启用了 Secure Boot，则需要对 NVIDIA 内核模块进行签名</li>
+<li><strong>Install without signing</strong> ：如果选择不签名，NVIDIA 内核模块将无法加载，除非禁用 Secure Boot</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>启用 Secure Boot，对 NVIDIA 内核模块进行签名简要步骤</strong>：</p>
+<ol>
+<li>安装程序会引导你生成一个密钥对（如果还没有的话）。</li>
+<li>使用该密钥对 NVIDIA 内核模块进行签名。</li>
+<li>将公钥注册到系统的 MOK（Machine Owner Key）列表中。</li>
+<li>系统会在下次启动时提示你确认信任该密钥（通过 MOK 管理界面）。</li>
+<li>在启动时进入 MOK 管理界面（通常按 Shift 或 Esc 键进入 GRUB 菜单）。</li>
+<li>选择 “Enroll MOK” 并输入之前设置的密码，确认信任公钥。</li>
+<li>重启后，NVIDIA 驱动应该能够正常加载。</li>
+</ol>
+</li>
+<li><strong>注意事项</strong>：<ul>
+<li>如果不熟悉密钥管理，需要一些额外的学习成本。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="❌-modprobe-nvidia-报错"><a href="#❌-modprobe-nvidia-报错" class="headerlink" title="❌ modprobe nvidia 报错"></a>❌ <code>modprobe nvidia</code> 报错</h5><ul>
+<li><p><strong>原因</strong>：</p>
+<ul>
+<li>可能是内核模块签名验证失败，或者 Nouveau 驱动仍在运行。</li>
+</ul>
+</li>
+<li><p><strong>解决方法</strong>：</p>
+<ol>
+<li><p>禁用 Nouveau 驱动：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;blacklist nouveau&quot;</span> | <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/modprobe.d/blacklist-nouveau.conf</span><br><span class="line"><span class="built_in">sudo</span> update-initramfs -u</span><br><span class="line"><span class="built_in">sudo</span> reboot</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>再次尝试加载 NVIDIA 模块：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> modprobe nvidia</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+<h5 id="❌-无法进入-GRUB-菜单"><a href="#❌-无法进入-GRUB-菜单" class="headerlink" title="❌ 无法进入 GRUB 菜单"></a>❌ 无法进入 GRUB 菜单</h5><ul>
+<li><p><strong>原因</strong>：</p>
+<ul>
+<li>GRUB 菜单可能被隐藏或按键不正确。</li>
+</ul>
+</li>
+<li><p><strong>解决方法</strong>：</p>
+<ol>
+<li><p><strong>快速按下以下按键</strong>：</p>
+<ul>
+<li><p><strong><code>Shift</code></strong> 或 <strong><code>Esc</code></strong>：尝试进入 GRUB 菜单。</p>
+</li>
+<li><p>如果无效，修改 GRUB 配置文件以显示菜单：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/default/grub</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>修改以下行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GRUB_TIMEOUT_STYLE=menu</span><br><span class="line">GRUB_TIMEOUT=5</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>更新 GRUB：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> update-grub</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p><strong>重启系统</strong>，GRUB 菜单应该会自动显示。</p>
+</li>
+</ol>
+</li>
+</ul>
+<h5 id="❌-nvidia-smi-仍失败报错"><a href="#❌-nvidia-smi-仍失败报错" class="headerlink" title="❌ nvidia-smi 仍失败报错"></a>❌ <code>nvidia-smi</code> 仍失败报错</h5><ul>
+<li><p><strong>原因</strong>：</p>
+<ul>
+<li>可能是驱动版本不兼容或安装不完整。</li>
+</ul>
+</li>
+<li><p><strong>解决方法</strong>：</p>
+<ol>
+<li><p>卸载现有驱动：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get purge <span class="string">&#x27;^nvidia-.*&#x27;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>重新安装最新版本的 NVIDIA 驱动：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install nvidia-driver-&lt;version&gt;</span><br></pre></td></tr></table></figure>
+<p>将 <code>&lt;version&gt;</code> 替换为适合你 GPU 的驱动版本号。</p>
+</li>
+</ol>
+</li>
+</ul>
+<hr>
+<h2 id="安装CUDA-Toolkit"><a href="#安装CUDA-Toolkit" class="headerlink" title="安装CUDA Toolkit"></a>安装CUDA Toolkit</h2><p>CUDA是NVIDIA开发的并行计算平台，是使用GPU进行深度学习的基础。</p>
+<h3 id="方法一：通过包管理器【apt-get】安装"><a href="#方法一：通过包管理器【apt-get】安装" class="headerlink" title="方法一：通过包管理器【apt-get】安装"></a>方法一：通过包管理器【apt-get】安装</h3><blockquote>
+<p>这种方法简单，但版本可能不是最新的。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install nvidia-cuda-toolkit</span><br></pre></td></tr></table></figure>
+<h3 id="方法二：手动安装（推荐）"><a href="#方法二：手动安装（推荐）" class="headerlink" title="方法二：手动安装（推荐）"></a>方法二：手动安装（推荐）</h3><h4 id="1-下载CUDA-Toolkit"><a href="#1-下载CUDA-Toolkit" class="headerlink" title="1. 下载CUDA Toolkit"></a>1. 下载CUDA Toolkit</h4><p>访问<a href="https://developer.nvidia.com/cuda-downloads">NVIDIA CUDA下载官网</a>选择适合系统的CUDA版本，选择你的系统和安装方式。推荐使用 <code>runfile(local)</code>。</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/e210b93982184dbf9fd71e07f5a515a8.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/c217653e2bc04096a813ac53c788f2bf.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/f499f39232f84f33af8e03b6f578b607.png" alt="在这里插入图片描述"></p>
+<p><strong>安装方式对比</strong>：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>安装方式</th>
+<th>描述</th>
+<th>特点</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>deb(local)</strong></td>
+<td>本地 <code>.deb</code> 包文件，包含了所有必要的 CUDA 组件</td>
+<td>- 不需要联网下载依赖<br>- 使用系统包管理工具（如 <code>dpkg</code> 或 <code>apt</code>）<br>- 离线安装</td>
+<td>- 离线环境<br>- 网络不稳定的场景</td>
+</tr>
+<tr>
+<td><strong>deb(network)</strong></td>
+<td>配置 NVIDIA 的 APT 源进行安装</td>
+<td>- 在线安装，从 NVIDIA 服务器下载组件<br>- 支持自动更新<br>- 使用 <code>apt</code> 管理</td>
+<td>- 在线环境<br>- 希望保持 CUDA 最新版本</td>
+</tr>
+<tr>
+<td><strong>runfile(local)</strong></td>
+<td>独立的可执行文件，包含了所有 CUDA 的组件</td>
+<td>- 不依赖系统包管理工具<br>- 手动解决依赖<br>- 高度定制化安装<br>  - 可以自定义安装路径</td>
+<td>- 系统中没有包管理工具(非 Debian/Ubuntu 系统) <br>-需要在多用户环境中隔离 CUDA 环境</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="2-安装CUDA（以runfile方式为例）"><a href="#2-安装CUDA（以runfile方式为例）" class="headerlink" title="2. 安装CUDA（以runfile方式为例）"></a>2. 安装CUDA（以runfile方式为例）</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda_12.2.2_535.104.05_linux.run</span><br><span class="line"><span class="built_in">chmod</span> +x cuda_12.2.2_535.104.05_linux.run</span><br><span class="line"><span class="built_in">sudo</span> sh cuda_12.2.2_535.104.05_linux.run</span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/9f6d7c9507084a2ba1b5b93312306d27.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/4d1b1c96c2fa4643ba91e157963c9113.png" alt="在这里插入图片描述"></p>
+<p><strong>安装过程</strong>：（回车后需要，等待片刻…  ）</p>
+<ul>
+<li><p>接受最终用户许可协议（输入<strong>“accept”</strong>）</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/8f2c310a71604475be2c28017250736a.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p><strong>回车键</strong>进行勾选，括号中显示X就是选中，没有X就是没有选中，上下键控制移动</p>
+</li>
+<li><p><strong>⚠️取消勾选 “Driver” 安装选项</strong>，因为我们已经手动安装了最新版本的驱动</p>
+</li>
+<li><p>选择<strong>“Install”</strong>开始安装</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d1dc7e63542c4d0eab1429f91bbf6d64.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p>等待安装完成</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/e4e30ad336c84a26a41ffa9ddc89e4b0.png" alt="在这里插入图片描述"></p>
+<p>使用大模型解释一下：</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d5685994c53b4a2ba4de623cf9251bfd.png" alt="在这里插入图片描述"></p>
+</li>
+</ul>
+<h4 id="3-配置环境变量"><a href="#3-配置环境变量" class="headerlink" title="3. 配置环境变量"></a>3. 配置环境变量</h4><blockquote>
+<p> 将CUDA的路径添加到系统环境变量中</p>
+</blockquote>
+<p>编辑<code>~/.bashrc</code>文件：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.bashrc</span><br></pre></td></tr></table></figure>
+<p>在文件末尾添加以下行（请根据你的CUDA版本修改路径）：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=/usr/local/cuda-12.2/bin:<span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> LD_LIBRARY_PATH=/usr/local/cuda-12.2/lib64:<span class="variable">$LD_LIBRARY_PATH</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/d680d64b7b254c9f8e6a6583c9c284af.png" alt="在这里插入图片描述"></p>
+<blockquote>
+<p>💡 <strong>建议</strong>：将 CUDA 路径放在 <code>$PATH</code> 前面，确保优先使用指定版本。 </p>
+</blockquote>
+<p><strong>环境变量配置方式对比</strong>：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th><strong>对比维度</strong></th>
+<th><strong>第一种写法（前置）</strong></th>
+<th><strong>第二种写法（后置）</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>命令示例</strong></td>
+<td><code>export PATH=/usr/local/cuda-12.2/bin:$PATH</code></td>
+<td><code>export PATH=$PATH:/usr/local/cuda-12.2/bin</code></td>
+</tr>
+<tr>
+<td><strong>路径添加顺序</strong></td>
+<td>将指定路径（如 <code>/usr/local/cuda-12.2/bin</code>）放在现有路径的前面</td>
+<td>将指定路径追加到现有路径的后面。</td>
+</tr>
+<tr>
+<td><strong>优先级</strong></td>
+<td>系统会优先查找指定路径中的内容（如 CUDA 12.2 的工具和库</td>
+<td>系统会优先查找现有路径中的内容，只有在现有路径中找不到时，才会查找指定路径的内容</td>
+</tr>
+<tr>
+<td><strong>适用场景</strong></td>
+<td>- 明确指定使用某个版本的 CUDA 工具包<br>- 系统中存在多个版本的 CUDA 或相关工具时</td>
+<td>- 希望保留现有路径的优先级<br>- 系统中不存在其他版本的 CUDA 或相关工具时</td>
+</tr>
+<tr>
+<td><strong>优点</strong></td>
+<td>- 避免因路径优先级问题导致冲突<br>- 确保使用指定版本的 CUDA 工具包</td>
+<td>- 不会影响现有路径的优先级<br>- 适合简单的单版本环境</td>
+</tr>
+<tr>
+<td><strong>缺点</strong></td>
+<td>如果指定路径中的工具或库有问题，可能会导致系统无法正常工作</td>
+<td>如果现有路径中存在其他版本的工具或库，可能会导致使用旧版本的CUDA 工具</td>
+</tr>
+<tr>
+<td><strong>最终<code>PATH</code>示例</strong></td>
+<td><code>/usr/local/cuda-12.2/bin:/usr/bin:/usr/local/sbin:...</code></td>
+<td><code>/usr/bin:/usr/local/sbin:/usr/local/cuda-12.2/bin:...</code></td>
+</tr>
+<tr>
+<td><strong>推荐使用场景</strong></td>
+<td>多版本共存、需要明确指定 CUDA 版本的场景</td>
+<td>单版本环境、不需要更改现有路径优先级的场景</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="4-使配置生效"><a href="#4-使配置生效" class="headerlink" title="4. 使配置生效"></a>4. 使配置生效</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure>
+<h4 id="5-验证-CUDA-安装"><a href="#5-验证-CUDA-安装" class="headerlink" title="5. 验证 CUDA 安装"></a>5. 验证 CUDA 安装</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nvcc --version</span><br><span class="line">或者</span><br><span class="line">nvcc -V</span><br></pre></td></tr></table></figure>
+<p>如果显示CUDA编译器的版本信息，则安装成功。</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/4041e0e9bcec47e094e758236b4a97cd.png" alt="在这里插入图片描述"></p>
+<hr>
+<h2 id="安装cuDNN"><a href="#安装cuDNN" class="headerlink" title="安装cuDNN"></a>安装cuDNN</h2><p><code>cuDNN</code>是NVIDIA专门为深度学习优化的库，显著提升了训练和推理速度</p>
+<h3 id="下载cuDNN"><a href="#下载cuDNN" class="headerlink" title="下载cuDNN"></a>下载cuDNN</h3><blockquote>
+<p>一般最新版本的显卡驱动都能适配最新版本的 cuDNN，若最新版本不适合当前的 CUDA，可以安装历史版本。</p>
+</blockquote>
+<p>访问<a href="https://developer.nvidia.com/cudnn-downloads">NVIDIA cuDNN下载官网</a>，选择与CUDA版本兼容的cuDNN。</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/6ebd7bc4e39240f086a011d10ba61a66.png" alt="在这里插入图片描述"></p>
+<p>选择相应选项后会生成下载命令：</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/28f7e29433ee4a95957b0d396060634c.png" alt="在这里插入图片描述"></p>
+<h3 id="安装cuDNN-1"><a href="#安装cuDNN-1" class="headerlink" title="安装cuDNN"></a>安装cuDNN</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://developer.download.nvidia.com/compute/cudnn/9.7.1/local_installers/cudnn-local-repo-ubuntu2004-9.7.1_1.0-1_amd64.deb</span><br><span class="line"><span class="built_in">sudo</span> dpkg -i cudnn-local-repo-ubuntu2004-9.7.1_1.0-1_amd64.deb</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">cp</span> /var/cudnn-local-repo-ubuntu2004-9.7.1/cudnn-*-keyring.gpg /usr/share/keyrings/</span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get -y install cudnn</span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/3a0f70a560ce4a5aa7049dd1ae35e7ba.png" alt="在这里插入图片描述"></p>
+<p><img src="https://i-blog.csdnimg.cn/direct/f1e01fd52b4e4852b0d2da371ee845a3.gif" alt="在这里插入图片描述"></p>
+<h3 id="验证-cuDNN"><a href="#验证-cuDNN" class="headerlink" title="验证 cuDNN"></a>验证 cuDNN</h3><p>无直接命令，后续通过 PyTorch 可验证。</p>
+<h3 id="版本兼容性查询："><a href="#版本兼容性查询：" class="headerlink" title="版本兼容性查询："></a>版本兼容性查询：</h3><ul>
+<li><p>查看<a href="https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/support-matrix.html#support-matrix">Support Matrix</a>确认支持的CUDA版本</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/6457439d1c554800b564c5b2b3431e8b.png" alt="在这里插入图片描述"></p>
+</li>
+<li><p>如不支持最新版本，可查找<code>cuDNN</code>支持的历史版本</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/0ffe3107086243249ffc71fd3d422d81.gif" alt="在这里插入图片描述"></p>
+</li>
+</ul>
+<hr>
+<h2 id="管理Python环境并安装Miniconda"><a href="#管理Python环境并安装Miniconda" class="headerlink" title="管理Python环境并安装Miniconda"></a>管理Python环境并安装Miniconda</h2><p>深度学习项目通常需要特定的Python版本，多项目版本会发生冲突，建议使用环境管理工具。</p>
+<blockquote>
+<p>为了避免不同项目之间的包冲突，强烈建议使用虚拟环境。Miniconda是一个轻量级的Conda发行版，非常适合管理环境和包。</p>
+</blockquote>
+<h3 id="直接安装指定版本Python（不推荐）"><a href="#直接安装指定版本Python（不推荐）" class="headerlink" title="直接安装指定版本Python（不推荐）"></a>直接安装指定版本Python（不推荐）</h3><h4 id="0-检查当前已安装的-Python-版本"><a href="#0-检查当前已安装的-Python-版本" class="headerlink" title="0. 检查当前已安装的 Python 版本"></a>0. 检查当前已安装的 Python 版本</h4><p>运行以下命令查看系统中已安装的 Python 版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">python3 --version</span><br></pre></td></tr></table></figure>
+<p>安装特定版本的 Python，跳过此步骤</p>
+<h4 id="1-更新系统软件包"><a href="#1-更新系统软件包" class="headerlink" title="1. 更新系统软件包"></a>1. 更新系统软件包</h4><p>在安装任何新软件之前，确保系统的软件包列表是最新的：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="comment"># 更新软件包列表</span></span><br><span class="line"><span class="built_in">sudo</span> apt upgrade -y <span class="comment"># 升级软件包</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-添加deadsnakes-PPA（可选）"><a href="#2-添加deadsnakes-PPA（可选）" class="headerlink" title="2. 添加deadsnakes PPA（可选）"></a>2. 添加<code>deadsnakes</code> PPA（可选）</h4><blockquote>
+<p>Ubuntu 的默认软件源可能不包含所有 Python 版本。为了安装更广泛的 Python 版本，可以使用 <code>deadsnakes</code> PPA（Personal Package Archive）。运行以下命令添加该 PPA：</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> add-apt-repository ppa:deadsnakes/ppa  <span class="comment"># 导入 Python 的稳定版 PPA</span></span><br><span class="line"><span class="built_in">sudo</span> apt update <span class="comment"># 导入 PPA 后，更新 APT 缓存</span></span><br></pre></td></tr></table></figure>
+<h4 id="3-安装指定Python版本"><a href="#3-安装指定Python版本" class="headerlink" title="3. 安装指定Python版本"></a>3. 安装指定Python版本</h4><p>例如想安装 Python 3.10，可以运行以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install python3.10</span><br></pre></td></tr></table></figure>
+<p>如果想安装其他版本，只需将版本号替换为所需的版本即可</p>
+<h4 id="4-验证安装"><a href="#4-验证安装" class="headerlink" title="4. 验证安装"></a>4. 验证安装</h4><p>安装完成后，验证指定版本的 Python 是否成功安装</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">python3.10 --version</span><br></pre></td></tr></table></figure>
+<h4 id="5-设置默认版本（可选）"><a href="#5-设置默认版本（可选）" class="headerlink" title="5. 设置默认版本（可选）"></a>5. 设置默认版本（可选）</h4><p>如果希望将新安装的 Python 版本设置为默认版本，可以使用 <code>update-alternatives</code> 工具来管理多个 Python 版本</p>
+<p><strong>添加 Python 版本到 <code>update-alternatives</code>：</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 1</span><br><span class="line"><span class="built_in">sudo</span> update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2    </span><br></pre></td></tr></table></figure>
+<p>每条命令末尾的数字（即 1、2、3 等）表示该版本的优先级。数值越大，优先级越高。</p>
+<p><strong>查看当前的 update-alternatives 配置</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sudo update-alternatives --display python3</span><br></pre></td></tr></table></figure>
+<p><strong>删除添加的 Python 版本</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sudo update-alternatives --remove python3 /usr/<span class="built_in">bin</span>/python3<span class="number">.8</span></span><br><span class="line">sudo update-alternatives --remove python3 /usr/<span class="built_in">bin</span>/python3<span class="number">.10</span></span><br></pre></td></tr></table></figure>
+<p><strong>配置默认版本：</strong></p>
+<p>执行以下命令，列出系统上已安装的所有 Python 版本，默认版本的编号旁边会标有星号「*」：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> update-alternatives --config python3</span><br></pre></td></tr></table></figure>
+<p>输入 Python 版本旁边的编号，即可将其设置为默认版本。</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/3e75f14e77594fd4a719ac434d622f4d.gif" alt="在这里插入图片描述"></p>
+<p><strong>使用软链接设置默认 Python 版本：</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sudo rm /usr/<span class="built_in">bin</span>/python3</span><br><span class="line">sudo ln -s /usr/<span class="built_in">bin</span>/python3<span class="number">.10</span> /usr/<span class="built_in">bin</span>/python3</span><br></pre></td></tr></table></figure>
+<h4 id="6-安装-pip"><a href="#6-安装-pip" class="headerlink" title="6. 安装 pip"></a>6. 安装 <code>pip</code></h4><p>自动安装 Python 3 的包管理工具 pip</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sudo apt install python3-pip</span><br></pre></td></tr></table></figure>
+<p>某些情况下，安装指定版本的 Python 后可能需要手动安装 <code>pip</code>。可以使用以下命令安装对应版本的 <code>pip</code>：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install python3.10-distutils</span><br><span class="line">curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</span><br><span class="line">python3.10 get-pip.py</span><br></pre></td></tr></table></figure>
+<p>安装完成后，建议升级 pip 到最新版本：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip3 install --upgrade pip</span><br></pre></td></tr></table></figure>
+<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
+<li><p><strong>避免覆盖系统默认 Python</strong><br>Ubuntu 系统依赖于默认的 Python 版本（通常是 Python 3.x）。不要直接修改 <code>/usr/bin/python</code> 或 <code>/usr/bin/python3</code>，否则可能导致系统工具无法正常工作。</p>
+</li>
+<li><p><strong>从源码编译安装（高级用户）</strong><br>如果需要安装非常新的 Python 版本（例如开发版），可以从 <a href="https://www.python.org/downloads/">Python 官方网站</a> 下载源码并编译安装。</p>
+</li>
+<li><strong>虚拟环境推荐</strong><br>如果需要同时使用多个 Python 版本，还是建议使用 <code>venv</code> 或 <code>pyenv</code> 创建隔离的虚拟环境，以避免版本冲突。</li>
+</ul>
+<h3 id="Python版本管理工具对比"><a href="#Python版本管理工具对比" class="headerlink" title="Python版本管理工具对比"></a>Python版本管理工具对比</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th><strong>工具名称</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>功能描述</strong></th>
+<th><strong>优点</strong></th>
+<th><strong>缺点</strong></th>
+<th><strong>适用场景</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>venv</strong></td>
+<td>Python 内置虚拟环境工具</td>
+<td>为每个项目创建独立的 Python 环境，隔离依赖包。</td>
+<td>- 轻量级<br>- 内置工具，无需额外安装<br>- 简单易用</td>
+<td>- 仅支持 Python 包管理<br>- 不支持跨语言包管理</td>
+<td>小型 Python 项目，需要隔离不同项目的依赖。</td>
+</tr>
+<tr>
+<td><strong>pyenv</strong></td>
+<td>Python 版本管理工具</td>
+<td>管理多个 Python 版本，允许用户快速切换不同版本的 Python。</td>
+<td>- 支持多版本 Python 安装与切换<br>- 不影响系统默认 Python<br />- 常与其他工具（如 <code>pyenv-virtualenv</code>）结合使用</td>
+<td>- 需要手动安装<br>- 对初学者可能稍显复杂</td>
+<td>开发者需要频繁切换 Python 版本或维护多个版本的项目。</td>
+</tr>
+<tr>
+<td><strong>conda</strong></td>
+<td>通用包管理系统</td>
+<td>构建和管理多种语言（不仅限于 Python），同时支持环境管理（类似 <code>pip</code> + <code>venv</code>）。</td>
+<td>- 支持跨语言包管理<br>- 强大的环境管理功能<br>- 自动解决依赖冲突</td>
+<td>- 较重，占用更多磁盘空间<br>- 可能与 <code>pip</code> 存在兼容性问题</td>
+<td>数据科学、机器学习等需要复杂依赖管理的项目。</td>
+</tr>
+<tr>
+<td><strong>Miniconda</strong></td>
+<td>Conda 的轻量版</td>
+<td>包含 Conda 核心功能和 Python，不包含其他预装库，适合对磁盘空间要求严格的用户。</td>
+<td>- 轻量级<br>- 提供 Conda 的核心功能<br>- 用户可以按需安装所需库</td>
+<td>- 初次使用需要手动安装常用库<br>- 对新手不够友好</td>
+<td>数据科学家或开发者需要灵活控制环境和依赖，但不想安装臃肿的 Anaconda。</td>
+</tr>
+<tr>
+<td><strong>Anaconda</strong></td>
+<td>数据科学平台</td>
+<td>包含 Conda、Python 以及大量预装的科学计算和数据分析库（如 NumPy、Pandas、Matplotlib 等）。</td>
+<td>- 开箱即用，预装大量常用库<br>- 适合数据科学和机器学习<br>- 强大的环境管理功能</td>
+<td>- 占用大量磁盘空间（数 GB）<br>- 对于不需要预装库的用户来说过于臃肿</td>
+<td>数据科学、机器学习、深度学习等需要大量科学计算库的项目。</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="安装Miniconda（推荐）"><a href="#安装Miniconda（推荐）" class="headerlink" title="安装Miniconda（推荐）"></a>安装Miniconda（推荐）</h3><h4 id="1-下载安装脚本"><a href="#1-下载安装脚本" class="headerlink" title="1. 下载安装脚本"></a>1. 下载安装脚本</h4><h6 id="1-访问-Miniconda-官方网站"><a href="#1-访问-Miniconda-官方网站" class="headerlink" title="(1) 访问 Miniconda 官方网站"></a>(1) 访问 Miniconda 官方网站</h6><p>Miniconda 的安装脚本可以从其官方网站下载：</p>
+<ul>
+<li>官方地址：<a href="https://docs.anaconda.com/miniconda/install/#quick-command-line-install">https://docs.conda.io/en/latest/miniconda.html</a></li>
+</ul>
+<p><img src="https://i-blog.csdnimg.cn/direct/aa3541ae0fe644d7aa3742f7eecc390d.png" alt="在这里插入图片描述"></p>
+<h6 id="2-选择合适的版本"><a href="#2-选择合适的版本" class="headerlink" title="(2) 选择合适的版本"></a>(2) 选择合适的版本</h6><p>根据你的操作系统（Linux、macOS 或 Windows）和系统架构（x86_64 或 ARM），选择对应的安装脚本。例如：</p>
+<p>我这里是Linux系统x86_64架构，选择下载 <code>Miniconda3-latest-Linux-x86_64.sh</code>。</p>
+<h6 id="3-使用命令行下载（可选）"><a href="#3-使用命令行下载（可选）" class="headerlink" title="(3) 使用命令行下载（可选）"></a>(3) 使用命令行下载（可选）</h6><p>如果你在终端中操作，可以直接使用 <code>wget</code> 或 <code>curl</code> 下载安装脚本。例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</span><br></pre></td></tr></table></figure>
+<p>或者：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</span><br></pre></td></tr></table></figure>
+<h4 id="2-安装Miniconda"><a href="#2-安装Miniconda" class="headerlink" title="2. 安装Miniconda"></a>2. 安装Miniconda</h4><h6 id="1-赋予脚本执行权限"><a href="#1-赋予脚本执行权限" class="headerlink" title="(1) 赋予脚本执行权限"></a>(1) 赋予脚本执行权限</h6><p>确保下载的脚本具有可执行权限：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x Miniconda3-latest-Linux-x86_64.sh</span><br></pre></td></tr></table></figure>
+<h6 id="2-启动安装程序"><a href="#2-启动安装程序" class="headerlink" title="(2) 启动安装程序"></a>(2) 启动安装程序</h6><p>运行安装脚本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">./Miniconda3-latest-Linux-x86_64.sh</span><br></pre></td></tr></table></figure>
+<h6 id="3-按照提示完成安装"><a href="#3-按照提示完成安装" class="headerlink" title="(3) 按照提示完成安装"></a>(3) 按照提示完成安装</h6><p>安装过程中会提示你进行以下操作：</p>
+<ol>
+<li><p><strong>阅读并接受许可协议</strong>：</p>
+<ul>
+<li>按下 <code>Enter</code> 键滚动查看许可协议内容。</li>
+<li>输入 <code>yes</code> 接受许可协议。</li>
+</ul>
+</li>
+<li><p><strong>选择安装路径</strong>：</p>
+<ul>
+<li>默认安装路径是用户的主目录下的 <code>miniconda3</code> 文件夹（例如 <code>/home/username/miniconda3</code>）。</li>
+<li>如果需要自定义路径，可以手动输入新的路径。</li>
+</ul>
+</li>
+<li><p><strong>是否初始化 Miniconda</strong>：</p>
+<ul>
+<li>安装程序会询问是否将 Miniconda 初始化到当前 shell 配置文件（如 <code>.bashrc</code> 或 <code>.zshrc</code>）。</li>
+<li>输入 <code>yes</code> 将自动配置环境变量，使 <code>conda</code> 命令可用。</li>
+</ul>
+</li>
+<li><p><strong>激活 Miniconda 环境，使其配置生效</strong>：<br>通过以下命令来让 Miniconda 的相关设置（如环境变量等）在当前终端会话中生效，以便能够正常使用 Miniconda 提供的各种功能</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/miniconda3/bin/activate</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>初始化Conda，使其能够在所有可用的 shell （如 bash、zsh 等）中正常工作</strong>：</p>
+<p>conda init 命令会根据指定的 shell 类型，对相应的 shell 配置文件（如 .bashrc、.zshrc 等）进行修改，添加必要的配置项（如环境变量设置等）。—all 参数表示对所有可用的 shell 进行初始化操作。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda init --all</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="3-验证安装"><a href="#3-验证安装" class="headerlink" title="3. 验证安装"></a>3. 验证安装</h4><h6 id="1-检查-conda-是否可用"><a href="#1-检查-conda-是否可用" class="headerlink" title="(1) 检查 conda 是否可用"></a>(1) 检查 <code>conda</code> 是否可用</h6><p>重新启动终端或运行以下命令以加载新的环境变量：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure>
+<p>然后检查 <code>conda</code> 是否正常工作：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
+<p>如果输出类似以下内容，则说明安装成功：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">conda 24.11.2</span><br></pre></td></tr></table></figure>
+<h6 id="2-测试基本功能"><a href="#2-测试基本功能" class="headerlink" title="(2) 测试基本功能"></a>(2) 测试基本功能</h6><p>创建一个新的 Conda 环境安装PyTorch：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda create -n pytorch_env python=3.10</span><br></pre></td></tr></table></figure>
+<p>激活环境：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda activate pytorch_env</span><br></pre></td></tr></table></figure>
+<p>验证 Python 版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
+<h4 id="4-更新-Conda（可选）"><a href="#4-更新-Conda（可选）" class="headerlink" title="4. 更新 Conda（可选）"></a>4. 更新 Conda（可选）</h4><p>为了确保 Conda 是最新版本，可以运行以下命令更新：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda update conda</span><br></pre></td></tr></table></figure>
+<h4 id="5-卸载-Miniconda（可选）"><a href="#5-卸载-Miniconda（可选）" class="headerlink" title="5. 卸载 Miniconda（可选）"></a>5. 卸载 Miniconda（可选）</h4><p>如果你决定不再使用 Miniconda，可以通过以下步骤卸载：</p>
+<h6 id="1-删除安装目录"><a href="#1-删除安装目录" class="headerlink" title="(1) 删除安装目录"></a>(1) 删除安装目录</h6><p>删除 Miniconda 的安装目录。例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">rm</span> -rf ~/miniconda3</span><br></pre></td></tr></table></figure>
+<h6 id="2-清理环境变量"><a href="#2-清理环境变量" class="headerlink" title="(2) 清理环境变量"></a>(2) 清理环境变量</h6><p>编辑你的 shell 配置文件（如 <code>~/.bashrc</code> 或 <code>~/.zshrc</code>），删除与 Miniconda 相关的行。例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># &gt;&gt;&gt; conda initialize &gt;&gt;&gt;</span></span><br><span class="line"><span class="comment"># !! Contents within this block are managed by &#x27;conda init&#x27; !!</span></span><br><span class="line">__conda_setup=<span class="string">&quot;<span class="subst">$(&#x27;/home/username/miniconda3/bin/conda&#x27; &#x27;shell.bash&#x27; &#x27;hook&#x27; 2&gt; /dev/null)</span>&quot;</span></span><br><span class="line"><span class="keyword">if</span> [ $? -eq 0 ]; <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">eval</span> <span class="string">&quot;<span class="variable">$__conda_setup</span>&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="keyword">if</span> [ -f <span class="string">&quot;/home/username/miniconda3/etc/profile.d/conda.sh&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">        . <span class="string">&quot;/home/username/miniconda3/etc/profile.d/conda.sh&quot;</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">export</span> PATH=<span class="string">&quot;/home/username/miniconda3/bin:<span class="variable">$PATH</span>&quot;</span></span><br><span class="line">    <span class="keyword">fi</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">unset</span> __conda_setup</span><br><span class="line"><span class="comment"># &lt;&lt;&lt; conda initialize &lt;&lt;&lt;</span></span><br></pre></td></tr></table></figure>
+<p>删除上述代码块后保存文件，并重新加载配置：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure>
+<h4 id="6-使用国内镜像加速（可选）"><a href="#6-使用国内镜像加速（可选）" class="headerlink" title="6. 使用国内镜像加速（可选）"></a>6. 使用国内镜像加速（可选）</h4><p>如果你在中国大陆，可以使用国内镜像源加速 Conda 的包管理。例如，使用清华大学的镜像源：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</span><br><span class="line">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/</span><br><span class="line">conda config --<span class="built_in">set</span> show_channel_urls <span class="built_in">yes</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="PyTorch安装与-GPU-验证"><a href="#PyTorch安装与-GPU-验证" class="headerlink" title="PyTorch安装与 GPU 验证"></a>PyTorch安装与 GPU 验证</h2><blockquote>
+<p>在激活的Conda环境中安装PyTorch</p>
+</blockquote>
+<h3 id="安装PyTorch"><a href="#安装PyTorch" class="headerlink" title="安装PyTorch"></a>安装PyTorch</h3><p><strong>访问PyTorch官网：</strong> 前往 <a href="https://pytorch.org/get-started/locally/">PyTorch官网安装页面</a>。</p>
+<p><strong>选择配置：</strong> 根据你的系统和CUDA版本选择合适的安装选项。</p>
+<ul>
+<li><code>cu121</code> 表示支持 CUDA 12.1 的 PyTorch 版本。</li>
+<li><code>torch</code> 是 PyTorch 的核心库。</li>
+<li><code>torchvision</code> 和 <code>torchaudio</code> 是 PyTorch 的扩展库，分别用于计算机视觉和音频处理。</li>
+</ul>
+<blockquote>
+<p><strong>注意</strong>：即使系统安装的是 CUDA 12.2，PyTorch 官方尚未支持 CUDA 12.2，也可以尝试安装支持 CUDA 12.1 或 CUDA 11.8 的pytorch版本，因为向下兼容</p>
+</blockquote>
+<p><strong>CUDA 12.1版本</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121</span><br></pre></td></tr></table></figure>
+<p><strong>CUDA 11.8版本</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118</span><br></pre></td></tr></table></figure>
+<p><strong>CPU版本（测试用）</strong></p>
+<p>如果暂时不需要 GPU 支持，可以安装仅支持 CPU 的 PyTorch 版本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu</span><br></pre></td></tr></table></figure>
+<p><strong>使用国内镜像源</strong></p>
+<blockquote>
+<p>如果网络连接不稳定导致安装失败或超时，可以尝试使用国内镜像源（如清华源）来加速下载</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip3 install torch torchvision torchaudio --index-url https://mirrors.tuna.tsinghua.edu.cn/pytorch-wheels/cu121</span><br></pre></td></tr></table></figure>
+<p><strong>权限问题</strong></p>
+<ul>
+<li><p>如果遇到权限问题，可以尝试加上 <code>--user</code> 参数：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pip3 install torch torchvision torchaudio --user</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><strong>手动下载</strong></p>
+<p>如果上述方法均无效，您可以手动下载 PyTorch 的 <code>.whl</code> 文件并安装。访问 <a href="https://pytorch.org/get-started/locally/">PyTorch 官方网站</a> 或 <a href="https://download.pytorch.org/whl/torch_stable.html">PyTorch 下载页面</a>，选择适合您环境的 <code>.whl</code> 文件并使用以下命令安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip3 install /path/to/downloaded/file.whl</span><br></pre></td></tr></table></figure>
+<p><img src="https://i-blog.csdnimg.cn/direct/118ff5571ccd49a1bcac3f9d9af0f8db.gif" alt="在这里插入图片描述"></p>
+<h3 id="验证安装"><a href="#验证安装" class="headerlink" title="验证安装"></a>验证安装</h3><p>在 Python 环境中，创建测试脚本验证<code>CUDA</code>和<code>cuDNN</code>是否正常工作：</p>
+<blockquote>
+<p>如果输出显示 <code>CUDA Available: True</code> 以及<code>cuDNN Available: True</code>，则说明 CUDA 和 cuDNN 已成功安装并可供使用。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> torch  <span class="comment"># 导入 PyTorch 库</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 打印当前安装的 PyTorch 版本</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;PyTorch Version:&quot;</span>, torch.__version__)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 检查当前系统是否支持 CUDA（即是否有可用的 GPU）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;CUDA Available:&quot;</span>, torch.cuda.is_available())</span><br><span class="line"></span><br><span class="line"><span class="comment"># 打印当前 PyTorch 支持的 CUDA 版本（注意：这显示的是 PyTorch 编译时支持的 CUDA 版本，而不是系统中实际安装的 CUDA 版本）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;CUDA Version:&quot;</span>, torch.version.cuda)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 检查 cuDNN 是否可用（cuDNN 是 NVIDIA 提供的用于加速深度学习计算的库）</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;cuDNN Available:&quot;</span>, torch.backends.cudnn.is_available())</span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取并打印当前默认 GPU 的名称（假设至少有一个 GPU 可用）</span></span><br><span class="line"><span class="comment"># torch.cuda.get_device_name(0) 返回第 0 号 GPU 的名称</span></span><br><span class="line"><span class="keyword">if</span> torch.cuda.is_available():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;GPU Name:&quot;</span>, torch.cuda.get_device_name(<span class="number">0</span>))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;GPU Count:&quot;</span>, torch.cuda.device_count())</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/3657ca0001814954b4bf9583961344f1.png" alt="在这里插入图片描述"></p>
+<p>🎉 <strong>恭喜你！</strong> 你的深度学习环境已成功搭建！</p>
+<hr>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文详细介绍了Ubuntu系统下NVIDIA显卡驱动与CUDA环境的完整配置流程。关键要点包括：</p>
+<ul>
+<li><strong>安装顺序</strong>：显卡驱动 → CUDA → cuDNN → 深度学习框架。</li>
+<li><strong>版本兼容</strong>：确保各组件版本相互匹配，是成功的关键。</li>
+<li><strong>环境隔离</strong>：使用Conda等工具管理Python环境，避免依赖冲突。</li>
+<li><strong>验证闭环</strong>：每一步安装后都进行验证，及时发现并解决问题。</li>
+<li><strong>掌握排错方法</strong>：<code>nouveau</code>冲突和Secure Boot问题是两大常见障碍。</li>
+</ul>
+<blockquote>
+<p><strong>如有疑问，欢迎留言交流！</strong><br><strong>觉得有用？请点赞、收藏、分享给更多需要的人！</strong> </p>
+</blockquote>
+<hr>
+<h2 id="官方文档与参考资源"><a href="#官方文档与参考资源" class="headerlink" title="官方文档与参考资源"></a>官方文档与参考资源</h2><h4 id="官方核心链接"><a href="#官方核心链接" class="headerlink" title="官方核心链接"></a>官方核心链接</h4><ul>
+<li><strong>NVIDIA驱动下载</strong>: <a href="https://www.nvidia.com/Download/index.aspx">https://www.nvidia.com/Download/index.aspx</a></li>
+<li><strong>CUDA Toolkit历史版本下载</strong>: <a href="https://developer.nvidia.com/cuda-toolkit-archive">https://developer.nvidia.com/cuda-toolkit-archive</a></li>
+<li><strong>cuDNN历史版本下载</strong>: <a href="https://developer.nvidia.com/rdp/cudnn-archive">https://developer.nvidia.com/rdp/cudnn-archive</a></li>
+<li><strong>PyTorch官网安装向导</strong>: <a href="https://pytorch.org/get-started/locally/">https://pytorch.org/get-started/locally/</a></li>
+<li><strong>Miniconda官方文档</strong>: <a href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a></li>
+</ul>
+<h4 id="硬件信息查询"><a href="#硬件信息查询" class="headerlink" title="硬件信息查询"></a>硬件信息查询</h4><ul>
+<li><strong>PCI ID Repository</strong>: <a href="https://pci-ids.ucw.cz/">https://pci-ids.ucw.cz/</a></li>
+<li><strong>TechPowerUp GPU Database</strong>: <a href="https://www.techpowerup.com/gpu-specs/">https://www.techpowerup.com/gpu-specs/</a></li>
+</ul>
+<h4 id="社区参考文章"><a href="#社区参考文章" class="headerlink" title="社区参考文章"></a>社区参考文章</h4><ul>
+<li>CPU-X内容参考博客: <a href="https://zhuanlan.zhihu.com/p/570458864">知乎</a>, <a href="https://www.linuxmi.com/cpu-x-linux-cpu-z.html">Linux迷</a></li>
+<li>cuDNN内容参考博客: <a href="https://blog.csdn.net/u010912615/article/details/141195878">CSDN文章1</a>, <a href="https://blog.csdn.net/Fuziqp/article/details/129947554">CSDN文章2</a></li>
+</ul>
+<hr>
+<p><em>本文基于Ubuntu 24.04 LTS系统编写，其他版本可能存在细微差异，请根据实际情况调整。</em></p>
+]]></content>
+      <categories>
+        <category>深度学习</category>
+        <category>教程</category>
+        <category>开发环境</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+        <tag>深度学习</tag>
+        <tag>CUDA</tag>
+        <tag>NVIDIA驱动</tag>
+        <tag>PyTorch</tag>
+        <tag>环境配置</tag>
+        <tag>Linux</tag>
+        <tag>GPU加速</tag>
+      </tags>
   </entry>
 </search>
